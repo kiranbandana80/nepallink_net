@@ -1,0 +1,122 @@
+#special_offer
+{
+	float:left;
+	width:170px;
+	height:auto
+}
+	#special_offer_title
+	{
+		float:left;
+		background:url(../images/special_offer_bg.jpg) no-repeat center;
+		width:150px;
+		height:51px;
+		margin:0 0 0 0px
+	}
+	#special_offer_title span
+	{
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:16px;
+		color:#fff;
+		font-weight:bold;
+		margin:0px 0 0 15px;
+		line-height:45px
+	}
+	#special_offer_ul
+	{
+		float:left;
+		width:170px;
+		height:100px;
+		background:url(../images/special_offer_list_bg.jpg) no-repeat;
+		margin:20px 0 0 0px;
+	}
+
+		
+#separator
+{
+	height:205px;
+}
+#section_contents
+	{
+		float:left;
+		width:160px;
+		height:auto;
+}
+#section_contents_platinum
+	{
+		float:left;
+		width:200px;
+		height:auto;
+}
+
+
+#price3
+{
+	float:left;
+	width:210px;
+	height:65px;
+	background: url(../images/platinum_disk_img.jpg) no-repeat right top;
+}
+.rs
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:0 0 0 15px;
+	font-weight:bold;
+	width:120px;
+	height:10px
+}
+.amount
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color:#333;
+	font-weight:bold;
+	margin:0 0 0 12px;
+	width:120px;
+	height:20px
+}
+.year
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	margin:0 0 0 25px;
+	width:120px;
+	height:10px
+}
+.text2
+{
+	color:#005675;
+	font-weight:bold
+}
+#links
+{
+	float:left;
+	width:150px;
+	height:auto;
+	margin:10px 0 0 7px;
+}
+#link_details
+{
+	float:left;
+	width:75px;
+	height:auto;
+}
+	#link_details a
+	{
+		color:#069;
+	}
+#link_order
+{
+	float:left;
+	width:70px;
+	height:auto
+}
+	#link_order a
+	{
+		color: #069;
+	}

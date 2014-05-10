@@ -1,0 +1,43 @@
+#special_offer
+
+{
+
+	float:left;
+
+	width:145px;
+
+	height:auto
+
+}
+
+#special_offer_ul li
+
+		{
+
+			list-style:circle;	
+
+		}
+
+
+
+
+
+.year
+
+{
+
+	float:left;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:11px;
+
+	color:#333;
+
+	margin:0 0 0 25px;
+
+	width:120px;
+
+	height:20px
+
+}

@@ -1,0 +1,368 @@
+
+@charset "utf-8";
+/* CSS Document */
+TD {
+	FONT-SIZE: 11px; 
+	COLOR: #222222; 
+	FONT-FAMILY: Tahoma; 
+}
+
+a {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #0096FF;
+	TEXT-DECORATION: none;
+}
+
+a:hover {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #FF8400;
+	TEXT-DECORATION: underline;
+}
+
+a:active {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #FF0000;
+	TEXT-DECORATION: underline;
+}
+
+a:visited {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #359E01;
+/*	TEXT-DECORATION: underline; */
+}
+
+a:visited:hover {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #FF8400;
+	TEXT-DECORATION: underline; 
+}
+
+li {
+font-family: Tahoma; 
+font-size: 11px;
+}
+
+.t11 {
+	FONT-SIZE: 11px; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma;
+	padding-top: 5px;
+}
+
+.style3 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #840724; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma
+}
+
+.detailbox {
+	FONT-SIZE: 11px; 
+	COLOR: #840724; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma;
+	border-left: 1px solid #D5D9DC;
+	border-bottom: 1px solid #D5D9DC;
+	border-right: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.text1
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#000
+}
+.text3
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#000
+}
+.rightborder {
+	border-right: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.topborder {
+	border-top: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.border {
+border: 1px solid #E0E9F3;
+padding: 5px;
+}
+
+.title {
+	FONT-SIZE: 14px; 
+	COLOR: #C4D4C4; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma;
+	FONT-WEIGHT: bold;
+}
+
+.bottomborder {
+	border-bottom: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.bottomborder {
+	border-right: 1px solid #31BFDA;
+	padding: 0px;
+}
+
+
+div.blink {text-decoration: blink;}
+
+
+ body, html {height: 100%;}
+
+#loading {
+		left:0px;
+   		top:0px;
+		background: #FFFFFF;
+		z-index: 1;
+		position:absolute;
+		filter:alpha(opacity=80);
+		moz-opacity: 0.8;
+		opacity: 0.8;
+		width:100%;
+		height:100%;
+		text-align:center;
+		font-weight:bold;
+	}
+
+#main_section
+{
+	float:left;
+	width:748px;
+	overflow:auto;
+	height:auto;
+	clear:both
+}
+
+#special_offer
+{
+	float:left;
+	width:190px;
+	height:auto
+}
+	#special_offer_title
+	{
+		float:left;
+		background:url(../images/special_offer_bg.jpg) no-repeat;;
+		width:141px;
+		height:51px;
+		margin:0 0 0 30px
+	}
+	#special_offer_title span
+	{
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:18px;
+		color:#fff;
+		font-weight:bold;
+		padding:0px 0 0 12px;
+		line-height:45px
+	}
+	#special_offer_ul
+	{
+		float:left;
+		width:170px;
+		height:100px;
+		background:url(../images/special_offer_list_bg.jpg) no-repeat;
+		list-style:circle
+		
+	}
+
+#separator
+{
+	float:left;
+	width:1px;
+	height:200px;
+	background:url(../images/separator.png) repeat-y;
+	margin:20px 0 0 0;
+}
+#bronze
+{
+	float:left;
+	width:170px;
+	height:auto
+}
+
+	#bronze_title
+	{
+		float:left;
+		background:url(../images/bronze_bg.jpg) no-repeat center;
+		width:180px;
+		height:51px;
+	}
+	#bronze_title span
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		margin:0px 0 0 45px;
+		line-height:50px;
+	}
+#section_contents
+	{
+		float:left;
+		width:160px;
+		height:auto;
+}
+	#section_plan_list
+	{
+		float:left;
+		width:140px;
+		height:auto
+	}
+		#section_contents_platinum
+	{
+		float:left;
+		width:200px;
+		height:auto;
+}
+#gold
+{
+	float:left;
+	width:170px;
+	height:auto
+}
+	#gold_title
+	{
+		float:left;
+		width:170px;
+		height:51px;
+		margin:0 0 0 0px;
+		background: url(../images/gold_bg.jpg) no-repeat center;
+	}
+		#gold_title span
+		{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		padding:0px 0 0 50px;
+		line-height:50px;
+		}
+#platinum
+{
+	float:left;
+	width:200px;
+	height:auto
+}
+
+		#platinum_title
+	{
+		float:left;
+		width:200px;
+		height:51px;
+		margin:0 0 0 0px;
+		background:url(../images/platinum_bg.jpg) no-repeat center;
+	}
+		#platinum_title span
+		{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		margin:0px 0 0 53px;
+		line-height:50px;
+		}
+
+
+#price
+{
+	float:left;
+	width:170px;
+	height:65px;
+	background:url(../images/bonze_disk_img.jpg) no-repeat right top;
+}
+#price2
+{
+	float:left;
+	width:170px;
+	height:65px;
+	display:inline;
+	background:url(../images/gold_disk_img.jpg) no-repeat right top;
+}
+#price3
+{
+	float:left;
+	width:200px;
+	height:65px;
+	display:inline;
+	background: url(../images/platinum_disk_img.jpg) no-repeat right top;
+}
+.rs
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:0 0 0 15px;
+	font-weight:bold;
+	width:150px;
+	height:10px
+}
+.amount
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color:#333;
+	font-weight:bold;
+	margin:0 0 0 14px;
+	width:150px;
+	height:25px
+}
+.year
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	margin:0 0 0 50px;
+	width:150px;
+	height:10px
+}
+.text2
+{
+	color:#005675;
+	font-weight:bold
+}
+#links
+{
+	float:left;
+	width:160px;
+	height:auto;
+	margin:0 0 0 20px
+}
+#link_details
+{
+	float:left;
+	width:75px;
+	height:auto;
+}
+	#link_details a
+	{
+		color:#069;
+	}
+#link_order
+{
+	float:left;
+	width:70px;
+	height:auto
+}
+	#link_order a
+	{
+		color:#069;
+	}

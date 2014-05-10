@@ -1,0 +1,43 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} (msnbot|NaverBot|nabot|NABOT|NaverRobot) [NC]
+RewriteRule ^.*$ - [F]
+Options -Indexes
+
+RewriteRule ^(.*)\.html /$1.php [L]
+#RewriteRule ^category/(.*)\.html /index.php?do=shop&act=category&cid=$1 [L]
+RewriteRule ^quote$  /quote_request_form.php [L]
+RewriteRule ^webhost_request$  /webhosting_request_form.php [L]
+RewriteRule ^support$  /support.php [L]
+RewriteRule ^testimonial$ /testimonial_form.php   [L]
+RewriteRule ^feedback$ /testimonial_form.php   [L]
+RewriteRule ^contact.php$ /contactus.php   [L]
+RewriteRule ^Virtual_Prviate_Server$ /vps.php   [L]
+RewriteRule ^Cloud_Server$ /vps.php   [L]
+RewriteRule ^100days$ /30days.php   [L]
+RewriteRule ^vps$ /vps.php   [L]
+
+RewriteRule ^Nepal_Web_Hosting_Plantnium$ /platnium.php   [L]
+RewriteRule ^Nepal_Web_Hosting_Gold$ /gold.php   [L]
+RewriteRule ^Nepal_Web_Hosting_Bronze$ /bronze.php   [L]
+
+RewriteRule ^Nepal_Web_Hosting_Bronze_ORDER$ /order.php?plan=bronze [L]
+RewriteRule ^Nepal_Web_Hosting_Gold_ORDER$ /order.php?plan=gold [L]
+RewriteRule ^Nepal_Web_Hosting_Plantnium_ORDER$ /order.php?plan=platinum [L]
+
+RewriteRule ^tos.php$ /terms.php [L]
+RewriteRule ^aup.php$ /terms.php [L]
+RewriteRule ^payments.php$ /payment.php [L]
+
+RewriteRule ^suspended.page$  /suspended.page/index.html [L]
+
+ErrorDocument 400 /400.php
+ErrorDocument 401 /401.php
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+
+deny from 188.143.232.123
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^kb$ "http\:\/\/client\.nepallink\.net\/knowledgebase\.php" [R=301,L]
+

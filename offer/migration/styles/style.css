@@ -1,0 +1,958 @@
+@charset "utf-8";
+/* CSS Document */
+TD {
+	FONT-SIZE: 11px; 
+	COLOR: #222222; 
+	FONT-FAMILY: Tahoma; 
+}
+
+a {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #0096FF;
+	TEXT-DECORATION: none;
+}
+
+a:hover {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #FF8400;
+	TEXT-DECORATION: underline;
+}
+
+a:active {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #FF0000;
+	TEXT-DECORATION: underline;
+}
+
+a:visited {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #359E01;
+/*	TEXT-DECORATION: underline; */
+}
+
+a:visited:hover {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma; 
+	COLOR: #FF8400;
+	TEXT-DECORATION: underline; 
+}
+
+li {
+font-family: Tahoma; 
+font-size: 11px;
+}
+
+.t11 {
+	FONT-SIZE: 11px; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma;
+	padding-top: 5px;
+}
+
+.style3 {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #840724; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma
+}
+
+.detailbox {
+	FONT-SIZE: 11px; 
+	COLOR: #840724; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma;
+	border-left: 1px solid #D5D9DC;
+	border-bottom: 1px solid #D5D9DC;
+	border-right: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.rightborder {
+	border-right: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.topborder {
+	border-top: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.border {
+border: 1px solid #E0E9F3;
+padding: 5px;
+}
+
+.title {
+	FONT-SIZE: 14px; 
+	COLOR: #C4D4C4; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma;
+	FONT-WEIGHT: bold;
+}
+
+.bottomborder {
+	border-bottom: 1px solid #D5D9DC;
+	padding: 0px;
+}
+
+.bottomborder {
+	border-right: 1px solid #31BFDA;
+	padding: 0px;
+}
+
+
+div.blink {text-decoration: blink;}
+
+
+ body, html {height: 100%;}
+
+#loading {
+		left:0px;
+   		top:0px;
+		background: #FFFFFF;
+		z-index: 1;
+		position:absolute;
+		filter:alpha(opacity=80);
+		moz-opacity: 0.8;
+		opacity: 0.8;
+		width:100%;
+		height:100%;
+		text-align:center;
+		font-weight:bold;
+	}
+
+#space_top
+{
+	float:left;
+	width:748px;
+	height:5px;
+	background:#f1f1f2
+}
+#header
+{
+	float:left;
+	width:748px;
+	height:auto
+}
+#header_right
+{
+	float:left;
+	width:748px;
+	height:auto;
+	margin:0
+}
+#menu
+{
+	float:left;
+	width:580px;
+	height:auto;
+	text-align:left
+}
+
+#logo
+{
+	float:left;
+	width:140px;
+	height:46px;
+	background:url(../images/logo.png) no-repeat bottom;
+	
+	
+}
+#slogan
+{
+	float:left;
+	width:608px;
+	height:20px;
+	background:url(../images/slogan_bg.gif) repeat-x top;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	font-weight:bold;
+	line-height:20px
+}
+#flash
+{
+	float:left;
+	width:580px;
+	height:auto;
+}
+#domain_check_section
+{
+	float:left;
+	width:748px;
+	height:auto;
+	background:#f1f1f2
+}
+#bar_left
+{
+	float:left;
+	width:9px;
+	height:43px;
+	background:url(../images/bar_bg_left.png) no-repeat;
+	margin:5px 0 0 0
+}
+#check_domain_main
+{
+	float:left;
+	width:730px;
+	height:49px;
+	background:url(../images/bar_bg_repeat.png) repeat-x;
+	text-align:left;
+	margin:5px 0 0 0
+}
+#bar_right
+{
+	float:left;
+	width:9px;
+	height:43px;
+	background:url(../images/bar_bg_right.png) no-repeat;
+	margin:5px 0 0 0
+}
+#domain_check_form
+{
+	float:left;
+	width:340px;
+	height:43px;
+}
+
+.search_input
+{
+	float:left;
+	width:260px;
+	height:auto;
+	margin:10px 0 0 0
+}
+.search_text
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#069
+}
+domain_search_btn
+{
+	float:left;
+	width:84px;
+	height:auto
+}
+.go_button
+{
+	float:left;
+	margin:10px 0 0 -6px;
+	width:38px;
+	height:23px
+}
+#icons
+{
+	float:left;
+	width:350px;
+	height:auto
+}
+
+		#icons div
+		{
+		float:left;
+		margin:6px 0 0 0
+		}
+			#icons img
+			{
+			padding:0 4px 0 4px;
+			float:left
+			}
+				#icons a
+				{
+				float:left;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:11px;
+				color:#666;
+				width:72px;
+				height:auto;
+				font-weight:bold;
+				margin:10px 0 0 0 
+				}
+#main_section
+{
+	float:left;
+	width:748px;
+	overflow:auto;
+	height:auto;
+	clear:both
+}
+
+#special_offer
+{
+	float:left;
+	width:190px;
+	height:auto
+}
+	#special_offer_title
+	{
+		float:left;
+		background:url(../images/special_offer_bg.jpg) no-repeat;;
+		width:141px;
+		height:51px;
+		margin:0 0 0 30px;
+		
+	}
+	#special_offer_title span
+	{
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:18px;
+		color:#fff;
+		font-weight:bold;
+		padding:0px 0 0 12px;
+		line-height:45px
+	}
+	#special_offer_ul
+	{
+		float:left;
+		width:170px;
+		height:100px;
+		background:url(../images/special_offer_list_bg.jpg) no-repeat right bottom;
+		list-style:circle;
+	}
+
+#separator
+{
+	float:left;
+	width:1px;
+	height:200px;
+	background:url(../images/separator.png) repeat-y;
+	margin:20px 0 0 0;
+}
+#bronze
+{
+	float:left;
+	width:170px;
+	height:auto
+}
+
+	#bronze_title
+	{
+		float:left;
+		background:url(../images/bronze_bg.jpg) no-repeat center;
+		width:180px;
+		height:51px;
+	}
+	#bronze_title span
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		margin:0px 0 0 45px;
+		line-height:50px;
+	}
+#section_contents
+	{
+		float:left;
+		width:160px;
+		height:auto;
+}
+	#section_plan_list
+	{
+		float:left;
+		width:140px;
+		height:auto
+	}
+		#section_contents_platinum
+	{
+		float:left;
+		width:200px;
+		height:auto;
+}
+#gold
+{
+	float:left;
+	width:170px;
+	height:auto
+}
+	#gold_title
+	{
+		float:left;
+		width:170px;
+		height:51px;
+		margin:0 0 0 0px;
+		background: url(../images/gold_bg.jpg) no-repeat center;
+	}
+		#gold_title span
+		{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		padding:0px 0 0 50px;
+		line-height:50px;
+		}
+#platinum
+{
+	float:left;
+	width:200px;
+	height:auto
+}
+
+		#platinum_title
+	{
+		float:left;
+		width:200px;
+		height:51px;
+		margin:0 0 0 0px;
+		background:url(../images/platinum_bg.jpg) no-repeat center;
+	}
+		#platinum_title span
+		{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		margin:0px 0 0 53px;
+		line-height:50px;
+		}
+
+
+#price
+{
+	float:left;
+	width:170px;
+	height:65px;
+	background:url(../images/bonze_disk_img.jpg) no-repeat right top;
+}
+#price2
+{
+	float:left;
+	width:170px;
+	height:65px;
+	display:inline;
+	background:url(../images/gold_disk_img.jpg) no-repeat right top;
+}
+#price3
+{
+	float:left;
+	width:200px;
+	height:65px;
+	display:inline;
+	background: url(../images/platinum_disk_img.jpg) no-repeat right top;
+}
+.rs
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:0 0 0 15px;
+	font-weight:bold;
+	width:150px;
+	height:10px
+}
+.amount
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color:#333;
+	font-weight:bold;
+	margin:0 0 0 14px;
+	width:150px;
+	height:25px
+}
+.year
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	margin:0 0 0 50px;
+	width:150px;
+	height:10px
+}
+.text2
+{
+	color:#005675;
+	font-weight:bold
+}
+.text1
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:left;
+	font-size:11px
+}
+.padding_img
+{
+	padding:4px 0 0 4px
+}
+
+#links
+{
+	float:left;
+	width:160px;
+	height:auto;
+	margin:0 0 0 20px
+}
+#link_details
+{
+	float:left;
+	width:75px;
+	height:auto;
+}
+	#link_details a
+	{
+		color:#069;
+	}
+#link_order
+{
+	float:left;
+	width:105px;
+	height:auto;
+	text-align:center;
+	margin:5px 0 0 0
+}
+	#link_order a
+	{
+		color:#069;
+	}
+	
+
+
+<!------seo--------------------	>
+#seo_section
+{
+	float:left;
+	width:290px;
+	height:auto
+}
+#menu_section
+{
+	float:left;
+	width:100%;
+}
+
+.panel {
+	clear: both;
+	display: none;
+	background-color: #FFF;
+	padding: 0;
+}
+
+fieldset {
+	padding: 2em;
+}
+
+.panel.active-tab-body 
+{
+	display:block
+}
+.bar {
+	padding: 5px 0 0 0;
+	background:url(../images/slogan_bg.gif) repeat-x;;
+	margin:10px 0 0 0
+}
+
+#tabs {
+	list-style: none;
+	width: 270px;
+	float:left;
+	height:auto;
+	margin:0 0 0 0;
+	line-height:18px;
+	color:#FFF
+}
+
+#tabs li {
+	float: left;
+	height:auto;
+	
+}
+
+#tabs a {
+	float: left;
+	padding: 0px 5px 0 0px;
+	text-decoration: none;
+	color: #FFF;
+	height:20px;
+	line-height:18px;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left
+}
+
+#tabs a.active-tab {
+	color: #ccc;
+	height:18px
+    
+}
+
+#services
+{
+	float:left;
+	width:748px;
+	height:auto
+}
+	#services p
+	{
+		width:600px;
+		text-align: justify;
+		margin:0px 0 0 90px;
+		height:100px
+	}
+		#services p span img
+		{
+		padding:0 0 0 20px ;
+		}
+.heading
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color: #000;
+	font-weight:bold
+}
+.subheading
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #000;
+	font-weight:bold;
+	color:025099;
+	text-transform:uppercase
+}
+.text4
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	text-align:justify
+}
+#line
+{
+	float:left;
+	text-align:center;
+	width:748px;
+}
+	#line hr
+	{
+	height:1px;
+	color:#CCC;
+	width:590px;
+	text-align:center
+	}
+
+#tech_icons
+{
+	float:left;
+	width:748px;
+	height:auto
+}
+	#tech_icons p 
+	{
+	padding:0 0 0 0px;
+	height:80px;
+	text-align:center
+	}
+		#tech_icons p img
+		{
+		margin:0 0 10px 10px
+		}
+		
+#technology
+{
+	float:left;
+	width:748px;
+	height:auto
+}
+	#technology p
+	{
+	width:600px;
+	text-align: justify;
+	margin:0px 0 0 90px;
+	height:100px	
+	}
+		#technology h4
+		{
+			margin:0 0 0 90px;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			height:35px;
+			color:#b57c03;
+			font-size:18px
+		}
+#details
+{
+	float:left;
+	width:100px;
+	height:auto;
+	margin:4px 0 0 0
+}
+	#details li
+	{
+		list-style:none;
+		margin:0
+	}
+		#details  a	
+		{
+			text-decoration:none;
+			color:#069
+		}
+			#details a:hover
+		{
+			text-decoration:underline
+		}
+		
+#flyer_section
+{
+	float:left;
+	width:758px;
+	height:auto;
+	clear:both
+}
+	#flyer_header
+	{
+		float:left;
+		width:758px;
+		height:auto
+	}
+		#logo_nplink
+		{
+			float:left;
+			width:178px;
+			height:116px;
+			background:url(../images/flyerimages/logo.png) no-repeat;
+		}
+			#migration_title
+			{
+				float:left;
+				width:560px;
+				height:auto;
+				margin:0 0 0 10px
+			}
+			#left_bg
+			{
+				float: left;
+				width:10px;
+				height:126px;
+				background:url(../images/flyerimages/migation_bg_left.jpg) no-repeat
+			}
+			#main_bg_m
+			{
+				float:left;
+				width:550px;
+				height:126px;
+				background:url(../images/flyerimages/migation_bg_main.jpg) repeat-x
+			}
+			
+				#main_bg_m p
+				{
+					float:left;
+					width:550px;
+					font-family:Verdana, Geneva, sans-serif;
+					font-size:36px;
+					text-align:center;
+					color:#002e45;
+					font-weight:bold;
+					line-height:50px
+					}
+			
+				#flyer_main
+				{
+					float:left;
+					width:758px;
+					height:auto;
+					margin:10px 0 0 0
+				}
+					#flyer_main_left
+					{
+						float:left;
+						width:313px;
+						height:auto;
+						background:#a4ba3b;
+						border-right:#b6c93e 1px solid;
+						border-left:#b6c93e 1px solid;
+						border-top:#b6c93e 1px solid;
+						height:557px
+					}
+					
+						#flyer_main_left h2
+						{
+							font-size:18px;
+							font-weight:bold;
+							font-family:Arial, Helvetica, sans-serif;
+							color:#FFF;
+							text-align:center;
+							padding:5px 0 0 0;
+							height:auto
+						}
+						#flyer_main_left p
+						{
+							float:left;
+							width:313px;
+							height:50px
+						}
+						
+						#flyer_main_left span
+						{
+						font-family:Arial, Helvetica, sans-serif;
+						font-size:16px;
+						height:auto;
+						float:left;
+						line-height:35px;
+						width:313px;
+						}	
+							#flyer_main_left img
+							{
+								float:left;
+								width:30px;
+								padding:0 10px 0 0
+ 								
+							}
+					#flyer_main_right
+					{
+						float:left;
+						width:440x;
+						height:auto
+					}
+					
+
+					
+					
+					#offer
+					{
+						float:left;
+						width:425px;
+						height:auto;
+					}
+						#moneyback
+						{
+							float:left;
+							width:158px;
+							height:191px;
+							background:url(../images/flyerimages/moneyback_gurantee_circle.jpg) no-repeat;
+							margin:0 0 0 10px
+						}
+							#freedomain
+							{
+								float:left;
+								width:158px;
+								height:191px;
+								background:url(../images/flyerimages/domain_registration_free.jpg) no-repeat;
+								margin:0 0 0 60px
+							}
+					
+			#amount
+			{
+				float:left;
+				width:443px;
+				height:135px;
+				background:#012e45
+			}
+			#text5
+			{
+				float:left;
+				width:400px;
+				height:auto;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:26px;
+				color:#FFF;
+				padding:3px 0 0 5px
+			}
+			#text6
+			{
+				float:left;
+				width:400px;
+				height:auto;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:60px;
+				text-align:right;
+				color:#e3eba1;
+				font-weight:bold
+			}
+			#text7
+			{
+				float:left;
+				width:400px;
+				height:auto;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:18px;
+				text-align:right;
+				color:#FFF
+			}
+							
+#flyer_bg
+{
+	float:left;
+	width:758px;
+	background:url(../images/flyerimages/bg_bottom_flyer.jpg) no-repeat;
+	height:98px
+}
+
+#flyer_footer_setion
+{
+	float:left;
+	width:758px;
+	height:207px;
+	background:#012e45;
+}
+#contact_section
+{
+	float:left;
+	width:424px;
+	height:207px;
+	background:#012e45;
+	position:relative
+	
+}
+	#contact_details
+	{
+		float:left;
+		width:190px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#FFF;
+		margin:0 0 0 10px
+	}
+	
+	#cms_footer_content
+	{
+		float:center;
+		width:300px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#FFF;
+		margin:0 0 0 2px;
+		text-align:middle;
+		letter-spacing: 0.5px;
+		
+	}
+		
+		#flyer_sepr
+		{
+			float:right;
+			width:11px;
+			height:207px;
+			background:url(../images/flyerimages/sepr.gif) repeat-y;
+		}
+		
+		
+		#seo_offer
+		{
+			float:left;
+			width:330px;
+			height:207px;
+			background:url(../images/flyerimages/seo_img.jpg) right top no-repeat;
+		}
+		
+		#cms_features
+		{
+			float:left;
+			width:330px;
+			height:207px;
+		}
+		
+		#seo_offer p
+		{
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:24px;
+			color:#fbf7c3;
+			padding:67px 0 0 4px;
+		}
