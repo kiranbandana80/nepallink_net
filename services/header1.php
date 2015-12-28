@@ -1,3 +1,15 @@
+<!-- ClickDesk Live Chat Service for websites -->
+<script type='text/javascript'>
+var _glc =_glc || []; _glc.push('ag9zfmNsaWNrZGVza2NoYXRyEQsSB3dpZGdldHMY6K3vrwEM');
+var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' :
+'http://my.clickdesk.com/clickdesk-ui/browser/');
+var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+var glcspt = document.createElement('script'); glcspt.type = 'text/javascript';
+glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
+var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
+</script>
+<!-- End of ClickDesk -->
+
 
 <table border="0" cellpadding="0" cellspacing="0" width="775">
   <tr>
@@ -8,8 +20,6 @@
 
  <TR>
    <TD vAlign=center align="center" width="30%">
-<b> <blink>[ <script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&text=Chat+with+us+Live!+"></script> 
- ]</blink></b> 
 &nbsp;</TD>
             <TD width="64%" align="right" vAlign=center><B><A class=mainmenu 
             href="../index.php">Home</A></B>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;<B><A class=mainmenu 

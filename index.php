@@ -121,9 +121,6 @@ language="javascript" src="splashpage.js"></script>
 	|&nbsp;&nbsp;<a href="support.php" class="mainmenu">Support</a>
 	|&nbsp;&nbsp;<a href="services.php" class="mainmenu">Services</a>|&nbsp;&nbsp;<a href="reseller.php" class="mainmenu">Reseller</a>|
 &nbsp;&nbsp;<a href="http://client.nepallink.net/clientarea.php" class="mainmenu"><b>Client Login</b></a>
-	|	
-
-&nbsp;&nbsp;<a href="http://www.nepallink.net/kb" class="mainmenu">FAQ</a>
 	|&nbsp;&nbsp;<a href="contactus.php" class="mainmenu">Contact</a>
 	
 	</td>
@@ -270,7 +267,7 @@ echo $adlink[1];
 <li type="square"><b>FREE Domain Reg.</b> </li>
 <li type="square">Unlimited Data Transfer</li>
 <li type="square">Unlimited Database / FTP </li>
-<li type="square">Hosted in SDD Storage</li>
+<li type="square">Secured and Optimized PHP</li>
 <li type="square">Install Software in a click. </li>
 <li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
 <li type="square">Rs 250/month - <a href='services/special_offer.php'> See details</a></li>
@@ -351,7 +348,7 @@ echo $adlink[1];
 <li type="square">LoadBalancer ready.</a></li>
 <li type="square">Content Delivery Network </li>
 <li type="square">Mail Server</li>
-<li type="square">MySQL Salve server</li>
+<li type="square">MySQL Slave server</li>
 <li type="square"><a href='http://x3demob.cpx3demo.com:2082/login/?user=x3demob&pass=x3demob' target='_blank'>Powerful Control Panel</a><br /></li>
 <li type="square">67 USD/yr<br /></li>
 <a href="/Nepal_Web_Hosting_Plantnium">More details</a> &raquo;
@@ -577,7 +574,7 @@ echo $adlink[1];
 <li type="square"><b><a href='30days.php'></a></b>40GB HDD  RAID-1</li>
 <li type="square">1 Static IP</li>
 <li type="square">zPanel Included</li>
-<li type="square"> <a href="premium_support.php" target="_blank">Premium Support</a></li>
+<li type="square"> <a href="/support_service.php" target="_blank">Premium Support</a></li>
 <li type="square">SLA Included</li>
 <li type="square">10Mbps Network ports </li>
 <li type="square">USD 55/month<br />
@@ -602,7 +599,7 @@ echo $adlink[1];
 <li type="square"><b><a href='30days.php'></a></b>100GB HDD RAID-1</li>
 <li type="square">2 Static IPs</li>
 <li type="square">cPanel Included</li>
-<li type="square"><a href="premium_support.php" target="_blank">Premium Support</a></li>
+<li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
 <li type="square">SLA Included</li>
 <li type="square">100Mbps Network port</li>
 <li type="square">USD 80/month<br />
@@ -625,7 +622,7 @@ echo $adlink[1];
 <li type="square">400GB HDD RAID-1</li>
 <li type="square">3 Static IPs</li>
 <li type="square">cPanel Included</li>
-<li type="square"><a href="premium_support.php" target="_blank">Premium Support</a></li>
+<li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
 
 <li type="square">SLA Included</li>
 <li type="square">100Mbps Network ports</li>
@@ -644,135 +641,6 @@ echo $adlink[1];
     <td colspan="6" align="left" valign="top">&nbsp;</td>        
     </tr>
 	
-	<tr>
-    <td width="200" align="left" valign="top" rowspan="3">
-<!-- Special Offer -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
- 
-  <tr>
-    <td width="8%" align="left" valign="top">&nbsp;</td>
-    <td width="95%" align="left" valign="top" >
-
-<table border="0" cellpadding="0" cellspacing="0" width="85%">
-  <tr>
-    <td class=" border_race" bgcolor="#F3F4F6">
-
-<a href="cloud_reseller.php"><img src="images/clo1_vps_starter.gif" valign="top" border="0" alt="Cheap VPS Hosting"> </a><br>
-<li type="square">3 Virtual Servers</li>
-<li type="square">80GB Disk Space</li>
-<li type="square">3GB Max Memory</li>
-<li type="square">6GB Max Burst/Swap</li>
-<li type="square">100TB Max Bandwidth</li>
-<li type="square">1 Default CPU Cores </li>
-<li type="square">3 Max IPv4 Address </li>
-<li type="square">6 Max IPv6 Address  </li>
-<li type="square">Xen PV enable</li>
-<li type="square">Xen HVM enable</li>
- <li type="square">45 USD/month</li>
-&nbsp; &nbsp; &nbsp;&nbsp;<a href="cloud_reseller.php">More details</a>
-<a href='#'> 
-<img class="img_padding_1" src="images/order_green.gif" border="0"/></a></td>
-  </tr>
-  
-  
-</table></td>
-  </tr>
-</table>
-
-
-
-
-
-<!-- Special Offer end --></td>    
-    <td width="22" align="left" valign="top">&nbsp;</td>        
-    <td width="160" align="left" valign="top" class="rightborder">
-	<a href='cloud_reseller.php'><img src="images/clo1_vps_bronze.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a></td>
-<td width="36" align="left" valign="top">&nbsp;</td>
-   
-    <td width="160" align="left" valign="top" class="rightborder">
-<a href='http:cloud_reseller.php'><img src="images/clo1_vps_gold.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a><a href='/Nepal_Web_Hosting_Gold'></a></td>
-    <td width="36" align="left" valign="top">&nbsp;</td>                
-    <td width="160" align="left" valign="top" class="rightborder"><a href='cloud_reseller.php'><img src="images/clo1_vps_plat.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a><a href='/Nepal_Web_Hosting_Plantnium'></a></td>
-</tr>
-
-
-
-
-
-  <tr>
-    <td width="22" align="left" valign="top">&nbsp;</td>        
-    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
-
-<table border="0" cellpadding="4" cellspacing="0" width="100%">
-  <tr>
-    <td width="5%" align="left" valign="top">&nbsp;</td>
-    <td width="95%" align="left" valign="top">
-<li type="square">10 Virtual Servers</li>
-<li type="square">400GB Disk Space</li>
-<li type="square">10GB Max Memory </li>
-<li type="square">12GB Max Burst/Swap</li>
-<li type="square">1000TB Max Bandwidth</li>
-<li type="square">2 Default CPU Cores</li>
-<li type="square">10 Max IPv4 Address</li>
-<li type="square">20 Max IPv6 Address</li>
-<li type="square">Xen PV enable</li>
-<li type="square">Xen HVM enable</li>
-<li type="square">150USD / month<br />
-</li>
-
-
-<a href="cloud_reseller.php">More details</a>&raquo;<a href='#'> 
-<img src="images/order_red.gif" border="0"/></a></td>
-  </tr>
-</table></td>
-	<td width="36" align="left" valign="top">&nbsp;</td>
-    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
-
-<table border="0" cellpadding="4" cellspacing="0" width="100%">
-  <tr>
-    <td width="5%" align="left" valign="top">&nbsp;</td>
-    <td width="95%" align="left" valign="top">
-<li type="square">20 Virtual Servers </li>
-<li type="square">800GB Disk Space </li>
-<li type="square">24GB Max Memory</li>
-<li type="square">36GB Max Burst/Swap</li>
-<li type="square">2000TB Max Bandwidth</li>
-<li type="square">6 Default CPU Cores</li>
-<li type="square">8 Max IPv4 Address</li>
-<li type="square">40 Max IPv6 Address</li>
-<li type="square">Xen PV enable</li>
-<li type="square">Xen HVM enable</li>
-<li type="square">300USD /month<br />
-</li>
-<a href="cloud_reseller.php">More details</a>&raquo;<a href='#'> 
-<img src="images/order_blue.gif" border="0"/></a></td>
-  </tr>
-</table></td>
-    <td width="36" align="left" valign="top">&nbsp;</td>                
-
-    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
-
-<table border="0" cellpadding="4" cellspacing="0" width="100%">
-  <tr>
-    <td width="5%" align="left" valign="top">&nbsp;</td>
-    <td width="95%" align="left" valign="top">
-<li type="square">40 Virtual Servers </li>
-<li type="square">3TB Disk Space</li>
-<li type="square">64GB Max Memory</li>
-<li type="square">Unlimited</li>
-<li type="square">Unmeter Max Bandwidth</li>
-<li type="square">12 Default CPU Cores</li>
-<li type="square">16 Max IPv4 Address</li>
-<li type="square">80 Max IPv6 Address</li>
-<li type="square">Xen PV enable</li>
-<li type="square">Xen HVM enable</li>
-<li type="square">500USD /month <br />
-</li>
-<a href="cloud_reseller.php">More details</a>&raquo;<a href='#'> 
-<img src="images/order_green.gif" border="0"/></a></td>
-  </tr>
-
-</table></td>
 </tr>
   <tr>
     <td colspan="6" align="left" valign="top">&nbsp;</td>
@@ -882,10 +750,10 @@ echo $adlink[1];
 	<b><a href="terms.php">Terms &amp; Condition</a>| <a href='30days.php'>100-day Money Back Guarantee</a><br />
 	<br /></td>
 
-    <td width="347" align="left" valign="top" bgcolor="#F1F1F2" class="topborder">
+    <td width="347" align="right" valign="top" bgcolor="#F1F1F2" class="topborder">
 <br />Copyright &copy; <b>NepalLink Network Pvt. Ltd.</b> 2000 - <?php echo date("Y");?>
-<br><a href="jobs.php">Careers</a> | <a href="feedback">Write Feedback</a>
-| <a href='http://nepallink.blogs.com.np'>Nepallink Blogs</a>| <a href='http://linux.blogs.com.np/' target='_blank'>Linux Blogs</a></td>
+<br>
+<a href='https://twitter.com/nepallink' target='_blank'>Twitter</a>| <a href='https://www.facebook.com/NepalLink-Network-334213043398796/?ref=page_internal' target='_blank'>Facebook</a></td>
     <td width="14" align="left" valign="top" bgcolor="#F1F1F2"><img src="images/spacer.gif" height="15" width="10" alt="" /></td>
   </tr>
   <tr>

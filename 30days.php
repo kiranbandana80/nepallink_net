@@ -107,7 +107,7 @@ Domain name registrations are processed immediately and are non-cancellable and 
 All refunds will be processed within 30 days of cancellation.<br/>
 <br/>
 
-This policy does not apply to accounts that we have suspended for spamming, breach of contract or any other reason.
+This policy does not apply to accounts that we have suspended for spamming, breach of contract or breach of terms of conditions as stated in <a href='http://nepallink.net/terms.php' target='_blank'>http://nepallink.net/terms.php</a>.
 
 <br>
                     </p></td>

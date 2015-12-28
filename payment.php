@@ -119,18 +119,9 @@ include_once("header.php");
     <td width="35%" align="left" valign="top"><font class="title">Pay online </font><br />
 	<br />
 	<ul>
-	  <p><img src="images/2co.jpg" alt="2Checkout" width="200" height="54"></p>
 	  <p align="center"><img src="images/paypal.jpg" alt="Paypal" width="123" height="129"></p>
 	  <p align="center">&nbsp;</p>
 	  <p align="center"><br/>
-	        <br/>
-	        <script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script>
-	        <br/>
-	        <font face="verdana" size="1">Chat with our Biling Team Now!</font>	      </p>
-	  <p><br />
-      <br />
-      <br />
-    </p>
 	</ul>
 
     <br /><br />
@@ -145,7 +136,8 @@ include_once("header.php");
 <div align="justify">
   <p>We accept payments through payment gateways like <strong>2Checkout</strong>, <strong>Paypal</strong>,&amp; <strong>Bank Transfer</strong>. You can also pay through Cheque.</p>
   <p>Our paypal address is : <strong>payments@nepallink.net</strong> </p>
-<p><strong>Bank Transfer payments can be sent to any one of the bank:-</strong><br>
+<p><strong>You can transfer your payments in following banks:-</strong><br>
+<hr>
   <br>    
   <strong><img src="images/logo/himalayanbank.gif" width="158" height="41" alt="Himalayan Bank"><br>
   Himalayan Bank Ltd<br>
@@ -155,6 +147,7 @@ A/C Name  : Nepallink Network Pvt Ltd<br>
 A/C No. 01902189330011<br>
 <br>
 </p>
+<hr>
 <p><img src="images/logo/nepalinvestmentbank.gif" width="256" height="40" alt="Nepal Ivestment Bank"><br>
   <strong>Nepal Investment Bank</strong><br>
   Putali Sadak, Kathmandu, Nepal<br>
@@ -163,6 +156,16 @@ A/C No. 01902189330011<br>
   A/C No: 01201020254496<br>
   <br>
 </p>
+<hr>
+<p>
+<img src="images/globalime.jpg"><br/>
+<b>Global IME Bank</b><br/>
+Chhetrapati, Kathmandu, Nepal<br/> 
+A/C Name: Nepallink Network Pvt Ltd<Br/>
+A/C No: 2501010000262<br/>
+</p>
+<hr>
+
 <p><img src="images/logo/nepalbankltd.gif" width="145" height="40" alt="Nepal Bank Limited"><br>
   <strong>Nepal Bank Limited<br>
   </strong>Kantipath, Kathmandu, Nepal<br>
@@ -170,6 +173,18 @@ A/C No. 01902189330011<br>
   CODE:   NEBLNPKA  <br>
   A/C Name: The Young Software Pvt Ltd<br>
   A/C No: 0217110006892</p>
+<hr>
+<p>
+<strong>eSewa Payment</strong><br/>
+eSewa id: 9841262275<Br/>
+eSewa Email: billing@nepallink.net<br/>
+</p>
+<hr>
+<p>
+<strong>Paypal Payment</strong><br/>
+Paypal id: payments@nepallink.net<br/>
+</p>
+<hr>
 <p>&nbsp; </p>
 <p>Please ensure to quote any necessary information whilst providing us with a cheque/deposit slip etc., to help us identify you as a customer.</p>
 <p>Feel free to contact us for more details. <br/>

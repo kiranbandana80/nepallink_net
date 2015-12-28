@@ -18,7 +18,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="775">
   <tr>
     <td width="14" align="left" valign="top" background="images/left.gif">&nbsp;</td>
-    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20"> Our Web Hosting package is Cheap and reliable, all cover with 30-day-money-back-guarantee with professional support! </td>
+    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20"> Our Web Hosting package is Cheap and reliable, all cover with 100-days-money-back-guarantee with professional support! </td>
     <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
   </tr>
 </table>
@@ -58,12 +58,6 @@
 The Bronze Plan offers rich features with affordable price. </div>
 <br>
 
-
-<br>
- <p>
-   <script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script></p>
-<p>Chat with our Sales Team Now!</p></ul>
- </p>
    </ul>
 
     <table width="200" border="0" align="center">
@@ -104,7 +98,7 @@ The Bronze Plan offers rich features with affordable price. </div>
 <div align="justify">
 <b>Bronze Plan includes</b><br>
 <br>
-For just USD 27/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes PHP5, MySQL, PostgreSQL, Perl,Python,CGI, cPanel etc. <br>
+For just USD 27/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes PHP5, MySQL, Perl,Python,CGI, cPanel etc. <br>
 <br>
 
 
@@ -284,14 +278,6 @@ For just USD 27/- per year, you have own a fully loaded web site. The plan suppo
                                               <td align="middle" width="30%" height="7" bgcolor="#E6E6E6"> 
                                                 <b>
 												USD 27/-</b></td>
-                                            </tr>
-                                            <tr> 
-                                              <td width="70%" bgcolor="#EDF4F8"> 
-                                                &nbsp; 
-												Monthly Cost</td>
-                                              <td align="middle" width="30%" height="8" bgcolor="#E6E6E6"> 
-                                                <b>
-												USD 2.25/- </b></td>
                                             </tr>
                                             <tr> 
                                               <td width="70%"> 

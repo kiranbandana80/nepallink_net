@@ -87,16 +87,7 @@ font:bold;
 	  <a href="dotnet.php" >Dot Net Hosting</a><br/>
 	  <a href="coldfusion.php" >Coldfusion Package</a><br/>
 	  <a href="nonprofit.php" >Non-Profit Hosting Package</a></p>
-<script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script><br/>
 <br>
-   <p>&nbsp;</p>
-  <img src="../images/service/host3.jpg" >
-   <p>&nbsp;</p>
-   <p><img src="../images/service/things.jpg" ><br>
-             <br>
-             <a href="../testimonals.php"><b>See!</b></a>, what they says about us!
-          
- </p>
 	  </ul>	  
 	  <br>	  <br>	</td>
     <td width="27">&nbsp;</td>

@@ -122,8 +122,8 @@ Hosting Terms of Service </span></big><br><br>
                         <br>
                         Backups are the sole responsibility of the Customer. Our backup service is  provided to you as a courtesy. NepalLink is not
                         responsible for any loss, erasure, or corruption of Customer's data or
-                        files. NepalLink does, however, perform daily backups of server
-                        configurations and customer data. In the event of data loss due to any
+                        files. NepalLink does, however, perform weekly & monthly  backups of server
+                        configurations and customer data. The backup is retain for only one week and month. The backup service is only applicable for shared, reseller, Email and Database Hosting package. In the event of data loss due to any
                         fault of the Customer, and a restore is necessary using NepalLink's
                         backups, Customer agrees to pay NepalLink a technical support fee to recover Customer's lost data.<br>
   &nbsp;<br>
@@ -148,7 +148,7 @@ Hosting Terms of Service </span></big><br><br>
   <br>
   Using a shared account as a backup/storage device is not permitted, with the exception of one cPanel or Plesk backup of the same account. Please do not take backups of your backups.<br>
                       <br>
-                      Examples of unacceptable material on all Shared and Reseller servers include:<br>
+                      Examples of unacceptable material on all Shared,Reseller and Virtual servers include:<br>
                       <br> 
                       * Topsites<br>
                       * IRC Scripts/Bots<br>
@@ -159,6 +159,7 @@ Hosting Terms of Service </span></big><br><br>
                       * IP Scanners<br>
                       * Bruteforce Programs/Scripts/Applications<br>
                       * Mail Bombers/Spam Scripts<br>
+		      * Illegal Online or Offline Gambling, Betting's sites/scripts/application/database<br>
                       * Banner-Ad services (commercial banner ad rotation)<br>
                       * File Dump/Mirror Scripts (similar to rapidshare)<br>
                       * Commercial Audio Streaming (more than one or two streams)<br>
@@ -212,7 +213,7 @@ Hosting Terms of Service </span></big><br><br>
                       <br>
                       Potential harm to minors is strictly forbidden, including but not limited to child pornography or content perceived to be child pornography<br>
                       <br>
-                      Any site found to host pornography or linking to pornography will be suspended immediately without notice.<br>
+                      Any site found to host pornography,illegal online & offline gambling or linking to pornography or gambling will be suspended and terminated immediately without notice.<br>
                       <br>
                       <strong>Resellers:</strong> <br>
                       <br>
@@ -268,7 +269,7 @@ Hosting Terms of Service </span></big><br><br>
                       Customer's responsibility to point their domain and transfer their data
                       to another hosting provider upon discontinuation of service.<br>
                       <br>
-                      Shared Web Hosting accounts are not to be used for the purposes of distributing software, multimedia products, Illegal MP3/Audio/Video and Multimedia Files: Multimedia files are defined as any graphics, audio, and video files. Web Hosting accounts are not to be used for the purposes of distributing and storing unusual amount of multimedia files. Any Web site whose disk space usage for storing the multimedia files exceed 70% of its total usage, either in terms of total size or number of files, will be deemed to be using unusual amount of multimedia files.<br>
+                      Shared Web Hosting accounts are not to be used for the purposes of distributing software, multimedia products, Illegal online or offline gambling scripts, Illegal P3/Audio/Video and Multimedia Files: Multimedia files are defined as any graphics, audio, and video files. Web Hosting accounts are not to be used for the purposes of distributing and storing unusual amount of multimedia files. Any Web site whose disk space usage for storing the multimedia files exceed 70% of its total usage, either in terms of total size or number of files, will be deemed to be using unusual amount of multimedia files.<br>
                       <br>
                           <br>
                       </li>

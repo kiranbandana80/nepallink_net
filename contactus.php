@@ -228,8 +228,7 @@ If you have any questions or comments, or if you would like more information on 
     <td width="48%">
       <p><b>Phone</b>  +977-1-4260822<br>
           <strong>Phone:</strong> +977-1-4267994<br>
-          <strong>Phone:</strong> +977-1-2296776 (UTL)<br>
-            <strong>Cell: </strong> +977-9841262275 / 9802050150<br />
+            <strong>Cell: </strong> +977-9841262275<br />
             </p>
       </td>
   </tr>
