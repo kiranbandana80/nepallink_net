@@ -191,8 +191,8 @@ Paypal id: payments@nepallink.net<br/>
       <br/>
   
         <b>Cell and Landline</b><br/>
-  Tel: +977 1 441.7360<br />
-  Fax +977 1 4467794 <br>
+  Tel: +977 1 4260822<br />
+  Fax +977 1 4267994 <br>
   Cell : +977-9841262275 <br/>
         <br />
         <br />
