@@ -83,7 +83,7 @@
 <div align="justify">
   <p><strong>Nepallink Linux Reseller Package </strong><br>
       <br>
-    Start your Hosting Business. Get a reseller account and make profit as much as you can. Check out our Reseller plan starts from USD <strong>150</strong>/- per year with 300GB webspace and unlimited domain hosting. Our hosting infrastrcuture spread across 4 regional datacenter (US east, US east, Europe, Canada)</p>
+    Start your Hosting Business. Get a reseller account and make profit as much as you can. Check out our Reseller plan starts from USD <strong>150</strong>/- per year with 300GB webspace and unlimited domain hosting. Our hosting infrastrcuture spread across 4 regional datacenter (US east, US west, Europe, Canada)</p>
   <table width="665" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF">
     <col width="173" />
     <col width="119" />
