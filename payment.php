@@ -169,10 +169,10 @@ A/C No: 2501010000262<br/>
 <p><img src="images/logo/nepalbankltd.gif" width="145" height="40" alt="Nepal Bank Limited"><br>
   <strong>Nepal Bank Limited<br>
   </strong>Kantipath, Kathmandu, Nepal<br>
-  SWIFT 
-  CODE:   NEBLNPKA  <br>
+  Branch Code: 000217
+  SWIFT CODE:   NEBLNPKA  <br>
   A/C Name: The Young Software Pvt Ltd<br>
-  A/C No: 0217110006892</p>
+  A/C No: 21700100192000000001</p>
 <hr>
 <p>
 <strong>eSewa Payment</strong><br/>
