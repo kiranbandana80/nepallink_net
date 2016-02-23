@@ -147,7 +147,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">Operating System  </td>
-                    <td class="mytd1">Windows 2003 Server  </td>
+                    <td class="mytd1">Windows 2008 Server  </td>
                   </tr>
                   <tr>
                     <td class="mytd">Dedicated IP Address  </td>

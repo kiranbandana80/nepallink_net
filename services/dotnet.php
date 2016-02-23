@@ -114,7 +114,7 @@ font:bold;
               <p><a href="dotnetbasic.php#pricing">Pricing Options </a><br/>
                   <a href="dotnetbasic.php#general">General Features </a><br/>
                   <a href="dotnetbasic.php#domain">Domain Features</a><br/>
-                  <a href="dotnetbasic.php#asp">ASP.NET/Classic ASP 3.0 Features</a><br/>
+                  <a href="dotnetbasic.php#asp">ASP.NET 4/Classic ASP 3.0 Features</a><br/>
                   <a href="dotnetbasic.php#db">Database Features </a>
              
               <p><a href="dotnetbasic.php"><strong>View Dotnet Basic Package</strong></a>
@@ -125,7 +125,7 @@ font:bold;
               <p><a href="dotnetpro.php#pricing1">Pricing Options </a><br/>
                 <a href="dotnetpro.php#general1">General Features </a><br/>
                 <a href="dotnetpro.php#domain1">Domain Features </a><br/>
-                <a href="dotnetpro.php#asp1">ASP.NET/Classic ASP 3.0 Features </a><br/>
+                <a href="dotnetpro.php#asp1">ASP.NET 4/Classic ASP 3.0 Features </a><br/>
                 <a href="dotnetpro.php#email1">Email Features </a><br/>
                 <a href="dotnetpro.php#db1">Database Features</a>
               <p>              
