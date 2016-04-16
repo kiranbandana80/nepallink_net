@@ -61,8 +61,8 @@
 <div align="justify">
   <p><strong>Windows Reseller Package </strong><br>
       <br>
-    Get cutting edge Windows Reseller Account, Powered by latest Windows Server with MSSQL, ASP.NET technologies. All package covers <a href="http://nepallink.net/30days.php" target="_blank">30 
-    Money Back Guarantee</a>. </p>
+    Get cutting edge Windows Reseller Account, Powered by latest Windows Server with MSSQL, ASP.NET technologies.
+  </p>
   <table width="665" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF">
     <col width="173" />
     <col  />
@@ -124,10 +124,11 @@
 
 <tr>
       <td bgcolor="#EDF4F8">&nbsp;</td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk9.win.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk9.win.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk9.win.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      </tr>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
+
+</tr>
 
 
 
@@ -195,6 +196,14 @@
       <td align="center">Unlimited</td>
       <td align="center">Unlimited</td>
     </tr>
+
+	 <tr>
+      <td bgcolor="#EDF4F8">MSSQL 2005/2008/2012</td>
+      <td align="center">Supported</td>
+      <td align="center">Supported</td>
+      <td align="center">Supported</td>
+    </tr>
+
     <tr>
       <td width="173" bgcolor="#EDF4F8">POP3 Mail accounts</td>
       <td align="center">Unlimited</td>
