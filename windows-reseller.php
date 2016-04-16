@@ -323,9 +323,9 @@
       </tr>
     <tr>
       <td bgcolor="#EDF4F8">&nbsp;</td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk9.win.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk9.win.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk9.win.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
       </tr>
     <tr>
       <td bgcolor="#EDF4F8"><strong>Yearly Price</strong></td>
