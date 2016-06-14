@@ -72,7 +72,7 @@ Nepallink Network specializes in helping small businesses build an online custom
     <td width="10%" align="left" valign="top">&nbsp;</td>
     <td width="80%" align="left" valign="top">
 <div align="justify"><br/>
-  Nepallink is a leading Hosting Infrastructure provider in Nepal,  powers several thousands of websites, gives availability, scalability, reliability and security the first four priorities. Several IT consultant companies, Financial institution, large to small firms depend on Nepallnk services.
+  Nepallink is the largest Managed Cloud Service and Hosting Provider in Nepal,  powers several thousands of websites, gives availability, scalability, reliability and security the first four priorities. Several IT consultant companies, Financial institution, large to small firms depend on Nepallnk services.
 Nepallink's Products/Services are based on the  proven technology expertise and unique integrated business model. Our product 
 offer end-to-end solutions, enhance productivity & reduce costs. <br/>
   <br/>
