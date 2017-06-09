@@ -57,8 +57,7 @@
 	<br><br>
 	<ul>
 	<div align="justify">
-The Platinum hosting plan gives 40 GB of space, One free .COM domain, 2 Free Domain Hosting, versatile Control Panel, Secure Linux server, latest updated PHP, MySQL, Apache and many more...</div>
-<br><script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script>
+The Platinum hosting plan best fits for medium to high traffics websites. Designed for best uptime and scalability.</div>
 <br><br>
 Want support? get it <a href="support.php"><b>here</b></a>.
 </ul>
@@ -100,7 +99,7 @@ Want support? get it <a href="support.php"><b>here</b></a>.
 <div align="justify">
 <b>Platinum Plan includes</b><br>
 <br>
-Our most popular hosting plan.  The Platinum plan screams  with superb features.   Get MYSQL, PostgreSQL,PHP5, Ruby and many more features. You have never seen anywhere. Host upto 2 Domains. <strong>One Domain Registration absolutely Free for one year.</strong> No Hidden charge. <br>
+The Platinum hosting plan best fits for medium to high traffics websites. Designed for best uptime and scalability.
 <br>
 
 
@@ -283,14 +282,6 @@ Our most popular hosting plan.  The Platinum plan screams  with superb features.
                                               <td align="middle" height="13" bgcolor="#E6E6E6"> Yes</td>
                                             </tr>
                                             
-                                            <tr> 
-                                              <td width="70%" bgcolor="#EDF4F8"> 
-                                                &nbsp; 
-												PHP5 + ASP.NET + Linux </td>
-                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
-                                                
-												Yes</td>
-                                            </tr>
                                             <tr>
                                               <td bgcolor="#EDF4F8">&nbsp; 
 											  SQL Server </td>
@@ -300,12 +291,6 @@ Our most popular hosting plan.  The Platinum plan screams  with superb features.
                                               <td bgcolor="#EDF4F8">&nbsp; 
 											  Access</td>
                                               <td align="middle" height="13" bgcolor="#E6E6E6">unlimited</td>
-                                            </tr>
-                                            <tr> 
-                                              <td width="70%" bgcolor="#EDF4F8"> 
-                                                &nbsp; 
-												MySQL &amp; PostgreSQL Database</td>
-                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6">unlimited</td>
                                             </tr>
                                             <tr> 
                                               <td width="70%" bgcolor="#EDF4F8"> 

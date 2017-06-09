@@ -116,7 +116,7 @@ font:bold;
                     </tr>
                     <tr>
                        <td class="mytd">High Availability Bandwidth </td>
-                       <td class="mytd1"><p align="center">100 GB </td>
+                       <td class="mytd1"><p align="center">500 Mbps</td>
                     </tr>
                     <tr>
                        <td class="mytd">Advanced Web Based Control Panel </td>
@@ -128,14 +128,14 @@ font:bold;
                     </tr>
                     <tr>
                        <td class="mytd">Operating System </td>
-                       <td class="mytd1"><p align="center">Fedora Linux </td>
+                       <td class="mytd1"><p align="center">Windows Server or Linux </td>
                     </tr>
                     <tr>
-                       <td class="mytd">Plesk CP </td>
+                       <td class="mytd">Plesk Oynx </td>
                        <td class="mytd1"><p align="center">Yes </td>
                     </tr>
                     <tr>
-                       <td class="mytd">PHP 4.3 &amp; 5.0, Python, Perl </td>
+                       <td class="mytd">PHP 7 </td>
                        <td class="mytd1"><p align="center">Yes </td>
                     </tr>
                     <tr>
@@ -151,26 +151,6 @@ font:bold;
                        <td class="mytd1"><p align="center">Unlimited </td>
                     </tr>
                     <tr>
-                       <td class="mytd">Secure Copy Shell Access </td>
-                       <td class="mytd1"><p align="center">Yes </td>
-                    </tr>
-                    <tr>
-                       <td class="mytd">Full CGI-BIN Access </td>
-                       <td class="mytd1"><p align="center">Yes </td>
-                    </tr>
-                    <tr>
-                       <td class="mytd">Curl Support </td>
-                       <td class="mytd1"><p align="center">Yes </td>
-                    </tr>
-                    <tr>
-                       <td class="mytd">Server Side Includes (SSI) </td>
-                       <td class="mytd1"><p align="center">Yes </td>
-                    </tr>
-                    <tr>
-                       <td class="mytd">FrontPage 2003 extensions </td>
-                       <td class="mytd1"><p align="center">Yes </td>
-                    </tr>
-                    <tr>
                        <td class="mytd">Cron Jobs </td>
                        <td class="mytd1"><p align="center">Yes </td>
                     </tr>
@@ -182,13 +162,37 @@ font:bold;
                   <p>&nbsp;</p>
                   <p><a id="java"> <strong>Java (JSP/Servlets) Features </strong> </a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
                     <tr>
-                     <td class="mytr" width="60%">Shared Tomcat / Resin  </td>
+                     <td class="mytr" width="60%">Shared Tomcat</td>
                       <td class="mytr">Yes  </td>
                     </tr>
+
+                   <tr>
+                     <td class="mytd">Tomcat version</td>
+                    <td class="mytd1">7</td>
+                    </tr>
+
+                   <tr>
+                     <td class="mytd">JDK/JRE version</td>
+                    <td class="mytd1">jdk-8u131</td>
+                    </tr>`	
+
+
                     <tr>
                      <td class="mytd">Shared JVM </td>
                     <td class="mytd1">Yes </td>
                     </tr>
+
+                    <tr>
+                     <td class="mytd">JVM Initial Heapsize </td>
+                    <td class="mytd1">1GB</td>
+                    </tr>
+
+                   <tr>
+                     <td class="mytd">JVM Max Heapsize </td>
+                    <td class="mytd1">4GB</td>
+                    </tr>
+
+
                     <tr>
                      <td class="mytd">Java Servlets/JSP Support </td>
                     <td class="mytd1">Yes </td>

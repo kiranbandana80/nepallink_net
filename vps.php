@@ -88,22 +88,38 @@ cpu, and network utilization.
       </tr>
     <tr>
       <td width="203" bgcolor="#EDF4F8"> RAM</td>
-      <td width="141"><div align="center">1GB</div></td>
       <td width="141"><div align="center">2GB</div></td>
-      <td width="174"><div align="center">6GB</div></td>
+      <td width="141"><div align="center">4GB</div></td>
+      <td width="174"><div align="center">8GB</div></td>
       </tr>
+
+ <tr>
+      <td width="203" bgcolor="#EDF4F8">Burstable RAM</td>
+      <td width="141"><div align="center">3GB</div></td>
+      <td width="141"><div align="center">6GB</div></td>
+      <td width="174"><div align="center">12GB</div></td>
+  </tr>
+
     <tr>
       <td bgcolor="#EDF4F8">CPU</td>
       <td><div align="center">1.5GHz</div></td>
       <td><div align="center">3GHz</div></td>
       <td><div align="center">4GHz</div></td>
     </tr>
+
+  <tr>
+      <td bgcolor="#EDF4F8">CPU core</td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">2</div></td>
+      <td><div align="center">3</div></td>
+    </tr>
+
     
     <tr>
       <td bgcolor="#EDF4F8">Disk Space </td>
-      <td><div align="center"> 40GB</div></td>
-      <td><div align="center">100GB</div></td>
-      <td><div align="center">400GB</div></td>
+      <td><div align="center">80GB</div></td>
+      <td><div align="center">200GB</div></td>
+      <td><div align="center">1TB</div></td>
       </tr>
     
     <tr>
@@ -120,9 +136,9 @@ cpu, and network utilization.
       </tr>
     <tr>
       <td width="203" bgcolor="#EDF4F8">Network Ports </td>
-      <td width="141"><div align="center">100 Mbps </div></td>
-      <td width="141"><div align="center">100 Mbps </div></td>
-      <td width="174"><div align="center">100 Mbps</div></td>
+      <td width="141"><div align="center">500 Mbps </div></td>
+      <td width="141"><div align="center">500 Mbps </div></td>
+      <td width="174"><div align="center">1000 Mbps</div></td>
       </tr>
     
     <tr>

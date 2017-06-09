@@ -86,17 +86,6 @@ font:bold;
 	  <a href="dotnet.php" >Dot Net Hosting</a><br/>
 	  <a href="coldfusion.php" >Coldfusion Package</a><br/>
 	  <a href="nonprofit.php" >Non-Profit Hosting Package</a></p>
-   <p>&nbsp;</p>
-
-<script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script><br/>
-<br>
-
-
-  <img src="../images/service/host3.jpg" >
-   <p>&nbsp;</p>
-   <p><img src="../images/service/things.jpg" ><br>
-             <br>
-             <a href="../testimonals.php"><b>See!</b></a>, what they says about us!
           
  </p>
 	  </ul>	  
@@ -152,7 +141,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">Operating System  </td>
-                    <td class="mytd1">Windows 2003 Server  </td>
+                    <td class="mytd1">Windows 2008 Server  </td>
                   </tr>
                   <tr>
                     <td class="mytd">Dedicated IP Address  </td>

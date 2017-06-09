@@ -52,9 +52,8 @@
 	<br><br>
 	<ul>
 	<div align="justify">
-The Gold Plan offer rich features, especially tailored to meet the needs of 
-more serious webmasters.</div>
-  <br><script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script>
+The Gold Plan offer solid features, especially tailored to meet the needs of 
+optimized php applications.</div>
 <br><br>
 Want support? get it <a href="support.php"><b>here</b></a>.
 	</ul>    
@@ -100,7 +99,7 @@ Want support? get it <a href="support.php"><b>here</b></a>.
     <td width="80%" align="left" valign="top">
       <div align="left"><b>Gold Plan includes</b><br>
           <br>
-        For just USD 40/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes  PHP5, MySQL, PostgreSQL, cPanel, Python Perl etc.. <br> 
+        For just USD 40/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes  PHP5, MySQL, cPanel, Python Perl etc.. <br> 
         <br>
         
         
@@ -323,12 +322,6 @@ Want support? get it <a href="support.php"><b>here</b></a>.
                         <td align="middle" width="30%" height="7" bgcolor="#E6E6E6"> 
                           <b>
                           USD 40/- </b></td>
-                                            </tr>
-       <tr> 
-         <td width="70%" bgcolor="#EDF4F8"> 
-           &nbsp; 
-           Monthly Cost</td>
-                        <td align="middle" width="30%" height="8" bgcolor="#E6E6E6"><strong>USD 3.33/- </strong></td>
                                             </tr>
        <tr> 
          <td width="70%"> 

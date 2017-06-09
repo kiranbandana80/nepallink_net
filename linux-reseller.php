@@ -83,7 +83,7 @@
 <div align="justify">
   <p><strong>Nepallink Linux Reseller Package </strong><br>
       <br>
-    Start your Hosting Business. Get a reseller account and make profit as much as you can. Check out our Reseller plan starts from USD <strong>150</strong>/- per year with 300GB webspace and unlimited domain hosting. </p>
+    Start your Hosting Business. Get a reseller account and make profit as much as you can. Check out our Reseller plan starts from USD <strong>150</strong>/- per year with 300GB webspace and unlimited domain hosting. Our hosting infrastrcuture spread across 4 regional datacenter (US east, US west, Europe, Canada)</p>
   <table width="665" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF">
     <col width="173" />
     <col width="119" />
@@ -560,7 +560,7 @@ High Available and scalalbe.</p>
             <p align="left">You have large websites and you need highly available and scalable MySQL database server. Here We are offering managed MySQL Cluster. You can use it for Aut-sharding, Multi Master replication, high Scalability, real-time responsiveness. The selected package offers exclusive access to this features. MySQL Cluster is highly recommended for high traffics websites, e-commerce websites and financial applications.</p>
 
             <p align="left"><strong><a name="high_available_mail">High Available Mail Server</a> </strong>:</p>
-            <p align="left">All Nepalilnk Mail server Highly available and clustered across more than 5 datacenters.</p>
+            <p align="left">All Nepalilnk Mail server Highly available and clustered across more than 5 datacenters(US-east, US-west, Canada, Germany)</p>
 
 
 

@@ -1,7 +1,7 @@
 <HTML>
 <HEAD>
-<TITLE>Support Package
-Support Service | Support Package, cPanel Reseller, Domain Reseller, Hosting reseller Nepal, Cheap Hosting Nepal Reseller, Nepal Reseller Hosting, Cheap Reseller Hosting in Nepal, Nepal Cheap Master Reseller Hosting, Domain Hosting Reseller, Cheap Domain Web Hosting Reseller Nepal, India Cheap Domain Reseller, Nepal Domain Reseller, India Web Hosting Reseller, Nepal Web Hosting, Reseller hosting company in Nepal , Cheap Reseller Web Hosting, Cheap Domain Reseller, Nepal Domain Reseller, Nepal Web Hosting Reseller, Nepal Web Hosting Reseller Plan, Nepal Domain Reseller, Web Hosting Reseller Package, Reseller Web Design, Nepal Java Hosting Reseller</TITLE>
+<TITLE>Managed Server and Network Support | DevOps Service | AWS Managed Service and Support | Microsoft Azure Managed Serice and Support | Managed Google Cloud Platform services | Cloud monitoring, maintenance and management, Dedicated server support and services
+</TITLE> 
 <META  name="description" content="Web Hosting Nepal Reseller, Nepal Reseller Hosting, Cheap Reseller Hosting in Nepal, Nepal Cheap Master Reseller Hosting, Domain Hosting Reseller, Cheap Domain Web Hosting Reseller Nepal,Web Hosting Reseller Nepal, Cheap Web Hosting Reseller Nepal, Web Hosting Reseller, WHM Plesk reseller, Server reseller, Chep Hosting Reseller Nepal,, Nepa Web Hosting reseller, Nepal Domain reseller, Nepal web hosting reseller, nepal reseller, nepal domain reseller, nepal linux reseller, nepal windows reseller, nepal java reseller, nepal java windows reseller, nepal cheap reseller">
 <META name="keywords" content="Nepal Web Hosting, Shared Hosting, Nepal Dedicated Hosting, Nepal Managed Web Hosting, Nepal Virtual Web Hosting, Business, Web, Hosting, Service, Reseller, Domain,  Internet, E-commerce, Windows, Unix, Linux, FreeBSD, Server, PHP, MySQL, ASP">
 <META http-equiv=Content-Language content=en-us>
@@ -88,7 +88,10 @@ Support Service | Support Package, cPanel Reseller, Domain Reseller, Hosting res
 <div align="justify">
   <p><strong>Nepallink Support Service</strong><br>
       <br>
-    We offer reasonably priced support packages for your convenience</p>
+
+Our Managed Services for bare metal servers, cloud servers, PaaS and IaaS delivers 24 x 7 monitoring, maintenance and management services by experienced administrators, DevOps and Network Engineer who are experts in cloud computing. Nepallink provides the needed support where leading PaaS and IaaS Support leaves off.  We offer Pay-as-you-go managed services fees and improved ROI on your cloud investments. We assured your cloud infrastructure and platform remain fully managed, secure and optimized for your business .
+
+    </p>
   <table width="665" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF">
     <col width="173" />
     <col width="119" />
@@ -167,6 +170,49 @@ Support Service | Support Package, cPanel Reseller, Domain Reseller, Hosting res
 <td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
 <td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
     </tr>
+
+
+<tr>
+      <td bgcolor="#EDF4F8"><b>AWS Managed Support</b></td>
+     <td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+
+<td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+    </tr>
+
+
+<tr>
+      <td bgcolor="#EDF4F8"><b>Google Cloud Support</b></td>
+     <td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+
+<td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+    </tr>
+
+
+<tr>
+      <td bgcolor="#EDF4F8"><b>OpenStack Support</b></td>
+     <td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+
+<td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+    </tr>
+
+
+<tr>
+     <td bgcolor="#EDF4F8"><b>OpenShift Support</b></td>
+     <td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+
+<td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/cross_green.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+<td width="119"><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
+    </tr>
+
+
+
 
 <tr>
       <td bgcolor="#EDF4F8">Client Side Diagnostic Tools</td>
@@ -248,7 +294,7 @@ Support Service | Support Package, cPanel Reseller, Domain Reseller, Hosting res
       <td bgcolor="#ffffff"><p align="center"><strong>Free!</strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>56USD/MO</strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>113USD/MO</strong></td>
-      <td bgcolor="#ffffff"><p align="center"><strong>227USD/MO</strong></td>
+      <td bgcolor="#ffffff"><p align="center"><strong><a href='/contactus.php'>Contact us</a></strong></td>
     </tr>
 
 
@@ -256,25 +302,7 @@ Support Service | Support Package, cPanel Reseller, Domain Reseller, Hosting res
 
 
 
-    <tr>
-      <td bgcolor="#EDF4F8">Order Now</td>
-      <td><p align="center"><a href="order.php?plan=RESELLER_BRONZE"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" />
-      </a></td>
-      <td><p align="center"><a href="order.php?plan=RESELLER_GOLD"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" />
-      </a></td>
-      <td><p align="center"><a href="order.php?plan=RESELLER_PLANTINUM"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" />
-       </a></td>
-      <td><p align="center"><a href="order.php?plan=RESELLER_ENTERPRISE"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" />
-</a></td>
-    </tr>
-    
 
-
-<!--
-    <tr>
-      <td height="90" colspan="5" align="center" bgcolor="#FFFFFF"> <div class="signupnow"> <a href="/signup/reseller/">30-day money back gurnate</a></div></td>
-      </tr>
--->
   </table>
 </div></td>
     <td width="5%" align="left" valign="top">&nbsp;</td>

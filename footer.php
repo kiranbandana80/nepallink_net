@@ -6,7 +6,7 @@
 	<b><a href="terms.php">Terms &amp; Condition</a>|<a href='30days.php'>100-day Money Back Guarantee</a><br /><br /><br />
 </td>
     <td width="350" align="left" valign="top" bgcolor="#F1F1F2" class="topborder">
-<br />Copyright &copy; <b>NepalLink Network Pvt. Ltd.</b>   <br/><a href="feedback">Write Feedback</a>| <a href='http://nepallink.blogs.com.np'>Blogs</a>|&nbsp;<a href="http://www.nepallink.net/kb" class="mainmenu">FAQ</a> | <a href='http://linux.blogs.com.np/' target='_blank'>Linux Blogs</a> |  <a href='http://twitter.com/nepallink' target='_blank'>@Twitter</a><br/>
+<br />Copyright &copy; <b>NepalLink Network Pvt. Ltd.</b>   <br/><a target="_blank" href="https://www.google.com.np/search?q=nepallink&oq=nepallink&aqs=chrome..69i57j69i60l3j69i65l2.5982j0j7&sourceid=chrome&ie=UTF-8#lrd=0x39eb18fabab384a7:0x8e3ea37b7a7f1642,3,">Write Feedback</a>| <a href='https://twitter.com/nepallink' target='_blank'>Twitter</a>| <a href='https://www.facebook.com/NepalLink-Network-334213043398796/?ref=page_internal' target='_blank'>Facebook</a><br/>
 </td>
     <td width="14" align="left" valign="top" bgcolor="#F1F1F2"><img src="images/spacer.gif" height="15" width="10" alt="" /></td>
   </tr>

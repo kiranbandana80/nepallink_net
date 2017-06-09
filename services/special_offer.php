@@ -350,9 +350,7 @@ font:bold;
 <p align="center">&nbsp;</p>
 <p align="center">Risk Free Trial, Press Order Now Button! <br>
     <strong>Cover with 100 days money back Guarantee</strong> </p>
-<p align="center"><a href='http://nepallink.net/order.php?plan=FES010'><img src='http://nepallink.net//images/order_green.gif' border='0'></a>
-<br/><br/><br/>
- <script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script><br/>
+<p align="center"><a href='http://nepallink.net/order.php?plan=UNLIMITED_SSD'><img src='http://nepallink.net//images/order_green.gif' border='0'></a>
 
 </p></td>
   </tr>

@@ -72,20 +72,21 @@ Nepallink Network specializes in helping small businesses build an online custom
     <td width="10%" align="left" valign="top">&nbsp;</td>
     <td width="80%" align="left" valign="top">
 <div align="justify"><br/>
-  Nepallink is a leading Hosting Infrastructure provider in Nepal,  powers several thousands of websites, gives availability, scalability, reliability and security the first four priorities. Several IT consultant companies, Financial institution, large to small firms depend on Nepallnk services.
+  Nepallink is the largest Managed Cloud Service and Hosting Provider in Nepal,  powers several thousands of websites, gives availability, scalability, reliability and security the first four priorities. Several IT consultant companies, Financial institution, large to small firms depend on Nepallnk services.
 Nepallink's Products/Services are based on the  proven technology expertise and unique integrated business model. Our product 
 offer end-to-end solutions, enhance productivity & reduce costs. <br/>
   <br/>
-<b>Our team</b><br>
-NepalLink co-founders have several years of experience in Microsoft and several leading MNC. Our Seattle team in US, Bangalore team in India and Kathmandu team in Nepal together maintain and monitor entire server infrastructure and development center..
+<b>Our team</b><br><br>
+NepalLink co-founders have several years of experience in Microsoft and several leading MNC. Our Seattle team in US, Hyderabad team in India and Kathmandu team in Nepal together maintain and monitor entire server infrastructure and development center..
 <br>
 <br>
+  <p><strong>Our Services<br>
+                    </strong><br>
+                      NepalLink provides cost-effective, fastest and secure managed hosting infrastructure & platform. NepalLink with its dedicated co-located private rack running 24 hours a day and 7 days in a week, within blazing high speed Internet connection with disaster recovery facility. Our Private Rack is located various data center rated by Netcraft, location includes  Seattle, Washington USA, Canda and Frankfurt/Germany. </p>
+                    <p>Since last 10years, NepalLink has been offering IT Consultant Services, Managed Hosting Infrastructure, NOC Support T1/T2/T3, Remote Server Administrations, Reseller program, DevOps implementation and Managed support in leading PaaS such as AWS, Azure and Google Cloud Platform. </p>
 
-<b>Our Services</b><br>
-NepalLink provides cost-effective, fastest and secure web hosting infrastructure. NepalLink with its dedicated co-located private rack running 24 hours a day and 7 days in a week, within blazing high speed Internet connection with disaster recovery facility. Our Private Rack is located various data center rated by Netcraft, location includes Seattle, Washington USA, Canda and Frankfurt/Germany. 
-<p>Since last 10years, NepalLink has been offering IT Consultant Services, Managed Hosting Infrastructure, Web Hosting, Web Designing, Remote Server Administrations, Domain Reseller, Web Promotion and Web Application Development.</p>
-<br><br>
-<b>Our commitment</b><br>
+<br>
+<b>Our commitment</b><br><br>
 We are committed to deliver excellent service. We are not only striving to exceed your expectation, but also to help you exceed your customer's expectations as well.
 <br><br>
 </div>
