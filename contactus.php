@@ -19,7 +19,7 @@ if($_SESSION['security_code']!=$code) {
 $captchamsg="<font color='red'>Secuirty code incorrect</font>";
 } else {
 
-$headers = 'From: noreply@nepallink.net' . "\r\n" .
+$headers = 'From: sales@nepallink.net' . "\r\n" .
  'Reply-To: '.$email_from . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
@@ -40,20 +40,8 @@ A customer has submitted following feedback/comment/suggestion
 --
 MSG;
 
-mail('sarose@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
-
- $client = new SoapClient(null, array(
-      'location' =>
-         "http://support.nepallink.net/webservice.php?wsdl",
-      'uri'      => "urn:ticketwsdl",
-      'trace'    => 1 ));
-
-   $return = $client->__soapCall("openticket",
-   array('name'=>$name_from_req,'email'=>$email_from,
-          'phone'=>'','topic'=>'1',
-          'subject'=>'Inquiry submitted to '.$to,
-          'message'=>'Domain Name:'.$domainname.' --- Inquiry:'.$question));
-
+mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
+session_destroy();
 Header("Location: http://www.nepallink.net/thanks.php");
 die;
 }
@@ -113,7 +101,7 @@ function MM_validateForm() { //v4.0
 <table border="0" cellpadding="0" cellspacing="0" width="775">
   <tr>
     <td width="14" align="left" valign="top" background="images/left.gif">&nbsp;</td>
-    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20">NepalLink - Web design, hosting and promotion</td>
+    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20">NepalLink Contact Information</td>
     <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
   </tr>
 </table>
@@ -238,6 +226,19 @@ If you have any questions or comments, or if you would like more information on 
     Kathmandu - 17<br/>
     Nepal</td>
   </tr>
+
+ <tr>
+    <td width="48%" bgcolor="#EEEEEE"><br><b>Contact us in Hyderabad</b></td>
+  </tr>
+  <tr>
+    <td width="48%">
+Plot no:102 hyline complex<br>
+Banjarahills Road no:12, <br>
+Hyderabad 500034  <br>
+Landline number 9140-65457272<br>
+      </td>
+  </tr>
+
 </table>
 
 

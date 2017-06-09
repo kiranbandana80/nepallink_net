@@ -23,7 +23,8 @@ $order_map = array (
 "WIN_RESELLER_PLANTINUM"=>"http://client.nepallink.net/cart.php?a=add&pid=14",
 "DON_NET_BASIC"=>"http://client.nepallink.net/cart.php?a=add&pid=16",
 "JAVA_PRIVATE_HOSTING"=>"http://client.nepallink.net/cart.php?a=add&pid=21",
-"DON_NET_PROFESSIONAL"=>"http://client.nepallink.net/cart.php?a=add&pid=17"
+"DON_NET_PROFESSIONAL"=>"http://client.nepallink.net/cart.php?a=add&pid=17",
+"UNLIMITED_SSD"=>"https://client.nepallink.net/cart.php?a=add&pid=182"
 );
 
 if (array_key_exists($product_id, $order_map)) {

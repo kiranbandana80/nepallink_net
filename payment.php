@@ -40,19 +40,8 @@ A customer has submitted following feedback/comment/suggestion
 --
 MSG;
 
-mail('info@nepallink.net', 'Payment Inquiry From Client', $autoresponder_message,$headers);
-
-$client = new SoapClient(null, array(
-      'location' => "http://support.nepallink.net/webservice.php?wsdl",
-      'uri'      => "urn:ticketwsdl",
-      'trace'    => 1 ));
-
-$return = $client->__soapCall("openticket",
-           array('name'=>$name_from_req,'email'=>$email_from,
-          'phone'=>'','topic'=>'2',
-          'subject'=>'Inquiry submitted to '.$to,
-          'message'=>'Domain Name:'.$domianname.' --- Inquiry:'.$question));
-
+mail('sales@nepallink.net', 'Payment Inquiry From Client', $autoresponder_message,$headers);
+session_destroy();
 Header("Location: http://www.nepallink.net/thanks.php");
 die;
 }
@@ -205,7 +194,7 @@ Paypal id: payments@nepallink.net<br/>
 
 <br /><br />
 
-<a name="form">If you have any question(s) please feel free to submit here. <br />
+<a name="form">Please feel free to submit here regarding any billing inquiry. <br />
 </a>
 <form name="contatcus" id="contatcus" method="post" action="">
 <input type="hidden" name="subject" value="Payment inquiry." >

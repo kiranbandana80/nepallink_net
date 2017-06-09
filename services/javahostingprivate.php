@@ -71,7 +71,7 @@ font:bold;
 	<ul>
 	
  <div align="left"><img src="../images/service/logo_java.gif" alt="Java Hosting, JSP Hosting, Nepal Java Hosting, JSTL Hosting, Java Mysql Hosting"><br>
-   NepalLink network offer affordable, quality and efficient Java web hosting. Our Java hosing platform configured for optimum performance using latest Tomcat  or Resin , MySQL, PostgreSQL, Apache and Web Application frameworks such as Struts, Hibernate, Cocoon, Ant, JSF, JSTL, Spring etc. </div>
+   NepalLink network offer affordable, quality and efficient Java web hosting. Our Java hosing platform configured for optimum performance using latest Tomcat, MySQL, PostgreSQL, Apache and Web Application frameworks such as Spring, Struts, Hibernate, Cocoon, Ant, JSF, JSTL etc. </div>
  <p>&nbsp;</p>
 <script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script><br/>
 <br>
@@ -91,7 +91,7 @@ font:bold;
     <td width="45"  >&nbsp;</td>
     <td width="360" align="left" valign="top" >      <div align="justify">
                    <h3>Private Java Hosting </h3>
-                   Private Java Hosting package is a streamlined and affordable version of Java package designed for Small Medium Business . It provides you the capability to run full-fledge JSP 2.0/Servlets 2.4 web apps on your own Tomcat / Resin instance running on a Private JVM (64Mb memory heap). 
+                   Private Java Hosting package is a streamlined and affordable version of Java package designed for Small Medium Business . It provides you the capability to run full-fledge JSP/Servlets web apps on your own Tomcat instance running on a Private JVM (102MB memory heap). 
                    <p><strong>Browse By: </strong></p>
              <p><a href="#pricing1">Pricing Options </a><br/>
                <a href="#general1">General Features </a><br/>
@@ -115,7 +115,7 @@ font:bold;
                       </tr>
                       <tr>
                         <td class="mytd">High Availability Bandwidth </td>
-                        <td class="mytd1"><p align="center">100 GB </td>
+                        <td class="mytd1"><p align="center">500 Mbps </td>
                       </tr>
                       <tr>
                         <td class="mytd">Advanced Web Based Control Panel </td>
@@ -127,46 +127,20 @@ font:bold;
                       </tr>
                       <tr>
                         <td class="mytd">Operating System </td>
-                        <td class="mytd1"><p align="center">Fedora Linux / Debian / SuSe </td>
+                        <td class="mytd1"><p align="center">Linux</td>
                       </tr>
-                      <tr>
-                        <td class="mytd">Plesk CP </td>
-                        <td class="mytd1"><p align="center">Yes </td>
+
+  		     <tr>
+                        <td class="mytd">Static IPv4</td>
+                        <td class="mytd1"><p align="center">1</td>
                       </tr>
-                      <tr>
-                        <td class="mytd">PHP 4.3 &amp; 5.0, Python, Perl </td>
-                        <td class="mytd1"><p align="center">Yes </td>
-                      </tr>
+
                       <tr>
                         <td class="mytd">SSL/HTTPS Support </td>
-                        <td class="mytd1"><p align="center">No (Need Dedicated IP Address add-on) </td>
+                        <td class="mytd1"><p align="center">Yes </td>
                       </tr>
                       <tr>
                         <td class="mytd">Frequent &amp; Real-time Backup </td>
-                        <td class="mytd1"><p align="center">Yes </td>
-                      </tr>
-                      <tr>
-                        <td class="mytd">FTP Accounts </td>
-                        <td class="mytd1"><p align="center">Unlimited </td>
-                      </tr>
-                      <tr>
-                        <td class="mytd">Secure Copy Shell Access </td>
-                        <td class="mytd1"><p align="center">Yes </td>
-                      </tr>
-                      <tr>
-                        <td class="mytd">Full CGI-BIN Access </td>
-                        <td class="mytd1"><p align="center">Yes </td>
-                      </tr>
-                      <tr>
-                        <td class="mytd">Curl Support </td>
-                        <td class="mytd1"><p align="center">Yes </td>
-                      </tr>
-                      <tr>
-                        <td class="mytd">Server Side Includes (SSI) </td>
-                        <td class="mytd1"><p align="center">Yes </td>
-                      </tr>
-                      <tr>
-                        <td class="mytd">FrontPage 2003 extensions </td>
                         <td class="mytd1"><p align="center">Yes </td>
                       </tr>
                       <tr>
@@ -189,8 +163,32 @@ font:bold;
                       </tr>
                       <tr>
                        <td class="mytd">Private JVM Size </td>
-                      <td class="mytd1">64 MB </td>
+                      <td class="mytd1">1024 MB </td>
                       </tr>
+
+
+ 		    <tr>
+                     <td class="mytd">Tomcat version</td>
+                    <td class="mytd1">7</td>
+                    </tr>
+
+                   <tr>
+                     <td class="mytd">JDK/JRE version</td>
+                    <td class="mytd1">jdk-8u131</td>
+                    </tr>`
+
+
+                    <tr>
+                     <td class="mytd">JVM Initial Heapsize </td>
+                    <td class="mytd1">512MB</td>
+                    </tr>
+
+                   <tr>
+                     <td class="mytd">JVM Max Heapsize </td>
+                    <td class="mytd1">1GB</td>
+                    </tr>
+
+
                       <tr>
                        <td class="mytd">Java Servlets/JSP Support </td>
                       <td class="mytd1">Yes </td>

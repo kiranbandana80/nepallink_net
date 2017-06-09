@@ -100,7 +100,7 @@ promotion</td>
                     <p>Any customer who has received a refund in the past, or has been a customer in the past 100 days is not eligible for the Nepallink  Money Back Guarantee.</p>
                     <p></p><p></p>
                     <p>*This refund applies only to hosting fees and does not include any additional services provisioned by the customer including but not limited to domain name registration fees, disk space over usage fees and additional bandwidth charges.<br/><br/>
-<b>This policy does not apply to any additional services such such as VPS, Dedicated Server, Domain Registration, Web Design,Windows Hosting  and Search Engine Optimization (SEO).</b><br/><br/>
+<b>This policy does not apply to any additional services such such as VPS, Dedicated Server, Domain Registration, Web Design,Windows Hosting, Java Hosting, Python Hosting, Ruby on Rails Hosing, Docker and K8s Hosting, OpenShift Hosting, AWS/Google Cloud consulting  and any depreciated or unsupported product/services.</b><br/><br/>
 
 Domain name registrations are processed immediately and are non-cancellable and non-refundable.<br/><br/>
 

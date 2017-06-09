@@ -21,7 +21,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="775">
   <tr>
     <td width="14" align="left" valign="top" background="images/left.gif">&nbsp;</td>
-    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20">NepalLink - Domain registratin, Web hosting</td>
+    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20">NepalLink Support</td>
     <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
   </tr>
 </table>
