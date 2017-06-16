@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<TITLE>Windows Hosting Reseller, Nepal Windows Reseller Hosting, Cheap Windows Reseller Hosting in Nepal, India Cheap Windows Reseller Hosting, Nepal Cheap Master Reseller Hosting, Domain Hosting Reseller, Cheap Domain Web Hosting Reseller Nepal, India Cheap Domain Reseller, Nepal Domain Reseller, India Web Hosting Reseller, Nepal Web Hosting, Reseller hosting company in Nepal , Cheap Reseller Web Hosting, Cheap Domain Reseller, Nepal Domain Reseller, Nepal Web Hosting Reseller, Nepal Web Hosting Reseller Plan, Nepal Domain Reseller, Web Hosting Reseller Package, Reseller Web Design, Nepal Java Hosting Reseller</TITLE>
+<TITLE>Windows Hosting Reseller, Nepal Windows Reseller Hosting, ASP.NET Hosting Nepal, .NET Hosting Nepal, Cheap Windows Reseller Hosting in Nepal, India Cheap Windows Reseller Hosting, Nepal Cheap Master Reseller Hosting, Domain Hosting Reseller, Cheap Domain Web Hosting Reseller Nepal, India Cheap Domain Reseller, Nepal Domain Reseller, India Web Hosting Reseller, Nepal Web Hosting, Reseller hosting company in Nepal , Cheap Reseller Web Hosting, Cheap Domain Reseller, Nepal Domain Reseller, Nepal Web Hosting Reseller, Nepal Web Hosting Reseller Plan, Nepal Domain Reseller, Web Hosting Reseller Package, Reseller Web Design, Nepal Java Hosting Reseller</TITLE>
 <META  name="description" content="Web Hosting Nepal Reseller, Nepal Reseller Hosting, Cheap Reseller Hosting in Nepal, Nepal Cheap Master Reseller Hosting, Domain Hosting Reseller, Cheap Domain Web Hosting Reseller Nepal,Web Hosting Reseller Nepal, Cheap Web Hosting Reseller Nepal, Web Hosting Reseller, WHM Plesk reseller, Server reseller, Chep Hosting Reseller Nepal,, Nepa Web Hosting reseller, Nepal Domain reseller, Nepal web hosting reseller, nepal reseller, nepal domain reseller, nepal linux reseller, nepal windows reseller, nepal java reseller, nepal java windows reseller, nepal cheap reseller">
 <META name="keywords" content="Nepal Web Hosting, Shared Hosting, Nepal Dedicated Hosting, Nepal Managed Web Hosting, Nepal Virtual Web Hosting, Business, Web, Hosting, Service, Reseller, Domain,  Internet, E-commerce, Windows, Unix, Linux, FreeBSD, Server, PHP, MySQL, ASP">
 <META http-equiv=Content-Language content=en-us>
@@ -84,12 +84,21 @@
       <td><div align="center">80GB</div></td>
       <td><div align="center">120GB</div></td>
       </tr>
+
     <tr>
-      <td width="173" bgcolor="#EDF4F8">Bandwidth (monthly) </td>
-      <td ><div align="center">400GB</div></td>
-      <td><div align="center">800GB</div></td>
-      <td><div align="center">1200GB</div></td>
+      <td width="173" bgcolor="#EDF4F8">Bandwidth </td>
+      <td ><div align="center">500Mbps</div></td>
+      <td><div align="center">500Mbps</div></td>
+      <td><div align="center">1Gbps</div></td>
       </tr>
+
+ <tr>
+      <td width="173" bgcolor="#EDF4F8">Data transfer (Monthly) </td>
+      <td ><div align="center">50TB</div></td>
+      <td><div align="center">100TB</div></td>
+      <td><div align="center">Unlimited</div></td>
+      </tr>
+
     <tr>
       <td width="173" bgcolor="#EDF4F8">Domain Limit</td>
       <td > <div align="center">200</div></td>
@@ -101,12 +110,6 @@
       <td><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
       <td><div align="center"><img src="images/tick.gif" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /> </div></td>
       <td><div align="center"><img src="images/tick.gif" name="graphics3" width="16" height="16" border="0" align="bottom" id="graphics3" /> </div></td>
-      </tr>
-    <tr>
-      <td bgcolor="#EDF4F8"><a href="http://domain.nepallink.info/" target="_blank">Domain Management CP</a></td>
-      <td><div align="center"><img src="images/tick.gif" alt="Domain Manage CP. Register, Transfer, Update your domain." name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
-      <td><div align="center"><img src="images/tick.gif" alt="Domain Manage CP. Register, Transfer, Update your domain." name="graphics1" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
-      <td><div align="center"><img src="images/tick.gif" alt="Domain Manage CP. Register, Transfer, Update your domain." name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
       </tr>
     <tr>
       <td bgcolor="#EDF4F8">Client seperate Plesk</td>
@@ -166,7 +169,7 @@
       <td><div align="center"><img src="images/tick.gif" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
       </tr>
     <tr>
-      <td bgcolor="#EDF4F8">.NET 2, .NET 4, C#, ASP.NET </td>
+      <td bgcolor="#EDF4F8">.NET 2, .NET 4.6, C#, ASP.NET </td>
       <td><div align="center"><img src="images/tick.gif" alt="Yes"  width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
       <td><div align="center"><img src="images/tick.gif" alt="Yes"  width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
       <td><div align="center"><img src="images/tick.gif" alt="Yes"  width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
@@ -222,8 +225,59 @@
       <td ><div align="center"><img src="images/tick.gif" name="graphics6" width="16" height="16" border="0" align="bottom" id="graphics6" /> </div></td>
       <td><div align="center"><img src="images/tick.gif" name="graphics7" width="16" height="16" border="0" align="bottom" id="graphics7" /> </div></td>
       </tr>
+
+ <tr>
+      <td  bgcolor="#EDF4DD">SSL Certificate</td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+      </tr>
+
+ <tr>
+      <td  bgcolor="#EDF4DD">Remote GIT Integration</td>
+      <td ><div align="center"><img src="images/cross_green.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+  </tr>
+
+ <tr>
+      <td  bgcolor="#EDF4DD">Dedicated IIS Apps Pool</td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+</tr>
+
+ <tr>
+      <td  bgcolor="#EDF4DD">Google Pagespeed Insights</td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+</tr>
+
+<tr>
+      <td  bgcolor="#EDF4F8">Built-in Backup Manager</td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+</tr>
+
+<tr>
+      <td  bgcolor="#EDF4DD">Dropbox Backup</td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+</tr>
+
+
+<tr>
+      <td  bgcolor="#EDF4DD">Application Installer</td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
+      <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
+</tr>
+
     <tr>
-      <td  bgcolor="#EDF4F8">Cron Jobs</td>
+      <td  bgcolor="#EDF4F8">Scheduled Jobs</td>
       <td ><div align="center"><img src="images/tick.gif" name="graphics9" width="16" height="16" border="0" align="bottom" id="graphics9" /> </div></td>
       <td ><div align="center"><img src="images/tick.gif" name="graphics10" width="16" height="16" border="0" align="bottom" id="graphics10" /> </div></td>
       <td ><div align="center"><img src="images/tick.gif" name="graphics11" width="16" height="16" border="0" align="bottom" id="graphics11" /> </div></td>
@@ -316,10 +370,10 @@
       <td bgcolor="#ffffff"><div align="center"><img src="images/tick.gif" alt="Private SSL" name="graphics5" width="16" height="16" border="0" align="bottom" id="graphics5" /> </div></td>
       </tr>
     <tr>
-      <td bgcolor="#EDF4F8">Additional IP </td>
-      <td bgcolor="#ffffff"><div align="center"><img src="images/tick.gif" alt="Private SSL" name="graphics5" width="16" height="16" border="0" align="bottom" id="graphics5" /> </div></td>
-      <td bgcolor="#ffffff"><div align="center"><img src="images/tick.gif" alt="Private SSL" name="graphics5" width="16" height="16" border="0" align="bottom" id="graphics5" /> </div></td>
-      <td bgcolor="#ffffff"><div align="center"><img src="images/tick.gif" alt="Private SSL" name="graphics5" width="16" height="16" border="0" align="bottom" id="graphics5" /> </div></td>
+      <td bgcolor="#EDF4F8">Dedicated IP </td>
+      <td bgcolor="#ffffff"><div align="center">Shared </div></td>
+      <td bgcolor="#ffffff"><div align="center"> 1 IPv4</div></td>
+      <td bgcolor="#ffffff"><div align="center">2 IPv4 </div></td>
       </tr>
     <tr>
       <td bgcolor="#EDF4F8">&nbsp;</td>

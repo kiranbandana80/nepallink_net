@@ -217,8 +217,8 @@ font:bold;
                     <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">.NET Framework v1.1/v2.0/v4.0 <br>
-            (Framework 1.0, 1.1,20 &amp; 4.0 apps supported)  </td>
+                    <td class="mytd">.NET Framework v1.1/v2.0/v4.6 <br>
+              </td>
                     <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
@@ -333,14 +333,11 @@ font:bold;
                       <br>
                 </p>
                 <p><a id="db"> <strong>Database Features </strong></a> </p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
-                  <tr> <td class="mytr" width="60%"><strong>MS Access 2000 </strong> </td> <td class="mytr"><strong>Yes </strong> </td>
+                  <tr> <td class="mytr" width="60%"><strong>MS Access </strong> </td> <td class="mytr"><strong>Yes </strong> </td>
                   </tr>
                   <tr>
-                    <td class="mytd"> # of MS SQL Server 2005/2008 Databases  </td> 
+                    <td class="mytd"> # of MS SQL Server 2005/2008/2012 Databases  </td> 
                     <td class="mytd1"> 2 MS SQL Databases  </td>
-                  </tr>
-                  <tr>
-                    <td class="mytd">MS SQL Server 2000 Space  </td> <td class="mytd1">Package Disk Size  </td>
                   </tr>
                   <tr>
                     <td class="mytd">Remote Management via SQL Clients (i.e. Enterprise Manager, Query Analyzer, etc)  </td> <td class="mytd1">Yes  </td>
