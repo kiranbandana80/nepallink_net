@@ -68,27 +68,14 @@ font:bold;
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td width="35%" align="left" valign="top">&nbsp;&nbsp;<font class="title">Hosting Services</font>
+    <td width="35%" align="left" valign="top">&nbsp;&nbsp;<font class="title">ASP.NET Managed Services</font>
 	<br><br>
 	<ul>
 	
  <div align="left">
- </div>
- <p><a href="windows.php">Windows Server</a><br/>
-    <a href="phphosting.php" >PHP Hosting</a> <br/>
-    <a href="linuxserver.php" >Linux Server</a><br/>
-	<a href="javahosting.php" >Java Hosting</a><br/>
-	<strong>Dot Net Hosting</strong><br/>
-	<a href="coldfusion.php" >Coldfusion Package</a><br/>
-	<a href="nonprofit.php" >Non-Profit Hosting Package</a><br/>
-</p>
- 
- <p>&nbsp;</p>
- <p><img src="../images/service/host3.jpg" ></p>
- <p align="center">&nbsp;</p>
- <p>         <br>
-         <a href="testimonals.php"><b>See!</b></a>, what they says about us!
- </p>
+   <p><img src="../images/asp.jpg" width="90" height="70" alt=""/></p>
+   <p>&nbsp;</p>
+	</div>
 	</ul>
     <br><br>
 
@@ -105,21 +92,22 @@ font:bold;
     <td width="360" align="left" valign="top">      <div align="justify">
              <img src="../images/service/dotneticon.jpg"> <p>            <h3><strong>Nepallink ASP.NET Hosting </strong></h3> 
               </p>
-              <p>Nepallink ASP.NET package is designed with ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. </p>
+              <p>Nepallink ASP.NET package is designed with speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. </p>
               <p>We offer two package </p>
               <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetbasic.php'>ASP.NET Basic Package<a/> </p>
               <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetpro.php'>ASP.NET Professional Package</a></p>
-			  <h3>Dotnet Basic Package</h3>
-              <p> <strong>Browse By:   </strong></p>
+			  <h3>ASP.NET Basic </h3>
+              <p>The ASP.NET Basic hosting package comes with essenteial .NET features required for small traffics web application. The package offers SSL Certificates, GIT integration, Latest IIS, .NET and SQL Server  and additional powerful features.</p>
+              <p><strong>Browse By:   </strong></p>
               <p><a href="dotnetbasic.php#pricing">Pricing Options </a><br/>
                   <a href="dotnetbasic.php#general">General Features </a><br/>
                   <a href="dotnetbasic.php#domain">Domain Features</a><br/>
                   <a href="dotnetbasic.php#asp">ASP.NET 4/Classic ASP 3.0 Features</a><br/>
                   <a href="dotnetbasic.php#db">Database Features </a>
              
-              <p><a href="dotnetbasic.php"><strong>View Dotnet Basic Package</strong></a>
+              <p><a href="dotnetbasic.php"><strong>View .NET Basic Package</strong></a>
                
-              <h3>ASP.NET Professional&nbsp; Package </h3>
+              <h3>ASP.NET Professional&nbsp;</h3>
               <p>The ASP.NET Professional hosting package extends and enhances the features provided in the Basic package with more size, bandwidth, subdomains, features, more mailboxes and more web applications.</p>
               <p><strong>Browse By: </strong></p>
               <p><a href="dotnetpro.php#pricing1">Pricing Options </a><br/>
@@ -129,7 +117,7 @@ font:bold;
                 <a href="dotnetpro.php#email1">Email Features </a><br/>
                 <a href="dotnetpro.php#db1">Database Features</a>
               <p>              
-              <p><a href="dotnetpro.php"><strong>View Dotnet Professional Package</strong></a>
+              <p><a href="dotnetpro.php"><strong>View .NET Professional Package</strong></a>
               </div>
   </tr>
 </table>
