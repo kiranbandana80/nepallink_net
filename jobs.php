@@ -70,32 +70,105 @@ include_once("header.php");
     </div>
       <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td align="left" valign="top">
-      <div align="justify">
-        <blockquote>
-          <p>&nbsp;</p>
-          <p><a href="#online_sales_executive">Online Sales Executive  (Code: 0x104)</a><br>
-              <a href="#business_development_officer">Business Development Executive  (Code: 0x103)</a><br>
-                <a href="#web_application_developer">Web Application Developer (Code: 0x101)</a><br>
-                  </span><a href="#user_interface_designer">User Interface Designer (Code: 0x102) </a></p>
-        </blockquote>
-        <p>&nbsp;</p>
-    <p><strong><a name="online_sales_executive"></a><span class="style5">Online Sales Executive  (Code: 0x104) </span></strong></p>
-    <p>Please apply if you are only eligible for the require post </p>
-    <ul>
-      <li>You MUST have at least 1 years of experiences in Marketing and Public Relation field. Experienced in Web Hosting business is highly encouraged </li>
-      <li> Knowledge in MS Office, Internet Application, Social Networking. </li>
-      <li> Should be fluent in English and Nepali (Both reading and writing). </li>
-      <li> Good soft skill. </li>
-      <li> Self motivated and dynamic personality. </li>
-      <li>Attractive salary + other benefits. </li>
-    </ul>
-    <p>Eligible Candidates are highly encouraged to apply online by submitting resume in Microsoft Word document RTF format file or Adobe Acrobat reader (PDF) format file to jobs@nepallink.net along with their recent passport size photograph. </p>
-    <p><strong><a name="business_development_officer"></a><span class="style5">Business Development Executive  (Code: 0x103)</span> </strong><br>
-        <br>
-      The Executive of Business Development will be responsible for making our management and sales teams stronger in a market to sell our services. This is a position requiring telephone skills and administrative duties as well as good communication skill. Utilizes appropriate marketing and sales methodologies to develop new business in the field of technical support to web hosting companies, server administration, server management, web design, web development, Application Development business process outsourcing, Knowledge Process Outsourcing, Back Office Operation etc. for more details </p>
-    <p>Please contact at the following email:: jobs@nepallink.net</p>
-    <p>JOB SPECIFICATION </p>
+    <td align="left" valign="top"><div align="justify">
+        <p class="style5">Penetration Tester / Information Systems Security Specialist (Code: 0xfff) </p>
+        <p>Have you been trying to break into the Cyber Security career field?  Look no further because if you have  the ability to learn network security, this junior level position is for you!  We will pay for you to obtain the Certified Ethical Hacker credentials too. </p>
+        <p>Nepallink looking for Security Analysit who can evaluate the security of enterprise networks, applications, mobile devices, and data.  Your should go beyond simply enumerating vulnerabilities, you should assess them to understand the potential impact they pose our client&rsquo;s business. This real-world discovery approach allows us to work with our client to systematically back-track and lock down information, whether by removing a weakness, or adding protective controls.</p>
+        <p>You will actively exploit vulnerabilities and then then use what we find to help develop solutions that can secure the enterprise. Our assessment process includes three components:</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Provide consulting services in the discipline of vulnerability management.</li>
+          <li>Responsible for delivery and post-delivery support.</li>
+          <li>Provide delivery of specific vulnerability management and penetration testing services including: Network, System, Application, Mobile, traditional web, and wireless </li>
+          <li>Security Source Code Review</li>
+          <li>Secure Application Development Training</li>
+          <li>Participate in the development of new vulnerability management practice services</li>
+          <li>Provide presentations to clients</li>
+        </ul>
+        <p><strong>Qualifications</strong></p>
+        <ul>
+          <li>1+ years of experience delivering penetration testing consulting engagements</li>
+          <li>Red Team or Ethical Hacking experience</li>
+          <li>Experience delivering vulnerability management assessments and consulting</li>
+          <li>Must have outstanding written and verbal communication and formal presentation skills</li>
+          <li>Ability to work with clients effectively</li>
+          <li>Ability to continually refine the vulnerability offerings and deliverables</li>
+          </ul>
+        <p><strong>Desired Skills</strong></p>
+        <ul>
+          <li>Knowledge of Linux/Windows internals</li>
+          <li>Good knowledge of networking and network protocols</li>
+          <li>Scripting knowledge (Ruby/Python/Perl or anyone)</li>
+          <li>Knolwedge in firewall,filesystem etc..</li>
+          <li>Certifications such as CEH, OSCP, CISSP </li>
+        </ul>
+        <hr/>
+        <p class="style5"><a name="web_application_developer"></a>Web Apps Developer (Code: 0x101) </p>
+        <p>The ideal candidate will be an innovative web application developer who has a passion for user centric design and a desire to apply their creativity and technical knowledge to creating highly usable scalable consumer applications. Although we are looking for full-time candidate.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <p>- Ground-up Python/Java/PHP coding<br>
+          - Application and database development and Testing <br>
+          - Writing and revising of collaborative and functional specs <br>
+          - Working with visual designers and other developers to design complex user interfaces and data interactions<br>
+          - Work with product managers, visual designers, and other engineers to design the optimal user experience<br>
+          - Implement and deploy UI applications using Javascript Framework.</p>
+        <p><strong>Skills/Experience:</strong></p>
+        <p>- At least 2 years of Python/PHP/Java with solid Object Oriented Programming skill. <br>
+          - Experience in MySQL, PostgraSQL, Procedural and sound knowledge in Distributed Transaction.<br>
+          - Should have Experience in WebServices (REST)<br>
+          - Experienced with MVC Framework<br>
+          - Experience working closely with both front-end design teams and back-end technical teams. <br>
+          - Ability to adapt to pre-existing programming standards and also to develop new standards <br>
+          - Strong work ethic with pixel perfect attention to detail; team player with a positive attitude <br>
+          - Strong release management and documentation skills<br>
+          - Strong presentation and communication skills</p>
+        <p><strong>Education Requirements: </strong></p>
+        <p>Minimum Master or Bachelor Degree in Computer Science or equivalent. Education may be substituted with significant industry experience</p>
+        <hr/>
+        <p><span class="style5">Web Designer / Developer (Code: 0x101) </span>        </p>
+        <p>You must be an effective communicator who can lead web projects from start to finish, as well as collaborate with the  marketing team to see the bigger picture of digital marketing contributions from social, content marketing, advertising and other functions.</p>
+        <p><strong>Primary Responsibilities:</strong></p>
+        <ul>
+          <li>End-to-end ownership of the design, layout, coding, maintenance</li>
+          <li>Regularly update and maintain existing sites, including content updates, visual enhancements, landing page creation, and performance profiling/optimization</li>
+          <li>Develop, build and deliver memorable web experiences, including theme developing and optimizing existing themes, templates, and using plugins.</li>
+          <li>Improvement of web performance, increasing engagement, reducing friction, improving conversion</li>
+          <li>Deploy sites with mobile and responsive design/development</li>
+          <li>Implementing keyword and SEO strategies. Evaluating and altering strategies based on a comprehensive understanding of analytics</li>
+          <li>Communication to marketing, sales and management teams on strategy/project development, timelines, and results</li>
+          <li>Design stunning landing pages for our paid advertising and content marketing campaigns</li>
+          <li>Analyze and optimize web experiences connected through all digital marketing channels - SEO/SEM/Social/Content Marketing</li>
+          </ul>
+        <p><strong>Qualification</strong></p>
+        <ul>
+          <li>Minimum of 3 years&rsquo; of relevant work experience, including WordPress design, Web programming and custom themes.</li>
+          <li>Development expertise with custom plug-ins, theme development, widgets, and WordPress structure knowledge</li>
+          <li>Strong knowledge of HTML and CSS</li>
+          <li>Good understanding of jQuery, JavaScript, and PHP</li>
+          <li>Ability to troubleshoot problems with or add features to pre-existing and or pre-made themes</li>
+          <li>Experience with Marketo or similar marketing automation software a plus.</li>
+          <li>Is self-motivated with a positive attitude and strong communications skills</li>
+          <li>Ability to work within a deadline-oriented and fast paced team environment<br>
+          </li>
+          </ul>
+        <p><strong>Technical Skills</strong></p>
+        <ul>
+          <li>HTML 5</li>
+          <li>CSS 3</li>
+          <li>jQuery (Entry Level)</li>
+          <li>PHP 7 (Entry level)</li>
+          <li>2+ years&rsquo; experience in WordPress</li>
+          <li>1+ year experience with Adobe Creative Suite</li>
+          <li>SEO best practices</li>
+          <li>Google Analytics and basic understanding of UTM tracking</li>
+          <li>Digital Web Portfolio and code examples<br>
+          </li>
+        </ul>
+        <hr/>
+        <p><strong><a name="business_development_officer"></a><span class="style5">Business Development Executive  (Code: 0x103)</span> </strong><br>
+          <br>
+          The Executive of Business Development will be responsible for making our management and sales teams stronger in a market to sell our services. This is a position requiring telephone skills and administrative duties as well as good communication skill. Utilizes appropriate marketing and sales methodologies to develop new business in the field of technical support to web hosting companies, server administration, server management, web design, web development, Application Development business process outsourcing, Knowledge Process Outsourcing, Back Office Operation etc. for more details    </p>
+        <p>JOB SPECIFICATION </p>
     <ul>
       <li> Prospects continuously Business firms to have new projects through a variety of techniques, including telephone solicitation and cold calling. </li>
       <li> Maintains current list of all prospects in electronic database as specified by company. </li>
@@ -115,40 +188,12 @@ include_once("header.php");
       <li>Ability to interact effectively at all levels and across diverse cultures. </li>
       <li>Ability to be an effective team member and handle project assignments responsibly. </li>
       <li>Ability to adapt to changes in the external environment and organization. </li>
-      <li>Ambitious results-oriented individual with entrepreneurial drive. </li>
+      <li>Ambitious results-oriented individual with entrepreneurial drive.</li>
+      <li>Minimum Master or Bachelor Degree or equivalent. Education may be substituted with significant industry experience.</li>
     </ul>
-    <p>We are looking for several web application engineers and Web designer. These required post are not for the entry level programmer or designer. You must have at least 1 yrs of professional experiences in the mentioned field. And should have practical skill in AJAX and WebServices.  </p>
-    <p class="style5"> <a name="web_application_developer"></a>Web Application Developer (Code: 0x101) </p>
-    <p>Web Application Developer will be a key member of the small team driving the design and implementation of highly interactive web application with user friendly interfaces for state of the art technologies. The ideal candidate will be an innovative web application developer who has a passion for user centric design and a desire to apply their creativity and technical knowledge to creating highly usable scalable consumer applications. Although we are looking for full-time candidates, we will also consider qualified applicants for part-time consulting positions as well.</p>
-  <p><strong>Responsibilities:</strong></p>
-  <p>- Ground-up PHP coding, Integration of multiple PHP applications (3rd party, open source) <br>
-    - Convert legacy application written in ASP to PHP5 Object Oriented Model.<br>
-    - Application and database development and Testing <br>
-    - Writing and revising of collaborative and functional specs <br>
-    - Working with visual designers and other developers to design complex user interfaces and data interactions<br>
-    - Work with product managers, visual designers, and other engineers to design the optimal user experience<br>
-    - Implement and deploy UI applications using AJAX.</p>
-  <p><strong>Skills/Experience:</strong></p>
-  <p>- At least 2 years of PHP5 with solid Object Oriented Programming skill. <br>
-    - Experience in MySQL, PostgraSQL, Procedural and sound knowledge in Distributed Transaction.<br>
-    - Should have Experience in WebServices (SOAP, REST)<br>
-    - Experienced with MVC (i.e Zend Framework, Smarty ), XHTML, XML, CSS, AJAX, XSLT <br>
-    - Experience working closely with both front-end design teams and back-end technical teams. <br>
-    - Ability to adapt to pre-existing programming standards and also to develop new standards <br>
-    - Strong work ethic with pixel perfect attention to detail; team player with a positive attitude <br>
-    - Strong release management and documentation skills<br>
-    - Competent level in Photoshop and Flash; Illustrator a plus <br>
-    - User Interface design experience on desktop, web and/or mobile platforms <br>
-    - Excellent knowledge of working with Java and PHP related technologies i.e Smarty, PEAR and Zend Framework<br>
-    - Strong presentation and communication skills</p>
-  <p><strong>Education Requirements: </strong></p>
-  <p>Minimum Bachelor's Degree in Computer Science or equivalent</p>
-  <p class="style5"> <a name="user_interface_designer"></a>User Interface Designer (Code: 0x102) </p>
-  <p>You should acquire at least 2 yr professional experiences in the field of web design and flash development. You should have excellent skill in Flash, ActionScript, Photoshop and Industry leading web authoring tools like Dreamweaver, Frontpage. </p>
-  <p>Advanced Scripting knowledge such as PHP,ActionScript, JavaScript skill required.<br>
-    <br>
-    We are looking to hire immediately so apply now. Local candidates only. </p>
-  <p>Please have good examples of your previous work to show while explaining the details involved in their production. Send resume in RTF or PDF and URLs of work you have done. Drop at <a href="mailto:jobs@nepallink.net">jobs@nepallink.net</a> </p>
+    <p>We are looking for several web application engineers and Web designer. These required post are not for the entry level programmer or designer. You must have at least 1 yrs of professional experiences in the mentioned field. And should have practical skill in AJAX and WebServices.  .</p>
+    <hr/>
+    <p> Drop your r&eacute;sum&eacute; at <a href="mailto:jobs@nepallink.net">jobs@nepallink.net</a> </p>
   <p>&nbsp;</p>
         </div></td>
     <td width="10%" align="left" valign="top">&nbsp;</td>
