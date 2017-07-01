@@ -657,18 +657,6 @@ echo $adlink[1];
 <!-- VPS Hosting plan body end -->
 
 
-
-
-
-
-
-</td>
-    <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
-  </tr>
-</table>
-
-
-
 <!-- VPS Hosting plan body -->
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -807,6 +795,18 @@ echo $adlink[1];
 	
 </table>
 <!-- VPS Hosting plan body end -->
+
+
+
+
+
+</td>
+    <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
+  </tr>
+</table>
+
+
+
 
 
 
