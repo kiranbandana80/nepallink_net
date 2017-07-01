@@ -123,7 +123,7 @@ include_once("header.php");
     <td width="10%" align="left" valign="top">&nbsp;</td>
     <td width="80%" align="left" valign="top">
 <div align="justify">
-  <p>We accept payments through payment gateways like <strong>2Checkout</strong>, <strong>Paypal</strong>,&amp; <strong>Bank Transfer</strong>. You can also pay through Cheque.</p>
+  <p>We accept payments through payment gateways like <strong>Paypal</strong>,&amp; <strong>Bank Transfer</strong>. You can also pay through Cheque.</p>
   <p>Our paypal address is : <strong>payments@nepallink.net</strong> </p>
 <p><strong>You can transfer your payments in following banks:-</strong><br>
 <hr>
@@ -168,6 +168,9 @@ A/C No: 2501010000262<br/>
 eSewa id: 9841262275<Br/>
 eSewa Email: billing@nepallink.net<br/>
 </p>
+<hr>
+<p><strong>iPay.com.np</strong><br>
+  Uesr id: payment@nepallink.net</p>
 <hr>
 <p>
 <strong>Paypal Payment</strong><br/>

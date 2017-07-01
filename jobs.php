@@ -99,7 +99,7 @@ include_once("header.php");
           <li>Knowledge of Linux/Windows internals</li>
           <li>Good knowledge of networking and network protocols</li>
           <li>Scripting knowledge (Ruby/Python/Perl or anyone)</li>
-          <li>Knolwedge in firewall,filesystem etc..</li>
+          <li>Knowledge in firewall,file system etc..</li>
           <li>Certifications such as CEH, OSCP, CISSP </li>
         </ul>
         <hr/>
@@ -115,7 +115,7 @@ include_once("header.php");
         <p><strong>Skills/Experience:</strong></p>
         <p>- At least 2 years of Python/PHP/Java with solid Object Oriented Programming skill. <br>
           - Experience in MySQL, PostgraSQL, Procedural and sound knowledge in Distributed Transaction.<br>
-          - Should have Experience in WebServices (REST)<br>
+          - Should have Experience in Web Services (REST)<br>
           - Experienced with MVC Framework<br>
           - Experience working closely with both front-end design teams and back-end technical teams. <br>
           - Ability to adapt to pre-existing programming standards and also to develop new standards <br>
@@ -191,7 +191,7 @@ include_once("header.php");
       <li>Ambitious results-oriented individual with entrepreneurial drive.</li>
       <li>Minimum Master or Bachelor Degree or equivalent. Education may be substituted with significant industry experience.</li>
     </ul>
-    <p>We are looking for several web application engineers and Web designer. These required post are not for the entry level programmer or designer. You must have at least 1 yrs of professional experiences in the mentioned field. And should have practical skill in AJAX and WebServices.  .</p>
+    <p>We are looking for several web application engineers and Web designer. These required post are not for the entry level programmer or designer. You must have at least 1 yrs of professional experiences in the mentioned field. And should have practical skill in AJAX and Web Services.  .</p>
     <hr/>
     <p> Drop your r&eacute;sum&eacute; at <a href="mailto:jobs@nepallink.net">jobs@nepallink.net</a> </p>
   <p>&nbsp;</p>

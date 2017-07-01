@@ -94,8 +94,8 @@
 
  <tr>
       <td width="173" bgcolor="#EDF4F8">Data transfer (Monthly) </td>
-      <td ><div align="center">50TB</div></td>
-      <td><div align="center">100TB</div></td>
+      <td ><div align="center">20TB</div></td>
+      <td><div align="center">40TB</div></td>
       <td><div align="center">Unlimited</div></td>
       </tr>
 
@@ -122,25 +122,15 @@
       <td bgcolor="#ffffff"><p align="center"><strong>USD 150  </strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 200 </strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 300 </strong></td>
-      </tr>
+    </tr>
 
 
 <tr>
-      <td bgcolor="#EDF4F8">&nbsp;</td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-
+  <td bgcolor="#EDF4F8">Order Now</td>
+  <td><p align="center"><a href="order.php?plan=WIN_RESELLER_BRONZE"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
+  <td><p align="center"><a href="order.php?plan=WIN_RESELLER_GOLD"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
+  <td><p align="center"><a href="order.php?plan=WIN_RESELLER_PLANTINUM"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
 </tr>
-
-
-
-    <tr>
-      <td bgcolor="#EDF4F8">Order Now</td>
-      <td><p align="center"><a href="order.php?plan=WIN_RESELLER_BRONZE"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
-      <td><p align="center"><a href="order.php?plan=WIN_RESELLER_GOLD"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
-      <td><p align="center"><a href="order.php?plan=WIN_RESELLER_PLANTINUM"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
-      </tr>
     <tr>
       <td colspan="4" bgcolor="#EDF4F8">&raquo;&nbsp;<strong>Windows Server Reseller Hosting Features</strong></td>
       </tr>
@@ -374,19 +364,13 @@
       <td bgcolor="#ffffff"><div align="center">Shared </div></td>
       <td bgcolor="#ffffff"><div align="center"> 1 IPv4</div></td>
       <td bgcolor="#ffffff"><div align="center">2 IPv4 </div></td>
-      </tr>
-    <tr>
-      <td bgcolor="#EDF4F8">&nbsp;</td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://plesk11.demo.parallels.com:8443/login_up.php3?passwd=panel&locale_id=default&login_name=admin" target="_blank">Online Demo</a> </strong></div></td>
-      </tr>
+    </tr>
     <tr>
       <td bgcolor="#EDF4F8"><strong>Yearly Price</strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 150  </strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 200 </strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 300 </strong></td>
-      </tr>
+    </tr>
     <tr>
       <td bgcolor="#EDF4F8">Order Now</td>
       <td><p align="center"><a href="order.php?plan=WIN_RESELLER_BRONZE"><img src="images/order_green.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>

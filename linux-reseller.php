@@ -109,10 +109,17 @@
     </tr>
     <tr>
       <td width="173" bgcolor="#EDF4F8">Bandwidth</td>
-      <td width="119"><div align="center">200000GB</div></td>
-      <td width="105"><div align="center">400000GB</div></td>
-      <td width="105"><div align="center">600000GB</div></td>
-      <td width="112"><div align="center">Unmetered</div></td>
+      <td width="119"><div align="center">200Mbps</div></td>
+      <td width="105"><div align="center">300Mbps</div></td>
+      <td width="105"><div align="center">500Mbps</div></td>
+      <td width="112"><div align="center">1Gbps</div></td>
+    </tr>
+     <tr>
+      <td width="173" bgcolor="#EDF4F8">Data Transfer</td>
+      <td width="119"><div align="center">10TB</div></td>
+      <td width="105"><div align="center">20TB</div></td>
+      <td width="105"><div align="center">Unlimited</div></td>
+      <td width="112"><div align="center">Unlimited</div></td>
     </tr>
     <tr>
       <td width="173" bgcolor="#EDF4F8">Domain Limit</td>
@@ -129,7 +136,7 @@
       <td width="112"><div align="center"><img src="images/tick.gif" name="graphics4" width="16" height="16" border="0" align="bottom" id="graphics4" /> </div></td>
     </tr>
     <tr>
-      <td bgcolor="#EDF4F8"><a href="http://domain.nepallink.info/" target="_blank">Domain Management CP</a></td>
+      <td bgcolor="#EDF4F8">Domain Management CP</td>
       <td><div align="center"><img src="images/tick.gif" alt="Domain Manage CP. Register, Transfer, Update your domain." name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
       <td><div align="center"><img src="images/tick.gif" alt="Domain Manage CP. Register, Transfer, Update your domain." name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
       <td><div align="center"><img src="images/tick.gif" alt="Domain Manage CP. Register, Transfer, Update your domain." name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /> </div></td>
@@ -144,7 +151,7 @@
     </tr>
     <tr>
       <td bgcolor="#EDF4F8"><strong>Yearly Price</strong></td>
-      <td bgcolor="#ffffff"><p align="center"><strong>USD  150</strong></td>
+      <td bgcolor="#ffffff"><p align="center"><strong>USD 150</strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 200 </strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 250 </strong></td>
       <td bgcolor="#ffffff"><p align="center"><strong>USD 350 </strong></td>
@@ -153,10 +160,10 @@
 
 <tr>
       <td bgcolor="#EDF4F8">&nbsp;</td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="http://demo.cpanel.net:2086/login/?user=demo&pass=demo" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="http://demo.cpanel.net:2086/login/?user=demo&pass=demo" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="http://demo.cpanel.net:2086/login/?user=demo&pass=demo" target="_blank">Online Demo</a> </strong></div></td>
-      <td bgcolor="#ffffff"><div align="center"><strong><a href="http://demo.cpanel.net:2086/login/?user=demo&pass=demo" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
+      <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
     </tr>
 
 
@@ -197,11 +204,11 @@
       <td><div align="center"><img src="images/tick.gif" alt="Private Name Server" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
     </tr>
     <tr>
-      <td bgcolor="#EDF4F8">PHP 5 with Zend  Optimizer</td>
-      <td><div align="center"><img src="images/tick.gif" alt="PHp5 with Zend Optimizer" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
-      <td><div align="center"><img src="images/tick.gif" alt="PHp5 with Zend Optimizer" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
-      <td><div align="center"><img src="images/tick.gif" alt="PHp5 with Zend Optimizer" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
-      <td><div align="center"><img src="images/tick.gif" alt="PHp5 with Zend Optimizer" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
+      <td bgcolor="#EDF4F8">Multi-PHP version (5.5 to Latest version)</td>
+      <td><div align="center"><img src="images/tick.gif" alt="Multi-PHP version (5.5 to Latest version)" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
+      <td><div align="center"><img src="images/tick.gif" alt="Multi-PHP version (5.5 to Latest version)" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
+      <td><div align="center"><img src="images/tick.gif" alt="Multi-PHP version (5.5 to Latest version)" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
+      <td><div align="center"><img src="images/tick.gif" alt="Multi-PHP version (5.5 to Latest version)" name="graphics1" width="16" height="16" border="0" align="bottom" id="graphics1" /></div></td>
     </tr>
     
     <tr>
@@ -226,7 +233,7 @@
       <td width="112"><div align="center">Unlimited</div></td>
     </tr>
     <tr>
-      <td width="173" bgcolor="#EDF4F8">POP3 Mail accounts</td>
+      <td width="173" bgcolor="#EDF4F8">POP3/IMAP Mail accounts</td>
       <td width="119"><div align="center">Unlimited</div></td>
       <td width="105"><div align="center">Unlimited</div></td>
       <td width="105"><div align="center">Unlimited</div></td>
@@ -261,14 +268,14 @@
       <td width="112"><div align="center"><img src="images/tick.gif" name="graphics16" width="16" height="16" border="0" align="bottom" id="graphics16" /> </div></td>
     </tr>
     <tr>
-      <td width="173" bgcolor="#EDF4F8">FrontPage Support</td>
+      <td width="173" bgcolor="#EDF4F8">SSL Certificate</td>
       <td width="119"><div align="center"><img src="images/tick.gif" name="graphics17" width="16" height="16" border="0" align="bottom" id="graphics17" /> </div></td>
       <td width="105"><div align="center"><img src="images/tick.gif" name="graphics18" width="16" height="16" border="0" align="bottom" id="graphics18" /> </div></td>
       <td width="105"><div align="center"><img src="images/tick.gif" name="graphics19" width="16" height="16" border="0" align="bottom" id="graphics19" /> </div></td>
       <td width="112"><div align="center"><img src="images/tick.gif" name="graphics20" width="16" height="16" border="0" align="bottom" id="graphics20" /> </div></td>
     </tr>
     <tr>
-      <td width="173" bgcolor="#EDF4F8">Server Side Includes</td>
+      <td width="173" bgcolor="#EDF4F8">SSH Access</td>
       <td width="119"><div align="center"><img src="images/tick.gif" name="graphics21" width="16" height="16" border="0" align="bottom" id="graphics21" /> </div></td>
       <td width="105"><div align="center"><img src="images/tick.gif" name="graphics22" width="16" height="16" border="0" align="bottom" id="graphics22" /> </div></td>
       <td width="105"><div align="center"><img src="images/tick.gif" name="graphics23" width="16" height="16" border="0" align="bottom" id="graphics23" /> </div></td>
@@ -517,9 +524,9 @@
         <tr>
           <td>
             <p align="left"><strong><a name="raid_1">RAID-1 Storage</a> </strong>:</p>
-            <p align="left"> RAID-1 provides a simple form of redundancy for data through a process called mirroring. It offer redundancy, increase in performance a and reliability. </p>
+            <p align="left"> RAID-1 provides a simple form of redundancy for data through a process called mirroring. It offer redundancy, increase in performance and reliability. </p>
             <p align="left"><strong><a name="mysql_slave">MySQL Slave Server</a> </strong>:</p>
-            <p align="left">MySQL Slave is replicated instances for MySQL Master. MySQL Master is your primary database server where you make data changes. Slave is exact relicat of Master. Slave can be used for read only operation or backup. It can increase the read performance of your web application.</p>
+            <p align="left">MySQL Slave is replicated instances for MySQL Master. MySQL Master is your primary database server where you make data changes. Slave is exact relica of Master. Slave can be used for read only operation or backup. It can increase the read performance of your web application.</p>
             <p align="left"><strong><a name="high_perform">High Performance PHP Server</a></strong>:<br>
                   <br>
              We have designed our server to scale the php application fastest possible way. We offer latest PHP with solid opcode level caching. We also offer you profiling tools to analyze your application performance in the server. Our clustered PHP server are balance across multiple servers, all php requests dispatched to number of different PHP servers to execute the scripts.</p>
@@ -530,12 +537,12 @@
             <p align="left">
             </p>
 <p align="left"><strong><a name="custom_ruby">Custom Ruby Server</a></strong>:</p>
-              <p align="left">Looking for High Performance Application Server. May be it Thin, ngnix+unicorn, Passenger or WebROaR or GlassFish. We have all for you right in our platform.
+              <p align="left">Looking for High Performance Application Server. May be it Thin, ngnix+unicorn, Passenger or GlassFish. We have all for you right in our platform.
 </p>
             <p align="left"><strong><a name="cache_server">Cache Server*</a> </strong>:</p>
-            <p align="left">Cache server improve the response time and the overall performance of your websites and can further scale the traffics. Once you activate the cache server, you will immediately observe the improvement. Our cache servers are hosted in SSD powered servers. For Platinum customer, we offer 2GB/4GB/8GB dedicated distributed memcached server.</p>
+            <p align="left">Cache server improve the response time and the overall performance of your websites and can further scale the traffics. Once you activate the cache server, you will immediately observe the improvement. Our cache servers are hosted in SSD powered servers. For Platinum customer, we offer 2GB/4GB/8GB  <a href='https://varnish-cache.org/' target='_blank'>Varnish cache server</a>.</p>
             <p align="left"><strong><a name="dedicated_ip">Dedicated IP address</a>  </strong>:</p>
-            <p align="left">We offer you dedicated static IP address for exclusively granted for your reseller userid. You can create reverse DNS and host SSL websites.
+            <p align="left">We offer  dedicated static IP address for exclusively granted for your reseller userid. You can create reverse DNS and host SSL websites.
 </p>
             <p align="left"><strong><a name="premium_support">Premium Support </a></strong>:</p>
             <p align="left"><a href="support_service.php">Visit this </a>to learn more about <a href="support_service.php">Premium Support</a>.</p>
@@ -561,6 +568,21 @@ High Available and scalalbe.</p>
 
             <p align="left"><strong><a name="high_available_mail">High Available Mail Server</a> </strong>:</p>
             <p align="left">All Nepalilnk Mail server Highly available and clustered across more than 5 datacenters(US-east, US-west, Canada, Germany)</p>
+            
+            <p align="left"><strong><a name="high_available_mail">Secured Apache HTTPD and PHP</a> </strong>:</p>
+            <p align="left">Reseller servers are configured for better security. Apache httpd and php servers
+            are harded with custom settings. We regulary audit and pentest our servers. Vulnerable issues in
+            well known CMS are reported to reseller with possible resolutions approach.</p>
+            
+            
+            <p align="left"><strong><a name="high_available_mail">Multi-PHP version</a> </strong>:</p>
+            <p align="left">Reseller servers offers multiple PHP version. Our PHP version starts from 5.5 to the latest stable version</p>
+
+  <p align="left"><strong><a name="high_available_mail">Free SSL Certificates</a> </strong>:</p>
+            <p align="left">ALl Reseller can issue SSL certificates free of cost. You never have to
+            get self-signed certificated. Get green bar valid SSL certificates for life.</p>
+
+
 
 
 
@@ -572,11 +594,6 @@ High Available and scalalbe.</p>
 
 
 
-<!--
-    <tr>
-      <td height="90" colspan="5" align="center" bgcolor="#FFFFFF"> <div class="signupnow"> <a href="/signup/reseller/">30-day money back gurnate</a></div></td>
-      </tr>
--->
   </table>
 </div></td>
     <td width="5%" align="left" valign="top">&nbsp;</td>

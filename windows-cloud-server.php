@@ -18,7 +18,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="775">
   <tr>
     <td width="14" align="left" valign="top" background="images/left.gif"></td>
-    <td width="756" align="right" valign="middle" bgcolor="#E5E7E8" height="20">VPS Perfect for Reseller & high traffic websites. Host any application you want.</td>
+    <td width="756" align="right" valign="middle" bgcolor="#E5E7E8" height="20">Windows  Cloud Server is Perfect for Reseller & high traffic websites.</td>
     <td width="14" align="left" valign="top" background="images/right.gif"></td>
   </tr>
 </table>
@@ -54,7 +54,7 @@
     
     <td width="60%" align="left" valign="top">
 	 <div id="vps_banner" align="center"><br>
-	  	<h1>Linux Cloud Servers</h1>
+	  	<h1>Windows Cloud Servers</h1>
 	  	
       </div>
 	  <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -63,14 +63,15 @@
     <td width="80%" align="left" valign="top">
 <div align="justify">
   
-      <p><br>
-Nepallink VPS offers dedicated high performance resources with root level
-access to install everything your applications need. It provide dedicated processor cycles, dedicated
+      <p align="center"><img src="images/windows-reseller-header-image.jpg" width="574" height="94" alt=""/>
+      <p>
+Nepallink Windows Cloud Server offers dedicated high performance resources with root level
+access to install everything your Windows applications need. It provide dedicated processor cycles, dedicated
 memory and dedicated storage. You can choose the resources you need, share nothing and control
-everything. Powered by KVM, Xen, LXC, OpenVZ, the most efficient OS Virtualization technology available.
-Keep a close eye on your server's performance with real-time resource statistics including memory,
+everything. Powered by KVM &amp; Xen, the most efficient OS Virtualization technology available.
+The package comes with managed support. Our Platform operation engineers keep a close eye on your server's performance with real-time resource statistics including memory,
 cpu, and network utilization.
-     </p>
+    
       <table width="696" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF">
     <col width="173" />
     <col width="119" />
@@ -88,24 +89,17 @@ cpu, and network utilization.
       </tr>
     <tr>
       <td width="203" bgcolor="#EDF4F8"> RAM</td>
-      <td width="141"><div align="center">2GB</div></td>
       <td width="141"><div align="center">4GB</div></td>
-      <td width="174"><div align="center">8GB</div></td>
-      </tr>
+      <td width="141"><div align="center">8GB</div></td>
+      <td width="174"><div align="center">16GB</div></td>
+    </tr>
 
  <tr>
-      <td width="203" bgcolor="#EDF4F8">Burstable RAM</td>
-      <td width="141"><div align="center">3GB</div></td>
-      <td width="141"><div align="center">6GB</div></td>
-      <td width="174"><div align="center">12GB</div></td>
-  </tr>
-
-    <tr>
-      <td bgcolor="#EDF4F8">CPU</td>
-      <td><div align="center">1.5GHz</div></td>
-      <td><div align="center">3GHz</div></td>
-      <td><div align="center">4GHz</div></td>
-    </tr>
+   <td bgcolor="#EDF4F8">CPU</td>
+   <td><div align="center">1.5GHz</div></td>
+   <td><div align="center">2.5GHz</div></td>
+   <td><div align="center">2.5GHz</div></td>
+ </tr>
 
   <tr>
       <td bgcolor="#EDF4F8">CPU core</td>
@@ -117,38 +111,37 @@ cpu, and network utilization.
     
     <tr>
       <td bgcolor="#EDF4F8">Disk Space </td>
-      <td><div align="center">80GB</div></td>
-      <td><div align="center">200GB</div></td>
-      <td><div align="center">1TB</div></td>
+      <td><div align="center">20GB</div></td>
+      <td><div align="center">40GB</div></td>
+      <td><div align="center">100GB</div></td>
       </tr>
     
     <tr>
+      <td bgcolor="#EDF4F8">Network Speed</td>
+      <td><div align="center">500Mbps uplink</div></td>
+      <td><div align="center">1Gbps uplink</div></td>
+      <td><div align="center">1Gbps uplink</div></td>
+    </tr>
+    <tr>
       <td width="203" bgcolor="#EDF4F8">Data Transfer</td>
-      <td width="141"><div align="center">Unlimited</div></td>
-      <td width="141"><div align="center">Unlimited</div></td>
-      <td width="174"><div align="center">Unlimited</div></td>
+      <td width="141"><div align="center">10TB</div></td>
+      <td width="141"><div align="center">30TB</div></td>
+      <td width="174"><div align="center">100TB</div></td>
       </tr>
     <tr>
       <td width="203" bgcolor="#EDF4F8">Free Static IP </td>
       <td width="141"> <div align="center">1</div></td>
       <td width="141"><div align="center">2</div></td>
       <td width="174"><div align="center">3</div></td>
-      </tr>
-    <tr>
-      <td width="203" bgcolor="#EDF4F8">Network Ports </td>
-      <td width="141"><div align="center">500 Mbps </div></td>
-      <td width="141"><div align="center">500 Mbps </div></td>
-      <td width="174"><div align="center">1000 Mbps</div></td>
-      </tr>
-    
+    </tr>
     <tr>
       <td bgcolor="#EDF4F8">Control panel </td>
-      <td><div align="center"><a href='http://www.zpanelcp.com/'  target='_blank'>zPanel</a>/ <a href='http://www.ispconfig.org/page/home.html' target='_blank'>ISPConfig</a></div></td>
-      <td><div align="center"><a href='https://cpanel.net/demo/' target='_blank'>cPanel</a> / <a href='http://www.parallels.com/products/plesk/' target='_blank'>Plesk</a></div></td>
-      <td><div align="center"><a href='https://cpanel.net/demo/' target='_blank'>cPanel</a> / <a href='http://www.parallels.com/products/plesk/' target='_blank'>Plesk</a></div></td>
-      </tr>
+      <td><div align="center"><a href='http://www.zpanelcp.com/'  target='_blank'>N/A</a><a href='http://www.ispconfig.org/page/home.html' target='_blank'></a></div></td>
+      <td><div align="center"><a href='https://cpanel.net/demo/' target='_blank'>N/A</a><a href='http://www.parallels.com/products/plesk/' target='_blank'></a></div></td>
+      <td><div align="center"><a href='http://www.parallels.com/products/plesk/' target='_blank'>Plesk</a></div></td>
+    </tr>
     <tr>
-      <td bgcolor="#EDF4F8">Root SSH Access </td>
+      <td bgcolor="#EDF4F8">Remote Desktop Connection</td>
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
@@ -169,26 +162,25 @@ cpu, and network utilization.
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
       </tr>
     <tr>
-      <td bgcolor="#EDF4F8">VPS Control Panel </td>
+      <td bgcolor="#EDF4F8"> MSSQL Server (Express Edition)</td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
     </tr>
     <tr>
-      <td bgcolor="#EDF4F8">Self OS Reload </td>
+      <td bgcolor="#EDF4F8">24x7 Server Monitoring</td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
     </tr>
     <tr>
-      <td bgcolor="#EDF4F8">VPS Reboot </td>
-      <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
-      <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
-      <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
+      <td bgcolor="#EDF4F8">Datacenter</td>
+      <td align="center" bgcolor="#ffffff">US/Europe</td>
+      <td align="center" bgcolor="#ffffff">US/Europe</td>
+      <td align="center" bgcolor="#ffffff">US/Europe</td>
     </tr>
     <tr>
-      <td bgcolor="#EDF4F8">Gentoo / Redhat/ SuSe / Fedora<br>
-        FreeBSD/Gentoo/CentOS</td>
+      <td bgcolor="#EDF4F8">Windows  Server 2012 (Trial license)</td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
       <td align="center" bgcolor="#ffffff"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></td>
@@ -222,31 +214,25 @@ cpu, and network utilization.
       <td align="center" bgcolor="#ffffff"><p align="center">USD 660 </td>
       <td align="center" bgcolor="#ffffff"><p align="center">USD 960</td>
       <td align="center" bgcolor="#ffffff"><p align="center">USD 1440 </td>
-      </tr>
+    </tr>
 
  <tr>
-      <td bgcolor="#EDF4F8"><strong>Discount Coupon* </strong></td>
-      <td align="center" bgcolor="#ffffff"><p align="center"> <img src="images/bronze_disc.gif"></td>
-      <td align="center" bgcolor="#ffffff"><p align="center"> <img src="images/gold_disc.gif"></td>
-      <td align="center" bgcolor="#ffffff"><p align="center"> <img src="images/plat_disc.gif"> </td>
-      </tr>
-    <tr>
-      <td bgcolor="#EDF4F8">Order Now&gt;&gt;</td>
-      <td><p align="center"><a href="order.php?plan=VPS_BRONZE"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
-      <td><p align="center"><a href="order.php?plan=VPS_GOLD"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
-      <td><p align="center"><a href="order.php?plan=VPS_PLANTINUM"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
-      </tr>
+   <td bgcolor="#EDF4F8">Order Now&gt;&gt;</td>
+   <td><p align="center"><a href="order.php?plan=WIN_CLOUD_BRONZE"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
+   <td><p align="center"><a href="order.php?plan=WIN_CLOUD_GOLD"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
+   <td><p align="center"><a href="order.php?plan=WIN_CLOUD_PLANTINUM"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
+ </tr>
 <!--
     <tr>
       <td height="90" colspan="5" align="center" bgcolor="#FFFFFF"> <div class="signupnow"> <a href="/signup/reseller/">30-day money back gurnate</a></div></td>
       </tr>
 -->
   </table>
-      <strong>* Price include Control Panel (CP) license  for one VPS. Without CP, Get 10USD less in all VPS price. </strong><br>
+      <br>
       <br>
             <table width="685" border="0">
         <tr>
-          <td width="679" bgcolor="#EDF4F8"><p align="left">&raquo; <strong>VPS Benefits Over Shared Hosting </strong></p></td>
+          <td width="679" bgcolor="#EDF4F8"><p align="left">&raquo; <strong>Cloud Server  Benefits Over Shared Hosting </strong></p></td>
         </tr>
         <tr>
           <td><p align="left"><strong>Isolation</strong>:</p>
@@ -262,7 +248,7 @@ cpu, and network utilization.
               You get static IP address just for your website.</p>
             <p align="left"><strong>Dedicated license for cPanel or Plesk</strong>:<br>
                   <br>
-              You get exclusive license to use cPanel or Plesk. You can host up to 50 or unlimited website depend upon your license type.</p>
+              You get exclusive license to use   Plesk. You can host up to 50 or unlimited website depend upon your license type.</p>
             <p align="left"><br>
             </p></td>
         </tr>
@@ -271,35 +257,26 @@ cpu, and network utilization.
           <td bgcolor="#EDF4F8">&raquo; <strong>Supported Operating Systems </strong></td>
         </tr>
         <tr>
-          <td height="37" valign="middle" bgcolor="#FFFFFF"><img src="images/centos.png" width="120" height="38" alt="CentOS"> <img src="images/debian.png" width="87" height="42" alt="Debian"> <img src="images/fedora.png" width="105" height="44" alt="Fedora Linux"> <img src="images/gentoo.png" width="64" height="47" alt="Gentoo Linux"> <img src="images/ubuntu.png" width="82" height="46" alt="Ubuntu"><br></td>
+          <td height="37" valign="middle" bgcolor="#FFFFFF"><p><img src="images/hosting/windows1.jpg" width="127" height="35" alt=""/></p>
+            <p><strong>Windows Sever License Pricing</strong></p>
+            <p>Windows Server 2012 Standard Edition : USD 35/monthly<br>
+              Windows Server 2012 Datacenter Edition : USD 120/monthly          </p>
+            <p><br>
+            </p></td>
         </tr>
         <tr>
-          <td bgcolor="#EDF4F8">&raquo; <strong>Control Panel </strong> (Included in VPS price)</td>
+          <td bgcolor="#EDF4F8">&raquo; <strong>Control Panel </strong></td>
         </tr>
         <tr>
-          <td bgcolor="#FFFFFF"><img src="images/cpanel.gif" width="105" height="39" alt="cPanel"> <img src="images/plesk_logo.gif" width="135" height="42" alt="Plesk"> <img src="images/dadmin.gif" width="105" height="39" alt="DirectAdmin"><br></td>
+          <td bgcolor="#FFFFFF"><p><img src="images/windows/PleskOnyxLogo.jpg" width="200" height="47" alt=""/></p>
+            <p>Plesk for Cloud server : USD 15/monthly</p>
+            <p><br>
+              </p></td>
         </tr>
-
 
      <tr>
-          <td bgcolor="#EDF4F8">&raquo; <strong>Control Panel Addons</strong></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFFFF">            <p><strong>cPanel &amp; DirectAdmin </strong> <strong>Addon</strong> <br>
-            Fantastico Deluxe Add-on- $6/MONTH<br>
-            Softaculous Add-on- $6/MONTH</p>
-            <p><strong>Plesk Addon </strong><br>
-              100 Domain License - $20/MONTH<br>
-                Unlimited License - $30/MONTH<br>
-                Power Pack-Adon - $12/MONTH<br>
-                Language Pack Addon- $9/MONTH
-                <br>
-                <br>
-            </p>            </td>
-        </tr>
-        <tr>
-          <td bgcolor="#EDF4F8">&raquo; <strong>Cloud Server Addons</strong></td>
-        </tr>
+       <td bgcolor="#EDF4F8">&raquo; <strong>Cloud Server Addons</strong></td>
+     </tr>
 
 
 <div class="clr"></div>

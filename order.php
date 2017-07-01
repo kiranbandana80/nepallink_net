@@ -24,7 +24,10 @@ $order_map = array (
 "DON_NET_BASIC"=>"http://client.nepallink.net/cart.php?a=add&pid=16",
 "JAVA_PRIVATE_HOSTING"=>"http://client.nepallink.net/cart.php?a=add&pid=21",
 "DON_NET_PROFESSIONAL"=>"http://client.nepallink.net/cart.php?a=add&pid=17",
-"UNLIMITED_SSD"=>"https://client.nepallink.net/cart.php?a=add&pid=182"
+"UNLIMITED_SSD"=>"https://client.nepallink.net/cart.php?a=add&pid=182",
+"WIN_CLOUD_BRONZE"=>"https://client.nepallink.net/cart.php?a=add&pid=70",
+"WIN_CLOUD_GOLD"=>"https://client.nepallink.net/cart.php?a=add&pid=71",
+"WIN_CLOUD_PLANTINUM"=>"https://client.nepallink.net/cart.php?a=add&pid=72",
 );
 
 if (array_key_exists($product_id, $order_map)) {
@@ -207,23 +210,33 @@ return false;
 Sales:</b>&nbsp; <a href="mailto:sales@nepallink.net">
     sales(at)nepallink.net</a><br>
 Billing:</b> <a href="mailto:billing@nepallink.net">
-    billing(at)nepallink.net</a> <br><br>
-<b>Cell:</b> 9841262275</big><br/>
-<b>Phone:</b>+977.1.4417360<br><br>
-
-    Keshar Mahal<br>
-    Thamel, Kathmandu<br>
-    Nepal<Br>
+    billing(at)nepallink.net</a> <br>
+    <table border="0" cellpadding="4" cellspacing="0" width="80%">
+      <tbody>
+        <tr>
+          <td width="48%"><p><strong>Phone</strong>&nbsp;+977-1-4260822<br>
+            <strong>Phone:</strong>&nbsp;+977-1-4267994<br>
+            <strong>Cell:&nbsp;</strong>+977-9841262275<br>
+            </p></td>
+          </tr>
+        <tr>
+          <td width="48%"><strong>Nepal Office Address</strong><br>
+            Link Road, Khusibu<br>
+            Kathmandu - 17<br>
+            Nepal</td>
+          </tr>
+        <tr>
+          <td><p><strong>India Office Address<br>
+          </strong>Plot no:102 hyline complex Banjarahills Road no:12, Hyderabad 500034 Landline number 9140-65457272</p></td>
+          </tr>
+        </tbody>
+    </table>
+    <br><Br>
 </div>
 </ul>
 <br>
 	<ul>
-	<div align="justify">
-It is our desire to ensure that you are completely satisfied with our services. We are dedicated to provide timely and accurate answers to your inquiries. You may use our e-mail or call us anytime to contact us. You are always welcome to post questions on any related topic and our customer support team will respond immediately to these requests. 
-<br><br>
-If you have any questions or comments, or if you would like more information on our services, please fill out the form provided, and we will get back to you as soon as possible.
- </div>
-<br>
+	  <br>
 <img src="images/contact.jpg" border="0" alt="We are just behind you! Knock us!!">
 <br><br>
 Want support? get it <a href="support.php"><b>here</b></a>.
