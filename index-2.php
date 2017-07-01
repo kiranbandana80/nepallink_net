@@ -658,6 +658,53 @@ echo $adlink[1];
 
 
 
+
+
+
+
+</td>
+    <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+<!-- VPS Hosting plan body -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="200" align="left" valign="top" rowspan="3">
+<!-- Special Offer -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ 
+  <tr>
+    <td width="8%" align="left" valign="top">&nbsp;</td>
+    <td width="95%" align="left" valign="top" >
+
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+  <tr>
+    <td class=" border_race" bgcolor="#F3F4F6" border="#333333">
+<a href="vps.php"><img src="images/vps_started_cloud.gif" valign="top" border="0" alt="Cheap VPS Hosting"> </a><br>
+<li type="square"><b>20GB</b> HDD </li>
+<li type="square">1.5Ghz CPU</li>
+<li type="square">512 MB RAM</li>
+<li type="square">1GB Burstable RAM </li>
+<li type="square">1TB/month Bandwidth</li>
+<li type="square">zPanel Loaded</li>
+<li type="square">Linux OS (5 flavors)</li>
+<li type="square">1 Static IP </li>
+<li type="square">10Mbps Network port </li>
+<li type="square">USD 10/month</li>
+<a href='order.php?plan=VPSFES010'> 
+<img class="img_padding_1" src="images/order_green.gif" border="0"/></a></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+
+
+
+
 <!-- Special Offer end --></td>    
     <td width="22" align="left" valign="top">&nbsp;</td>        
     <td width="160" align="left" valign="top" class="rightborder">
@@ -772,6 +819,7 @@ echo $adlink[1];
   </tr>
 </table>
 
+<!-- windows vps end -->
 
 
 
