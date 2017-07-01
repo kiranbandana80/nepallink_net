@@ -533,9 +533,9 @@ echo $adlink[1];
   <tr>
     <td class=" border_race" bgcolor="#F3F4F6" border="#333333">
 <a href="vps.php"><img src="images/vps_started_cloud.gif" valign="top" border="0" alt="Cheap VPS Hosting"> </a><br>
+<li type="square">512 MB RAM</li>
 <li type="square"><b>20GB</b> HDD </li>
 <li type="square">1.5Ghz CPU</li>
-<li type="square">512 MB RAM</li>
 <li type="square">1GB Burstable RAM </li>
 <li type="square">1TB/month Bandwidth</li>
 <li type="square">zPanel Loaded</li>
@@ -657,7 +657,7 @@ echo $adlink[1];
 <!-- VPS Hosting plan body end -->
 
 
-<!-- VPS Hosting plan body -->
+<!-- Windows Cloud server Hosting plan body -->
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
@@ -672,18 +672,19 @@ echo $adlink[1];
 <table border="0" cellpadding="0" cellspacing="0" width="85%">
   <tr>
     <td class=" border_race" bgcolor="#F3F4F6" border="#333333">
-<a href="vps.php"><img src="images/vps_started_cloud.gif" valign="top" border="0" alt="Cheap VPS Hosting"> </a><br>
-<li type="square"><b>20GB</b> HDD </li>
-<li type="square">1.5Ghz CPU</li>
-<li type="square">512 MB RAM</li>
-<li type="square">1GB Burstable RAM </li>
-<li type="square">1TB/month Bandwidth</li>
-<li type="square">zPanel Loaded</li>
-<li type="square">Linux OS (5 flavors)</li>
+<a href="/windows-cloud-server.php"><img src="images/win-cloud-server-bronze.gif" valign="top" border="0" alt="Cheap VPS Hosting"> </a><br>
+<li type="square">1GB RAM</li>
+<li type="square">Intel® Xeon® E5</li>
+<li type="square">1 vCore</li>
+<li type="square"><b>20GB</b> HDD RAID-1</li>
 <li type="square">1 Static IP </li>
+<li type="square">50Mbps Bandwidth</li>
+<li type="square">5TB Data transfer</li>
+<li type="square">Windows 10 (Trial)</li>
+<li type="square"> <a href="/support_service.php" target="_blank">Premium Support</a></li>
 <li type="square">10Mbps Network port </li>
-<li type="square">USD 10/month</li>
-<a href='order.php?plan=VPSFES010'> 
+<li type="square">USD 20/month</li>
+<a href='order.php?plan=WIN_CLOUD_STARTER'> 
 <img class="img_padding_1" src="images/order_green.gif" border="0"/></a></td>
   </tr>
 </table></td>
@@ -696,7 +697,7 @@ echo $adlink[1];
 <!-- Special Offer end --></td>    
     <td width="22" align="left" valign="top">&nbsp;</td>        
     <td width="160" align="left" valign="top" class="rightborder">
-	<a href='/vps.php'><img src="images/vps-bronze_diff_1.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a></td>
+	<a href='/windows-cloud-server.php'><img src="images/win-cloud-server-bronze.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a></td>
 
 
 
@@ -704,10 +705,10 @@ echo $adlink[1];
 
 <td width="36" align="left" valign="top">&nbsp;</td>
        <td width="160" align="left" valign="top" class="rightborder">
-<a href='/vps.php'><img src="images/vps-gold_diff_2.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a><a href='/Nepal_Web_Hosting_Gold'></a></td>
+<a href='/windows-cloud-server.php'><img src="images/win-cloud-server-gold.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a><a href='/Nepal_Web_Hosting_Gold'></a></td>
 
     <td width="36" align="left" valign="top">&nbsp;</td>                
-    <td width="160" align="left" valign="top" class="rightborder"><a href='/vps.php'><img src="images/vps-plat_diff_3.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a><a href='/Nepal_Web_Hosting_Plantnium'></a></td>
+    <td width="160" align="left" valign="top" class="rightborder"><a href='/windows-cloud-server.php'><img src="images/win-cloud-server-platinum.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a><a href='/Nepal_Web_Hosting_Plantnium'></a></td>
 </tr>
   <tr>
     <td width="22" align="left" valign="top">&nbsp;</td>        
@@ -717,17 +718,18 @@ echo $adlink[1];
   <tr>
     <td width="5%" align="left" valign="top">&nbsp;</td>
     <td width="95%" align="left" valign="top">
-<li type="square">2GB RAM </li>
-<li type="square">Unlimited file transfer</li>
-<li type="square"><b><a href='30days.php'></a></b>80GB HDD  RAID-1</li>
+<li type="square">4GB RAM </li>
+<li type="square">Intel® Xeon® E5</li>
+<li type="square">2 vCore</li>
+<li type="square">40GB HDD  RAID-1</li>
 <li type="square">1 Static IP</li>
-<li type="square">Sentora Included</li>
+<li type="square">500Mbps Bandwidth</li>
+<li type="square">10TB data transfer</li>
+<li type="square">Windows Server 2012</li>
 <li type="square"> <a href="/support_service.php" target="_blank">Premium Support</a></li>
-<li type="square">SLA Included</li>
-<li type="square">500Mbps Network ports </li>
 <li type="square">USD 55/month<br />
 </li>
-<a href="/vps.php">More details</a>&raquo; <a href='order.php?plan=VPS_BRONZE'> 
+<a href="/windows-cloud-server.php">More details</a>&raquo; <a href='order.php?plan=WIN_CLOUD_BRONZE'> 
 
 <img src="images/order_red.gif" border="0"/></a>
 
@@ -742,17 +744,19 @@ echo $adlink[1];
   <tr>
     <td width="5%" align="left" valign="top">&nbsp;</td>
     <td width="95%" align="left" valign="top">
-<li type="square">4GB RAM </li>
-<li type="square">Unlimited file transfer</li>
-<li type="square"><b><a href='30days.php'></a></b>200GB HDD RAID-1</li>
-<li type="square">2 Static IPs</li>
-<li type="square">cPanel Included</li>
+<li type="square">8GB RAM </li>
+<li type="square">Intel® Xeon® E5</li>
+<li type="square">3 vCore</li>
+<li type="square">100GB HDD RAID-1</li>
+<li type="square">2 Static IPv4</li>
+<li type="square">500Mbps Bandwidth</li>
+<li type="square">30TB Data transfer</li>
+<li type="square">Windows Server 2012</li>
 <li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
 <li type="square">SLA Included</li>
-<li type="square">500Mbps Network port</li>
 <li type="square">USD 80/month<br />
 </li>
-<a href="/vps.php">More details</a>&raquo; <a href='order.php?plan=VPS_GOLD'> 
+<a href="/windows-cloud-server.php">More details</a>&raquo; <a href='order.php?plan=WIN_CLOUD_GOLD'> 
 <img src="images/order_blue.gif" border="0"/></a>
 
 </td>
@@ -765,18 +769,20 @@ echo $adlink[1];
   <tr>
     <td width="5%" align="left" valign="top">&nbsp;</td>
     <td width="95%" align="left" valign="top">
-<li type="square">8GB RAM</li>
-<li type="square"><blink></blink>Unlimited file transfer</li>
-<li type="square">1TB HDD RAID-1</li>
+<li type="square">16GB RAM</li>
+<li type="square">Intel® Xeon® E5</li>
+<li type="square">4 vCore</li>
+<li type="square">200GB HDD RAID-1</li>
 <li type="square">3 Static IPs</li>
-<li type="square">cPanel Included</li>
+<li type="square">1Gbps Bandwidth</li>
+<li type="square">100TB Data transfer</li>
+<li type="square">Windows Server 2012/16</li>
 <li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
 
 <li type="square">SLA Included</li>
-<li type="square">1Gbps Network ports</li>
 <li type="square">USD 120/month <br />
 </li>
-<a href="/vps.php">More details</a>&raquo; <a href='order.php?plan=VPS_PLANTINUM'> 
+<a href="/windows-cloud-server.php">More details</a>&raquo; <a href='order.php?plan=WIN_CLOUD_PLANTINUM'> 
 <img src="images/order_green.gif" border="0"/></a>
 
 
@@ -808,15 +814,9 @@ echo $adlink[1];
 
 
 
-
-
-
-
-
-
 </td>
-    <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
-  </tr>
+<!--    <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
+  --> </tr>
 </table>
 
 <!-- windows vps end -->
