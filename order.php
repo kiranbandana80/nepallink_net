@@ -25,6 +25,7 @@ $order_map = array (
 "JAVA_PRIVATE_HOSTING"=>"http://client.nepallink.net/cart.php?a=add&pid=21",
 "DON_NET_PROFESSIONAL"=>"http://client.nepallink.net/cart.php?a=add&pid=17",
 "UNLIMITED_SSD"=>"https://client.nepallink.net/cart.php?a=add&pid=182",
+"WIN_CLOUD_STARTER"=>"https://client.nepallink.net/cart.php?a=add&pid=185",
 "WIN_CLOUD_BRONZE"=>"https://client.nepallink.net/cart.php?a=add&pid=70",
 "WIN_CLOUD_GOLD"=>"https://client.nepallink.net/cart.php?a=add&pid=71",
 "WIN_CLOUD_PLANTINUM"=>"https://client.nepallink.net/cart.php?a=add&pid=72",
@@ -197,11 +198,6 @@ return false;
   <tr>
     <td width="35%" align="left" valign="top">&nbsp;&nbsp;<font class="title">Contact us</font>
 <center>
-<!--
-<br><br>
-<script language="JavaScript" src="http://chat.nepallink.net/js/status_image.php?base_url=http://chat.nepallink.net&l=admin&x=1&deptid=2&"></script>
-<br/><font face="verdana" size="1">Chat with our Sales Team Now!</font>
-</center> -->
 <br><br>
 
 <ul>

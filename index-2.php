@@ -672,7 +672,7 @@ echo $adlink[1];
 <table border="0" cellpadding="0" cellspacing="0" width="85%">
   <tr>
     <td class=" border_race" bgcolor="#F3F4F6" border="#333333">
-<a href="/windows-cloud-server.php"><img src="images/win-cloud-server-starter.gif" valign="top" border="0" alt="Cheap VPS Hosting"> </a><br>
+<img src="images/win-cloud-server-starter.gif" valign="top" border="0" alt="Cheap VPS Hosting"><br>
 <li type="square">1GB RAM</li>
 <li type="square">Intel® Xeon® E5</li>
 <li type="square">1 vCore</li>
