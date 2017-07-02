@@ -135,17 +135,11 @@ cpu, and network utilization.
       <td width="174"><div align="center">3</div></td>
     </tr>
     <tr>
-      <td bgcolor="#EDF4F8">Control panel </td>
-      <td><div align="center"><a href='http://www.zpanelcp.com/'  target='_blank'>N/A</a><a href='http://www.ispconfig.org/page/home.html' target='_blank'></a></div></td>
-      <td><div align="center"><a href='https://cpanel.net/demo/' target='_blank'>N/A</a><a href='http://www.parallels.com/products/plesk/' target='_blank'></a></div></td>
-      <td><div align="center"><a href='http://www.parallels.com/products/plesk/' target='_blank'>Plesk</a></div></td>
-    </tr>
-    <tr>
       <td bgcolor="#EDF4F8">Remote Desktop Connection</td>
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
       <td><div align="center"><img src="images/tick.gif" alt="latest cPanel" name="graphics2" width="16" height="16" border="0" align="bottom" id="graphics2" /></div></td>
-      </tr>
+    </tr>
 
    <tr>
       <td bgcolor="#EDF4F8"><a href="premium_support.php" target="_blank">Premium Support</a> </td>
@@ -406,7 +400,7 @@ cpu, and network utilization.
             </td>
         </tr>
         <tr>
-          <td bgcolor="#EDF4F8"><div align="center"><a href="vps-tos.php" target="_blank">Nepallink Virtual Prviate Server Terms of Service </a></div></td>
+          <td bgcolor="#EDF4F8"><div align="center"><a href="vps-tos.php" target="_blank">Cloud Server Terms of Service </a></div></td>
         </tr>
       </table>
 </div></td>
