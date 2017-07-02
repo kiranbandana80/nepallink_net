@@ -371,11 +371,7 @@ echo $adlink[1];
 </tr>
   <tr>
     <td width="22" align="left" valign="top">&nbsp;</td>        
-    <td width="160" align="left" valign="top"></td>
-	<td width="36" align="left" valign="top">&nbsp;</td>
-    <td width="160" align="left" valign="top"></td>
-    <td width="36" align="left" valign="top">&nbsp;</td>                
-    <td width="160" align="left" valign="top"></td>
+    <td width="160" align="center" valign="center" colspan=8><br/><h2>Linux Reseller Hosting</h2></td>
 </tr>
 </table>
 <!-- Hosting plan body end -->
@@ -490,13 +486,7 @@ echo $adlink[1];
 </tr>
   <tr>
     <td width="22" align="left" valign="top">&nbsp;</td>        
-    <td width="160" align="left" valign="top"></td>
-	<td width="36" align="left" valign="top">&nbsp;</td>
-    <td width="160" align="left" valign="top"> </td>
-    <td width="36" align="left" valign="top">&nbsp;</td>                
-    <td width="160" align="left" valign="top"> </td>
-	<td width="36" align="left" valign="top">&nbsp;</td>
-    <td width="160" align="left" valign="top"> </td>
+    <td width="160" colspan=8 align="center" valign="center"><br/><h2>Linux Cloud Server</h2></td>
 </tr>
 </table>
 <!-- Reseller Hosting plan body end -->
@@ -645,13 +635,9 @@ echo $adlink[1];
 
 </table></td>
 </tr>
-  <tr>
-    <td colspan="6" align="left" valign="top">&nbsp;</td>        
-    </tr>
-	
 </tr>
   <tr>
-    <td colspan="6" align="left" valign="top">&nbsp;</td>
+    <td colspan="4" valign="center" align="center">&nbsp;<h2>Windows Cloud Server </td>
 	
 </table>
 <!-- VPS Hosting plan body end -->
@@ -661,7 +647,7 @@ echo $adlink[1];
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td width="200" align="left" valign="top" rowspan="3">
+    <td width="200" align="left" valign="top" rowspan="3"> 
 <!-- Special Offer -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
  
