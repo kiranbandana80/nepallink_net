@@ -23,8 +23,7 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
 </td>
             <TD width="64%" align="right" vAlign=center><A class=mainmenu 
             href="https://www.nepallink.net/">Home</A>&nbsp; |&nbsp;<A class=mainmenu 
-           href="aboutus.php" >About us</A> &nbsp;|&nbsp;<A class=mainmenu href="/support.php">Support</A> &nbsp;|&nbsp;<A class=mainmenu href="/services.php">Services</A>&nbsp;|&nbsp;<A class=mainmenu href="/reseller.php">Reseller</A> &nbsp;|&nbsp;<A class=mainmenu href="/vps.php">VPS</A> &nbsp;
-|&nbsp;<A class=mainmenu href="/jobs.php">Career</A> &nbsp;|&nbsp;<a class=mainmenu href="/contactus.php">Contact</a></TD>
+           href="aboutus.php" >About us</A> &nbsp;|&nbsp;<A class=mainmenu href="/support.php">Support</A> &nbsp;|&nbsp;<A class=mainmenu href="/services.php">Services</A>&nbsp;|&nbsp;<A class=mainmenu href="/reseller.php">Reseller</A> &nbsp;|&nbsp;<A class=mainmenu href="/cloud-servers.php">Cloud Servers</A>&nbsp;|&nbsp;<a class=mainmenu href="/contactus.php">Contact</a></TD>
         </TR>
 		  </table>
 

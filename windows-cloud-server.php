@@ -65,7 +65,7 @@
   
       <p align="center"><img src="images/windows-reseller-header-image.jpg" width="574" height="94" alt=""/>
       <p>
-Nepallink Windows Cloud Server offers dedicated high performance resources with root level
+ Windows Cloud Server offers dedicated high performance resources with admin level
 access to install everything your Windows applications need. It provide dedicated processor cycles, dedicated
 memory and dedicated storage. You can choose the resources you need, share nothing and control
 everything. Powered by KVM &amp; Xen, the most efficient OS Virtualization technology available.
@@ -79,7 +79,7 @@ cpu, and network utilization.
     <col width="105" />
     <col width="112" />
     <tr>
-      <td colspan="4" bgcolor="#EDF4F8">&raquo;&nbsp;<strong>Cloud Servers</strong></td>
+      <td colspan="4" bgcolor="#EDF4F8">&raquo;&nbsp;<strong>Windows Cloud Servers Features</strong></td>
       </tr>
     <tr>
       <td width="203" bgcolor="#EDF4F8">&nbsp;</td>
@@ -96,9 +96,9 @@ cpu, and network utilization.
 
  <tr>
    <td bgcolor="#EDF4F8">CPU</td>
-   <td><div align="center">1.5GHz</div></td>
-   <td><div align="center">2.5GHz</div></td>
-   <td><div align="center">2.5GHz</div></td>
+   <td><div align="center">Intel&reg; Xeon&reg; E5 1.5GHz</div></td>
+   <td><div align="center">Intel&reg; Xeon&reg; E5 2.5GHz</div></td>
+   <td><div align="center">Intel&reg; Xeon&reg; E5 2.5GHz</div></td>
  </tr>
 
   <tr>
@@ -111,9 +111,9 @@ cpu, and network utilization.
     
     <tr>
       <td bgcolor="#EDF4F8">Disk Space </td>
-      <td><div align="center">20GB</div></td>
       <td><div align="center">40GB</div></td>
       <td><div align="center">100GB</div></td>
+      <td><div align="center">200GB</div></td>
       </tr>
     
     <tr>
@@ -123,7 +123,7 @@ cpu, and network utilization.
       <td><div align="center">1Gbps uplink</div></td>
     </tr>
     <tr>
-      <td width="203" bgcolor="#EDF4F8">Data Transfer</td>
+      <td width="203" bgcolor="#EDF4F8">Monthly Data Transfer</td>
       <td width="141"><div align="center">10TB</div></td>
       <td width="141"><div align="center">30TB</div></td>
       <td width="174"><div align="center">100TB</div></td>
@@ -217,7 +217,7 @@ cpu, and network utilization.
     </tr>
 
  <tr>
-   <td bgcolor="#EDF4F8">Order Now&gt;&gt;</td>
+   <td bgcolor="#EDF4F8">&nbsp;</td>
    <td><p align="center"><a href="order.php?plan=WIN_CLOUD_BRONZE"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
    <td><p align="center"><a href="order.php?plan=WIN_CLOUD_GOLD"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
    <td><p align="center"><a href="order.php?plan=WIN_CLOUD_PLANTINUM"><img src="images/ord_nw_white.gif" alt="Order Now" width="120" height="26" border="0" /></a></td>
@@ -287,88 +287,50 @@ cpu, and network utilization.
           <td valign="top" bgcolor="#FFFFFF"><table width="100%" bordercolor="#FFFFFF" border="0" cellpadding="2" cellspacing="2" bgcolor="#FFFFFF">
               <tbody>
                 <tr>
-                  <td align="left" bgcolor="#EDF4F8"><strong>
+                  <td width="43%" align="left" bgcolor="#EDF4F8"><strong>
                     
                       ADDON FEATURES
                     
                   </strong></td>
-                  <td bgcolor="#EDF4F8"><strong>
+                  <td width="23%" bgcolor="#EDF4F8"><strong>
                  
                       Setup Fee
                    
                   </strong></td>
-                  <td bgcolor="#EDF4F8"><strong>
+                  <td width="34%" bgcolor="#EDF4F8"><strong>
                     
-                      Monthly Fee
+                    Monthly Fee
                     
                   </strong></td>
-                  <td bgcolor="#EDF4F8"><strong>
-                   
-                      Requirements / Notes
-                   
-                  </strong></td>
-                </tr>
+                  </tr>
                 <tr>
                   <td bgcolor="#EDF4F8">One additional IP</td>
                   <td bgcolor="E7E7E7">                    <div align="left">FREE
                   </div></td>
                   <td bgcolor="E7E7E7">                    <div align="left">2.00USD/MO
-                </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(10 USEABLE IPS)
-                    </div></td>
-                </tr>
-                <tr>
-                  <td bgcolor="#EDF4F8">Additional subnet /24</td>
-                  <td bgcolor="E7E7E7">                    <div align="left">FREE
-                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">248.00USD/MO                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(250 USEABLE IPS)
-                    </div></td>
-                </tr>
-<tr>
-                  <td bgcolor="#EDF4F8">Additional subnet /25</td>
-                  <td bgcolor="E7E7E7">                    <div align="left">FREE
-                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">133.00USD/MO</div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(250 USEABLE IPS)
-                    </div></td>
-                </tr>
+                  </div></td>
+                  </tr>
 
 <tr>
-                  <td bgcolor="#EDF4F8">Additional subnet /26</td>
-                  <td bgcolor="E7E7E7">                    <div align="left">FREE
-                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">70.00USD/MO                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(250 USEABLE IPS)
-                    </div></td>
-                </tr>
-
-<tr>
-                  <td bgcolor="#EDF4F8">Additional subnet /27</td>
-                  <td bgcolor="E7E7E7">                    <div align="left">FREE
-                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">36.00USD/MO                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(250 USEABLE IPS)
-                    </div></td>
-                </tr>
+  <td bgcolor="#EDF4F8">Additional subnet /27</td>
+  <td bgcolor="E7E7E7">                    <div align="left">FREE
+    </div></td>
+  <td bgcolor="E7E7E7">                    <div align="left">36.00USD/MO                    </div></td>
+</tr>
 
 <tr>
                   <td bgcolor="#EDF4F8">Additional subnet /28</td>
                   <td bgcolor="E7E7E7">                    <div align="left">FREE
                     </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">18.00USD/MO                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(250 USEABLE IPS)
-                    </div></td>
-                </tr>
+                  <td bgcolor="E7E7E7">                    <div align="left">48 USD/MO                    </div></td>
+                  </tr>
 
 <tr>
                   <td bgcolor="#EDF4F8">Additional subnet /29</td>
                   <td bgcolor="E7E7E7">                    <div align="left">FREE
                     </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">9.00USD/MO                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">(250 USEABLE IPS)
-                    </div></td>
-                </tr>
+                  <td bgcolor="E7E7E7">                    <div align="left">24 USD/MO                    </div></td>
+                  </tr>
 
 
                 <tr>
@@ -376,21 +338,16 @@ cpu, and network utilization.
                   <td bgcolor="E7E7E7">                    <div align="left">FREE
                     </div></td>
                   <td bgcolor="E7E7E7">                    <div align="left">$2.00
-                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">-------
-                    </div></td>
-                </tr>
+                  </div></td>
+                  </tr>
                 
                 <tr>
                   <td bgcolor="#EDF4F8">Personal SSL Certificate</td>
-                  <td bgcolor="E7E7E7" colspan="2">                    <div align="left">$55 / Per Year
-                    </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">https://www.yourname.com
-                    </div></td>
-                </tr>
+                  <td bgcolor="E7E7E7" colspan="2">                    <div align="left">FREE</div></td>
+                  </tr>
                
                 <tr>
-                  <td colspan="4" bgcolor="#EDF4F8">&nbsp;</td>
+                  <td colspan="3" bgcolor="#EDF4F8">&nbsp;</td>
                   </tr>
 
 
@@ -401,37 +358,22 @@ cpu, and network utilization.
                       Technical Emergency Support
                     
                   </strong></td>
-                  <td bgcolor="#EDF4F8"><strong>
-                 
-                      ------
-                   
-                  </strong></td>
-                  <td bgcolor="#EDF4F8"><strong>
-                    
-                      ------
-
-                    
-                  </strong></td>
-                  <td bgcolor="#EDF4F8"><strong>
-                   
-                      Notes                   
-                  </strong></td>
-                </tr>
+                  <td bgcolor="#EDF4F8">&nbsp;</td>
+                  <td bgcolor="#EDF4F8">&nbsp;</td>
+                  </tr>
                 <tr>
                   <td bgcolor="#EDF4F8">Support Cost</td>
-                  <td bgcolor="E7E7E7">                    <div align="left">-----
-                  </div></td>
+                  <td bgcolor="E7E7E7">                    <div align="left"></div></td>
                   <td bgcolor="E7E7E7">                    <div align="left">10USD/ Hour
-                </div></td>
-                  <td bgcolor="E7E7E7">                    <div align="left">Due to client fault                    </div></td>
-                </tr>
+                  </div></td>
+                  </tr>
 
 
 
 
 
 <tr>
-                  <td colspan="4" bgcolor="#EDF4F8">&nbsp;</td>
+                  <td colspan="3" bgcolor="#EDF4F8">&nbsp;</td>
                   </tr>
 
 
@@ -442,27 +384,23 @@ cpu, and network utilization.
                   <td bgcolor="#EDF4F8"><strong>STORAGE OPTIONS </strong></td>
                   <td bgcolor="E7E7E7"><strong>Setup Fee </strong></td>
                   <td bgcolor="E7E7E7"><strong>Monthly Fee </strong></td>
-                  <td bgcolor="E7E7E7"><strong>Requirements / Notes</strong></td>
-                </tr>
+                  </tr>
                 
                 <tr>
-                  <td bgcolor="#EDF4F8">External Backup Storage - 50GB</td>
+                  <td bgcolor="#EDF4F8"> Storage - 50GB</td>
                   <td bgcolor="E7E7E7">FREE </td>
-                  <td bgcolor="E7E7E7">$15</td>
-                  <td bgcolor="E7E7E7">RAID5-Based Solution</td>
-                </tr>
+                  <td bgcolor="E7E7E7">USD 20</td>
+                  </tr>
                 <tr>
-                  <td bgcolor="#EDF4F8">External Backup Storage - 100GB</td>
+                  <td bgcolor="#EDF4F8"> Storage - 100GB</td>
                   <td bgcolor="E7E7E7">FREE </td>
-                  <td bgcolor="E7E7E7">$25 </td>
-                  <td bgcolor="E7E7E7">RAID5-Based Solution</td>
-                </tr>
+                  <td bgcolor="E7E7E7">USD 25 </td>
+                  </tr>
                 <tr>
-                  <td bgcolor="#EDF4F8">External Backup Storage - 1TB</td>
+                  <td bgcolor="#EDF4F8"> Storage - 1TB</td>
                   <td bgcolor="E7E7E7">FREE </td>
-                  <td bgcolor="E7E7E7">$150</td>
-                  <td bgcolor="E7E7E7">RAID5-Based Solution</td>
-                </tr>
+                  <td bgcolor="E7E7E7">USD 150</td>
+                  </tr>
               </tbody>
             </table>
             </td>
