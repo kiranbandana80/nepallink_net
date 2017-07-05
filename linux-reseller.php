@@ -571,7 +571,7 @@ High Available and scalalbe.</p>
             
             <p align="left"><strong><a name="high_available_mail">Secured Apache HTTPD and PHP</a> </strong>:</p>
             <p align="left">Reseller servers are configured for better security. Apache httpd and php servers
-            are harded with custom settings. We regulary audit and pentest our servers. Vulnerable issues in
+            are harden with custom settings and modsec rules. We regulary audit and pentest our servers. Vulnerable issues in
             well known CMS are reported to reseller with possible resolutions approach.</p>
             
             
@@ -579,8 +579,8 @@ High Available and scalalbe.</p>
             <p align="left">Reseller servers offers multiple PHP version. Our PHP version starts from 5.5 to the latest stable version</p>
 
   <p align="left"><strong><a name="high_available_mail">Free SSL Certificates</a> </strong>:</p>
-            <p align="left">ALl Reseller can issue SSL certificates free of cost. You never have to
-            get self-signed certificated. Get green bar valid SSL certificates for life.</p>
+            <p align="left">All Reseller can issue SSL certificates free of cost. You never have to
+            get self-signed certificate. Get green bar valid SSL certificates for life.</p>
 
 
 
