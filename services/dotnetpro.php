@@ -74,22 +74,22 @@ font:bold;
   <!--DWLayoutTable-->
   <tr>
     <td width="10" height="1529">&nbsp;</td>
-    <td width="261" align="left" valign="top">&nbsp;&nbsp;<font class="title">Hosting Services</font>
-	  <br>	  <br>
-	  <ul>
-	  
-   <div align="left">
-   </div>
-   <p><a href="windows.php" >Windows Server</a><br/>
-      <a href="phphosting.php" >PHP Hosting</a> <br/>
-      <a href="linuxserver.php" >Linux Server</a><br/>
-	  <a href="javahosting.php" >Java Hosting</a><br/>
-	  <a href="dotnet.php" >Dot Net Hosting</a><br/>
-	  <a href="coldfusion.php" >Coldfusion Package</a><br/>
-	  <a href="nonprofit.php" >Non-Profit Hosting Package</a></p>
-<br>
+    <td width="261" align="left" valign="top">&nbsp;&nbsp;
+      <p><font class="title">Pro ASP.NET  Services</font>
+        <br>
+      </p>
+      <ul>
+        
+        <div align="left">ASP.NET Pro offers powerful features with larger memory allocation, large diskspace, and several professional features including Application deployment via GIT, Dedicated Application Pooling, Selection of multiple .NET and PHP version, selection of Latest version of MySQL and MSSQL and several impressive features .... 
+        </div>
+   <p>Check Also<br>
+     <br>
+     * <a href="/services/dotnetbasic.php">ASP.NET Basic Package</a><br>
+     * <a href="/windows-cloud-server.php">Windows Cloud Server</a><br>
+	  </p>
 	  </ul>	  
-	  <br>	  <br>	</td>
+	  <br>	  
+	  <br>	</td>
     <td width="27">&nbsp;</td>
     <td width="60%" align="left" valign="top"><img src="../images/service/aboutus.jpg"><br>
 
@@ -99,43 +99,54 @@ font:bold;
   <!--DWLayoutTable-->
   <tr>
     <td width="36" >&nbsp;</td>
-    <td width="360" align="left" valign="top" bordercolor="#CC0000">
-
-        <img src="../images/service/dotneticon.jpg">      <p> <h2>Nepallink Professional ASP.NET  </h2> 
-              <p>Nepallink ASP.NET package is designed with ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. </p>
-              
-           <h3>ASP.NET Professional&nbsp; Package </h3> 
-              <p>The ASP.NET Professional hosting package extends and enhances the features provided in the Basic package with dedicated application pooling, more storage, more bandwidth, unlimited subdomains, extra features, unlimited mailboxes and more web applications. </p>
-                <p> <strong> </strong>&nbsp; <strong>Browse By: &nbsp;</strong>    </p>
-             
-                <p><a href="#pricing1">Pricing Options </a><br/>
-                  <a href="#general1">General Features </a><br/>
-                  <a href="#domain1">Domain Features </a><br/>
-                  <a href="#asp1">ASP.NET/Classic ASP 3.0 Features </a><br/>
-                 <a href="#email1">Email Features </a><br/>
-                 <a href="#db1">Database Features</a>                
-                <p>
-                
-                <p><a id="pricing1"> <strong>Pricing Options</strong> <br/> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+    <td width="360" align="left" valign="top" bordercolor="#FF0000"><br>
+      <h2>  ASP.NET Professional </h2>
+              <p>Nepallink ASP.NET Professional package is designed with larger disk space, larger memory allocation limit, optimized database servers, increase quota on database size etc.. Perfect for ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. Pro comes with GIT Deployment, Dedicated Application Pool and highspeed server resources.</p>
+              <p><strong>Browse By: </strong></p>
+             <p><a href="#pricing">Pricing Options </a><br/>
+               <a href="#general">Technical Features </a><br/>
+                <a href="#domain">Domain and IP Features</a><br/>
+                <a href="#asp">.NET Features</a><br/>
+                <a href="#db">Database Features</a><br>
+                 <a href="#server_net">Server and Network Features </a><br>
+                  <a href="#stats">Statistics Features</a>                 <br>
+                 <a href="#ecom">Ecommerce Features</a>
+                 <br/>         
+                <p><a id="pricing"> <strong>Pricing Options </strong></a> </p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
                   <tr>
-                    <td class="mytr" width="60%">NO SETUP FEE </td>
-                    <td class="mytr">Yes </td>
+                    <td class="mytd" width="60%">Free Setup</td>
+                    <td class="mytd1">Yes </strong> </td>
                   </tr>
                   <tr>
-                     <td class="mytd">Yearly</td>
-                    <td class="mytd1">$80</td>
+                    <td class="mytd">Yearly</td>
+                    <td class="mytd1">USD 80</td>
                   </tr>
-                  </table>
-                
-                
-            <p><a id="general1"><strong>General Features </strong></a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+                </table>
+                <p><a id="general"><strong> Techincal Features </strong></a></p> 
+                <table cellspacing="2" cellpadding="0" border="0" width="98%">
                   <tr>
-                    <td class="mytr" width="60%">Disk Space </strong> </td>
-                    <td class="mytr">10 GB  </strong> </td>
+                    <td class="mytd">Widows Server 2012</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Plesk  Control Panel</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td width="60%" class="mytd">Disk Space  </td>
+                    <td class="mytd1"><strong>100 GB</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">RAID-1 Controller</td>
+                    <td class="mytd1">Yes</td>
                   </tr>
                   <tr>
                     <td class="mytd">High Availability Bandwidth  </td>
-                    <td class="mytd1">110000 MB  </td>
+                    <td class="mytd1">1 Gbps</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Data Transfer</td>
+                    <td class="mytd1">Unlimited</td>
                   </tr>
                   <tr>
                     <td class="mytd">Plesk Control Panel  </td>
@@ -147,39 +158,27 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">Operating System  </td>
-                    <td class="mytd1">Windows 2008 Server  </td>
+                    <td class="mytd1">Windows 2012 Server  </td>
                   </tr>
                   <tr>
                     <td class="mytd">Dedicated IP Address  </td>
-                    <td class="mytd1">No  </td>
+                    <td class="mytd1">Yes</td>
                   </tr>
                   <tr>
                     <td class="mytd">SSL/HTTPS Support  </td>
-                    <td class="mytd1">Optional Add-On  </td>
+                    <td class="mytd1"><strong>Yes</strong></td>
                   </tr>
                   <tr>
-                    <td class="mytd">PHP 5 Support  </td>
+                    <td class="mytd">PHP 5.6 and 7.1   </td>
                     <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">Frequent &amp; Real-time Backup  </td>
+                    <td class="mytd">Dropbox and Local Backup</td>
                     <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
                     <td class="mytd">FTP Accounts  </td>
                     <td class="mytd1">Unlimited  </td>
-                  </tr>
-                  <tr>
-                    <td class="mytd">FrontPage 2003 extensions  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr>
-                    <td class="mytd">SSI - Server Side Includes  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr>
-                    <td class="mytd">Advanced Password Protection  </td>
-                    <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
                     <td class="mytd">Web Statistics  </td>
@@ -190,103 +189,116 @@ font:bold;
                     <td class="mytd1">99.9% Uptime Guarantee  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">One Domain Free</td>
+                    <td class="mytd">Cloudflare ServerShield (Suport fast loading)</td>
+                    <td class="mytd1">FREE</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Wordpress Toolkit</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Easy Web-base File Manager</td>
                     <td class="mytd1">Yes</td>
                   </tr>
                 </table>
-                <p>&nbsp; </p>
-                <p> <a id="domain1"><strong>Domain Features </strong></a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+            
+                <p><a id="domain"><strong> Domain and IP Features </strong></a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
                   <tr>
-                    <td class="mytr" width="60%">FREE Domain Name Offer </strong> </td>
-  
-                    <td class="mytr">No </strong> </td>
+                   <td width="60%" class="mytd">FREE Domain Name Offer </td>
+                    <td class="mytd1">No  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">Parked Domains  </td>
-                    <td class="mytd1">11</td>
+                    <td  width="60%" class="mytd">Parked Domains  </td>
+                    <td class="mytd1">100</td>
                   </tr>
                   <tr>
                     <td class="mytd">Sub domains  </td>
-                    <td class="mytd1">11</td>
+                    <td class="mytd1">10</td>
                   </tr>
                   <tr>
                     <td class="mytd">Temporary Access URL  </td>
                     <td class="mytd1">Yes  </td>
                   </tr>
-                </table>
-                <p><br>
-                </p>
-                <p><a id="asp1"> <strong>ASP.NET/Classic ASP 3.0 Features </strong> </a> </p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
-                  <tr><td class="mytr" width="60%">ASP.NET 2/3.5/4.0</strong> </td>
-                    <td class="mytr"><strong>Yes </strong> </td>
+                  <tr>
+                    <td class="mytd">Addon Domain</td>
+                    <td class="mytd1">No</td>
                   </tr>
                   <tr>
-                    <td class="mytd">Classic ASP 3.0  </td>
-                    <td class="mytd1">Yes  </td>
+                    <td class="mytd">Dedicated IP </td>
+                    <td class="mytd1">Free</td>
                   </tr>
-                  <tr><td class="mytd">.NET Framework v1.1, v2.0   &amp;  4.0</p>
-                      <p>(Framework 1.1,2.0 and 4.0 apps supported)  </td>
-                    <td class="mytd1">Yes  </td>
+                  <tr>
+                    <td class="mytd">DNS Management</td>
+                    <td class="mytd1">Free</td>
                   </tr>
-                  <tr><td class="mytd">FileSystemsObject  </td>
-                    <td class="mytd1">Yes  </td>
+                </table>
+                <p> <a id="asp"><strong>.NET  Features</strong></a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+                  <tr>
+                    <td class="mytd" width="60%"> ASP.NET 2.x, 3.x or 4.x</td>
+                    <td class="mytd1">Yes </strong> </td>
                   </tr>
-                  <tr><td class="mytd">Mobile Internet Toolkit  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">IE WebControls  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">Access to your global.asa file  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">Access to your global.asax and web.config files  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">.NET dll, Code Behind, /bin folder  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">SOAP Support  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">WSDL Support  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">Multiple Application Root  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">Web Service Support (.asmx)  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">WSE 2.0  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">MS XML 4.0  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">SQLXML 3.0  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">WAP, WML  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">Perl  </td>
-                    <td class="mytd1">Yes  </td>
-                  </tr>
-                  <tr><td class="mytd">Full CGI Directory Access  </td>
+                  <tr>
+                    <td class="mytd">Classic ASP  </td>
                     <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">Choice of PHP4 or PHP5  </td>
+                    <td class="mytd">.NET Core 1.1 <br>
+              </td>
                     <td class="mytd1">Yes  </td>
                   </tr>
-                  <tr><td class="mytd">Flash, Shockwave  </td>
+                  <tr>
+                    <td class="mytd">IIS 8.5</td>
                     <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">PHP 5.6, 7.0 or 7.1</td>
+                    <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">ASP.NET MVC 4 or 5</td>
+                    <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Silverlight 4 or 5</td>
+                    <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Shared SSL Certificate   </td>
+                    <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Microsoft SQL Server Database (2012)</td>
+                    <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">MySQL 5.6 Database</td>
+                    <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Total Database allowed</td> <td class="mytd1">5</td>
+                  </tr>
+                  <tr>
+                    <td height="15" class="mytd">Remote MSSQL Connection</td> <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Remote MySQL Connection</td> <td class="mytd1">Yes  </td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Dedicated IIS Apps Pool</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Remote GIT Integration</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Application Installer</td>
+                    <td class="mytd1">Yes</td>
                   </tr>
                 </table>
-			    <p><a id="email1"><strong>Email Features  </strong></a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
-                  <tr> <td class="mytr" width="60%"><strong>Email (POP3) Accounts </strong> </td> 
-                  <td class="mytr"><strong>110 </strong> </td>
+                <p> <a id="email"> <strong>Email Features </strong> </a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+                  <tr> <td class="mytd" width="60%">Email (POP3) Accounts  </td> 
+                  <td class="mytd1">60</td>
                   </tr>
                   <tr>
                     <td class="mytd">Web based email  </td> <td class="mytd1">Yes  </td>
@@ -316,7 +328,7 @@ font:bold;
                     <td class="mytd">ASP/.NET Mail Components  </td> <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">Email Virus Scanning  </td> 
+                    <td class="mytd">Email Virus Scanning</td> 
                     <td class="mytd1">Yes</td>
                   </tr>
                   <tr>
@@ -324,23 +336,18 @@ font:bold;
                     <td class="mytd1">Yes</td>
                   </tr>
                 </table>
-			    <p><a id="db1"><strong>Database Features </strong> </a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+                <p><br>
+                  <a id="db"> <strong>Database Features </strong></a> </p> 
+                <table cellspacing="2" cellpadding="0" border="0" width="98%">
                   <tr>
-                    <td class="mytr" width="60%"><strong>MS Access 2000 </strong> </td> <td class="mytr"><strong>Yes </strong> </td>
-                  </tr>
-                  <tr>
-                    <td class="mytd"># of MS SQL Server2005/2008 Databases  </td> 
-                    <td class="mytd1">5 MS SQL Databases  </td>
-                  </tr>
-                  <tr>
-                    <td class="mytd"><strong>MS SQL Server 2005 </strong>Space  </td> 
-                    <td class="mytd1">250 Mb  </td>
+                    <td width="60%" class="mytd"> # of MS SQL Server 2005/2008/2012 Databases  </td> 
+                    <td class="mytd1">15</td>
                   </tr>
                   <tr>
                     <td class="mytd">Remote Management via SQL Clients (i.e. Enterprise Manager, Query Analyzer, etc)  </td> <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
-                    <td class="mytd">FREE Web based MS SQL Manager  </td> <td class="mytd1">Yes  </td>
+                    <td class="mytd"> Web based MS SQL Manager  </td> <td class="mytd1">Yes  </td>
                   </tr>
                   <tr>
                     <td class="mytd">MS SQL Full text Search  </td> <td class="mytd1">Yes  </td>
@@ -353,7 +360,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">MySQL Database  </td> 
-                    <td class="mytd1"> MySQL 5 Databases</td>
+                    <td class="mytd1"> 10 </td>
                   </tr>
                   <tr>
                     <td class="mytd">ADO  </td> <td class="mytd1">Yes  </td>
@@ -373,10 +380,132 @@ font:bold;
                   <tr>
                     <td class="mytd">SQLXML 3.0  </td> <td class="mytd1">Yes  </td>
                   </tr>
+                  <tr>
+                    <td class="mytd">MySQL 5.6</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">PHPMyAdmin</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">myLittleAdmin</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
                 </table>
-	</td>
-    <td width="53">&nbsp;</td>
   </tr>
+  <tr>
+    <td >&nbsp;</td>
+    <td align="left" valign="top" bordercolor="#FF0000"><p>&nbsp;</p>
+      <p><a id="server_net"><strong>Server and Network Features</strong></a></p>
+      <table cellspacing="2" cellpadding="0" border="0" width="98%">
+        <tr>
+          <td class="mytd">Windows Server 2012</td>
+          <td class="mytd1">Yes</td>
+        </tr>
+        <tr>
+                    <td class="mytd" width="60%">Datacenter</td>
+                    <td class="mytd1">Frankfurt, DE</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">24x7 Network Monitoring</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">24x7 Server Monitoring</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Free DDOS Protection</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Redundant Network</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Juniper Routing Technology</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Network Availability</td>
+                    <td class="mytd1">min. 99.9%&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd"> Dedicated B/W</td>
+                    <td class="mytd1">1Gbps</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Data Transfer</td>
+                    <td class="mytd1">Unlimited</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd"> RAID Controller</td>
+                    <td class="mytd1"> 4-Port SATA PCI-E <br>
+                      LSI MegaRAID SAS 9260-4i</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">RAM</td>
+                    <td class="mytd1">48GB RAM</td>
+                  </tr>
+                  </table>           
+  </tr>
+  <tr>
+    <td >&nbsp;</td>
+    <td align="left" valign="top" bordercolor="#FF0000">  
+    <p><a id="stats"><strong>Statistics Features</strong></a></p>
+      <table cellspacing="2" cellpadding="0" border="0" width="98%">
+        <tr>
+                    <td class="mytd" width="60%">Access to raw logfiles</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Webalizer Stats</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">AWStats</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Website Stats</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Google Pagespeed Insights</td>
+                    <td class="mytd1">Yes</td>
+                  </tr>
+                  </table>    
+    </td>  
+  </tr>
+  <tr>
+    <td >&nbsp;</td>
+    <td align="left" valign="top" bordercolor="#FF0000"><p><a id="ecom2"><strong>eCommerce Features</strong></a></p>
+      <table cellspacing="2" cellpadding="0" border="0" width="98%">
+        <tr>
+          <td class="mytd" width="60%">SSL Certificate (HTTPS)</td>
+          <td class="mytd1">Yes</td>
+        </tr>
+        <tr>
+          <td class="mytd">PrestaShop 1-Click Setup</td>
+          <td class="mytd1">Yes</td>
+        </tr>
+        <tr>
+          <td class="mytd">OpenCart 1-Click Setup</td>
+          <td class="mytd1">Yes</td>
+        </tr>
+        <tr>
+          <td class="mytd">Magento 1-Click Setup</td>
+          <td class="mytd1">Yes</td>
+        </tr>
+        <tr>
+          <td class="mytd">DotNetNuke 1 Click Setup</td>
+          <td class="mytd1">Yes</td>
+        </tr>
+      </table></td>
+  </tr>
+  
+  
 </table>
 
 <p align="center">

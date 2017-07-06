@@ -79,7 +79,12 @@ font:bold;
 	  <ul>
 	  
    <div align="left">
-     <p>ASP.NET Basic offers powerful features like Application deployment via GIT, Dedicated Application Pooling, Selection of multiple .NET and PHP version, selection of Latest version of MySQL and MSSQL and several impressive features ....   </p>
+     <p>ASP.NET Basic offers powerful features like Application deployment via GIT, Dedicated Application Pooling, Selection of multiple .NET and PHP version, selection of Latest version of MySQL and MSSQL and several impressive features ....   <br>
+       <br>
+       Check Also<br>
+       <br>
+* <a href="/services/dotnetpro.php">ASP.NET Professional Package</a><br>
+* <a href="/windows-cloud-server.php">Windows Cloud Server</a>     </p>
    </div>
 	  </ul>
 	  <br>	  <br>	</td>
@@ -93,7 +98,7 @@ font:bold;
   <tr>
     <td width="36" >&nbsp;</td>
     <td width="360" align="left" valign="top" bordercolor="#FF0000"><br>
-      <h2> Nepallink ASP.NET Basic </h2>
+      <h2>  ASP.NET Basic </h2>
               <p>Nepallink ASP.NET package is designed with ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. Basic comes with GIT Deployment, Dedicated Application Pool and highspeed server resources.</p>
               <p><strong>Browse By: </strong></p>
              <p><a href="#pricing">Pricing Options </a><br/>
