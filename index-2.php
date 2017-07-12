@@ -480,6 +480,10 @@ echo $adlink[1];
 
 </td>
   </tr>
+   <tr>
+    <td width="22" align="left" valign="top">&nbsp;</td>        
+    <td width="160" align="center" valign="center" colspan=8><br/><h2>Developer Platform</h2></td>
+</tr>
 </table>
 
 </td>
@@ -494,19 +498,19 @@ echo $adlink[1];
     
     <td width="22" align="left" valign="top">&nbsp;</td>        
     <td width="160" align="left" valign="top" class="rightborder">
-	<a href='linux-reseller.php'><img src="images/reseller-bronze.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a></td>
+	<a href='linux-reseller.php'><img src="/images/service/javapro.gif" border="0" alt="Java Professional Hosting perfectly fits for Java Developers."></a></td>
     <td width="36" align="left" valign="top">&nbsp;</td>
     <td width="160" align="left" valign="top" class="rightborder">
 <a href='linux-reseller.php'>
-	<img src="images/reseller-gold.gif" border="0" alt="Gold Plan - Fast, Secure and Reliable web hosting for entrepreneur"></a></td>
+	<img src="/images/service/javaprivate.gif" border="0" alt="Java Professional - Fast, Secure and Reliable Java Hosting for startups"></a></td>
     <td width="36" align="left" valign="top">&nbsp;</td>                
     <td width="160" align="left" valign="top" class="rightborder">
 <a href='linux-reseller.php'>
-	<img src="images/reseller-platinum.gif" border="0" alt="Reliable and suitable web hosting plan for corporate business house"></a></td>
+	<img src="/images/service/dotnet-starter.gif" border="0" alt="Reliable and suitable .NET hosting plan for Developers"></a></td>
 	<td width="36" align="left" valign="top">&nbsp;</td>                
     <td width="160" align="left" valign="top" class="rightborder">
 <a href='windows-reseller.php'>
-	<img src="images/reseller-windows.gif" border="0" alt="Reliable and suitable web hosting plan for corporate business house"></a></td>
+	<img src="/images/service/dotnet-pro.gif" border="0" alt="Reliable and suitable .NET Hosting plan for corporate business house"></a></td>
 	
 </tr>
   <tr>
