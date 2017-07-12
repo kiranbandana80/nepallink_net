@@ -484,6 +484,121 @@ echo $adlink[1];
 
 </td>
 </tr>
+
+
+<!-- Specialized Platform -->
+
+<!-- Reseller Hosting plan body -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    
+    <td width="22" align="left" valign="top">&nbsp;</td>        
+    <td width="160" align="left" valign="top" class="rightborder">
+	<a href='linux-reseller.php'><img src="images/reseller-bronze.gif" border="0" alt="Bronze Plan - Affordable and Resonable web hosting for small business"></a></td>
+    <td width="36" align="left" valign="top">&nbsp;</td>
+    <td width="160" align="left" valign="top" class="rightborder">
+<a href='linux-reseller.php'>
+	<img src="images/reseller-gold.gif" border="0" alt="Gold Plan - Fast, Secure and Reliable web hosting for entrepreneur"></a></td>
+    <td width="36" align="left" valign="top">&nbsp;</td>                
+    <td width="160" align="left" valign="top" class="rightborder">
+<a href='linux-reseller.php'>
+	<img src="images/reseller-platinum.gif" border="0" alt="Reliable and suitable web hosting plan for corporate business house"></a></td>
+	<td width="36" align="left" valign="top">&nbsp;</td>                
+    <td width="160" align="left" valign="top" class="rightborder">
+<a href='windows-reseller.php'>
+	<img src="images/reseller-windows.gif" border="0" alt="Reliable and suitable web hosting plan for corporate business house"></a></td>
+	
+</tr>
+  <tr>
+    <td width="22" align="left" valign="top">&nbsp;</td>        
+    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="5%" align="left" valign="top">&nbsp;</td>
+    <td width="95%" align="left" valign="top">
+<li type="square">300 GB storage space</li>
+<li type="square">Unlimited data transfer</li>
+<li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
+<li type="square">Unlimited cPanel </li>
+<li type="square">150 USD/yr<br />
+</li>
+<a href="linux-reseller.php">More details</a> &raquo;
+<a href="/order.php?plan=RESELLER_BRONZE"><img src="images/order_red.gif" border="0" alt="Order Now"></a>
+</td>
+  </tr>
+</table>
+
+   
+</td>
+	<td width="36" align="left" valign="top">&nbsp;</td>
+    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="5%" align="left" valign="top">&nbsp;</td>
+    <td width="95%" align="left" valign="top">
+<li type="square">600 GB storage space</li>
+<li type="square">Unlimited data transfer</li>
+<li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
+<li type="square">Unlimited cPanel</li>
+<li type="square">200 USD/yr<br />
+</li>
+<a href="linux-reseller.php">More details</a> &raquo;
+ <a href="/order.php?plan=RESELLER_GOLD"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
+</td>
+  </tr>
+</table>
+
+</td>
+    <td width="36" align="left" valign="top">&nbsp;</td>                
+    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="5%" align="left" valign="top">&nbsp;</td>
+    <td width="95%" align="left" valign="top">
+<li type="square">1000 GB storage space</li>
+<li type="square">Unlimited data transfer</li>
+<li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
+<li type="square">Unlimited cPanel <br />
+</li>
+<li type="square">250USD/yr<br />
+</li>
+<a href="linux-reseller.php">More details</a> &raquo;
+ <a href="/order.php?plan=RESELLER_PLANTINUM"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
+</td>
+  </tr>
+</table>
+
+</td>
+    <td width="36" align="left" valign="top">&nbsp;</td>                
+    <td width="160" align="left" valign="top" bgcolor="#F3F4F6" class="detailbox">
+
+<table border="0" cellpadding="4" cellspacing="0" width="100%">
+  <tr>
+    <td width="5%" align="left" valign="top">&nbsp;</td>
+	
+    <td width="95%" align="left" valign="top">
+<li type="square">40 GB storage space</li>
+<li type="square"><b>.NET Framework 4.6</b><br /></li>
+<li type="square">Unlimited data transfer</li>
+<li type="square">Plesk CP, MSSQL </li>
+<li type="square">150 USD/yr <br />
+</li>
+<a href="windows-reseller.php">More details</a> &raquo;
+ <a href="order.php?plan=WIN_RESELLER_BRONZE"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
+
+</td>
+  </tr>
+</table>
+
+</td>
+</tr>
+
+<!-- End of Specialized Platform -->
+
+
   <tr>
     <td width="22" align="left" valign="top">&nbsp;</td>        
     <td width="160" colspan=8 align="center" valign="center"><br/><h2>Linux Cloud Server</h2></td>
