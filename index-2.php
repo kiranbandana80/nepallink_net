@@ -480,11 +480,12 @@ echo $adlink[1];
 
 </td>
   </tr>
-   <tr>
-    <td width="22" align="left" valign="top">&nbsp;</td>        
-    <td width="160" align="center" valign="center" colspan=8><br/><h2>Developer Platform</h2></td>
-</tr>
 </table>
+
+ <tr>
+    <td width="22" align="left" valign="top">&nbsp;</td>
+    <td width="160" align="center" valign="center" colspan=9><br/><h2>Java/.NET Platform</h2></td>
+</tr>
 
 </td>
 </tr>
@@ -498,18 +499,18 @@ echo $adlink[1];
     
     <td width="22" align="left" valign="top">&nbsp;</td>        
     <td width="160" align="left" valign="top" class="rightborder">
-	<a href='linux-reseller.php'><img src="/images/service/javapro.gif" border="0" alt="Java Professional Hosting perfectly fits for Java Developers."></a></td>
+	<a href='https://www.nepallink.net/services/javahostingshare.php'><img src="/images/service/javapro.gif" border="0" alt="Java Professional Hosting perfectly fits for Java Developers."></a></td>
     <td width="36" align="left" valign="top">&nbsp;</td>
     <td width="160" align="left" valign="top" class="rightborder">
-<a href='linux-reseller.php'>
+<a href='https://www.nepallink.net/services/javahostingprivate.php'>
 	<img src="/images/service/javaprivate.gif" border="0" alt="Java Professional - Fast, Secure and Reliable Java Hosting for startups"></a></td>
     <td width="36" align="left" valign="top">&nbsp;</td>                
     <td width="160" align="left" valign="top" class="rightborder">
-<a href='linux-reseller.php'>
-	<img src="/images/service/dotnet-starter.gif" border="0" alt="Reliable and suitable .NET hosting plan for Developers"></a></td>
+<a href='https://nepallink.net/services/dotnetbasic.php'>
+	<img src="/images/service/dotnet-basic.gif" border="0" alt="Reliable and suitable .NET hosting plan for Developers"></a></td>
 	<td width="36" align="left" valign="top">&nbsp;</td>                
     <td width="160" align="left" valign="top" class="rightborder">
-<a href='windows-reseller.php'>
+<a href='https://nepallink.net/services/dotnetpro.php'>
 	<img src="/images/service/dotnet-pro.gif" border="0" alt="Reliable and suitable .NET Hosting plan for corporate business house"></a></td>
 	
 </tr>
@@ -521,14 +522,18 @@ echo $adlink[1];
   <tr>
     <td width="5%" align="left" valign="top">&nbsp;</td>
     <td width="95%" align="left" valign="top">
-<li type="square">300 GB storage space</li>
-<li type="square">Unlimited data transfer</li>
-<li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Unlimited cPanel </li>
-<li type="square">150 USD/yr<br />
+<li type="square">JDK 1.8</li>
+<li type="square">Tomcat 7</li>
+<li type="square">JVM Max Heap 4GB</li>
+<li type="square">500Mbps Bandwidth</li>
+<li type="square">5TB Data Transfer</li>
+<li type="square">24x7 Monitoring</li>
+<li type="square">MySQL Database</li>
+<li type="square">Powerful Control Panel</li>
+<li type="square">Online Deployment<br />
 </li>
-<a href="linux-reseller.php">More details</a> &raquo;
-<a href="/order.php?plan=RESELLER_BRONZE"><img src="images/order_red.gif" border="0" alt="Order Now"></a>
+<a href="https://www.nepallink.net/services/javahostingshare.php">More details</a> &raquo;
+<a href="/order.php?plan=JAVA_SHARED_HOSTING"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
 </td>
   </tr>
 </table>
@@ -542,14 +547,17 @@ echo $adlink[1];
   <tr>
     <td width="5%" align="left" valign="top">&nbsp;</td>
     <td width="95%" align="left" valign="top">
-<li type="square">600 GB storage space</li>
-<li type="square">Unlimited data transfer</li>
-<li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Unlimited cPanel</li>
-<li type="square">200 USD/yr<br />
-</li>
-<a href="linux-reseller.php">More details</a> &raquo;
- <a href="/order.php?plan=RESELLER_GOLD"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
+<li type="square">JDK 1.8</li>
+<li type="square">Tomcat 7</li>
+<li type="square">Private JVM 1GB</li>
+<li type="square">500Mbps Bandwidth</li>
+<li type="square">20TB Data Transfer</li>
+<li type="square">24x7 Monitoring</li>
+<li type="square">Dedicated IPv4</li>
+<li type="square">SSL Certificate</li>
+<li type="square">MySQL Database</li>
+<a href="/services/javahostingprivate.php">More details</a> &raquo;
+ <a href="/order.php?plan=JAVA_PRIVATE_HOSTING"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
 </td>
   </tr>
 </table>
@@ -562,15 +570,18 @@ echo $adlink[1];
   <tr>
     <td width="5%" align="left" valign="top">&nbsp;</td>
     <td width="95%" align="left" valign="top">
-<li type="square">1000 GB storage space</li>
-<li type="square">Unlimited data transfer</li>
-<li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Unlimited cPanel <br />
-</li>
-<li type="square">250USD/yr<br />
-</li>
-<a href="linux-reseller.php">More details</a> &raquo;
- <a href="/order.php?plan=RESELLER_PLANTINUM"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
+<li type="square">.NET Framework 4.6</li>
+<li type="square">Windows Server 2012</li>
+<li type="square">Shared IIS Apps Pool</li>
+<li type="square">Remote GIT Integration</li>
+<li type="square">MSSQL 2005/2008/2012</li>
+<li type="square">Google Pagespeed</li>
+<li type="square">FREE SSL Certificate</li>
+<li type="square">Application Installer</li>
+<li type="square">Built-in Backup Manager</li>
+
+<a href="/services/dotnetbasic.php">More details</a> &raquo;
+ <a href="/order.php?plan=DON_NET_BASIC"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
 </td>
   </tr>
 </table>
@@ -584,14 +595,18 @@ echo $adlink[1];
     <td width="5%" align="left" valign="top">&nbsp;</td>
 	
     <td width="95%" align="left" valign="top">
-<li type="square">40 GB storage space</li>
-<li type="square"><b>.NET Framework 4.6</b><br /></li>
-<li type="square">Unlimited data transfer</li>
-<li type="square">Plesk CP, MSSQL </li>
-<li type="square">150 USD/yr <br />
-</li>
-<a href="windows-reseller.php">More details</a> &raquo;
- <a href="order.php?plan=WIN_RESELLER_BRONZE"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
+<li type="square">.NET Framework 4.6</li>
+<li type="square">Windows Server 2012</li>
+<li type="square">Dedicated IIS Apps Pool</li>
+<li type="square">Remote GIT Integration</li>
+<li type="square">MSSQL 2005/2008/2012</li>
+<li type="square">Google Pagespeed</li>
+<li type="square">SSL Certificate</li>
+<li type="square">Application Installer</li>
+<li type="square">Built-in Backup Manager</li>
+
+<a href="/services/dotnetpro.php">More details</a> &raquo;
+ <a href="/order.php?plan=DON_NET_PROFESSIONAL"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
 
 </td>
   </tr>
