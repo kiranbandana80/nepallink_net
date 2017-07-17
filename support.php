@@ -53,8 +53,7 @@ include_once("header.php");
     <td width="35%" align="left" valign="top">&nbsp;&nbsp;<font class="title">Support</font>
 	<br /><br />
 	<ul>
-	<div align="justify">
-Our mission has always been to provide reliable, efficient cutting-edge solutions to our customers, whom we hold in high esteem. We concentrate more on building long term relationships which are beneficial to our customers, their customers and the bottom-line of both companies. We offer free unlimited support to all our customers. 
+ Our mission has always been to provide reliable, efficient cutting-edge solutions to our customers, whom we hold in high esteem. We concentrate more on building long term relationships, 
 <br /><br />
 
 <br /><br /><br />
@@ -81,8 +80,7 @@ Visit our <a href="http://support.nepallink.info"><b>Support Ticket System </b> 
 <b>Cell and Landline</b><br/><br/>
 Tel  : +977-1-4260822 <br/>
 Tel  : +977-1-4267994 <br/>
-Tel  : +977-1-2296776 (UTL)<br/>
-Cell : +977-9841262275 /  9802050150 <br />
+Cell : +977-9841262275 <br />
 <br />
 Your <a href="contactus.php">feedback</a> is very important to us, and helps improve the services.<br />
 
@@ -98,7 +96,7 @@ Your <a href="contactus.php">feedback</a> is very important to us, and helps imp
 
 <ul>
 <div align="left">
-&nbsp;&nbsp;&nbsp;<a href="portfolio.php"><b>Visit our portfolio section too!</b></a></div>
+&nbsp;&nbsp;&nbsp;</div>
 	</ul>
 
 	</td>
