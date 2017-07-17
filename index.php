@@ -531,6 +531,7 @@ echo $adlink[1];
 <li type="square">MySQL Database</li>
 <li type="square">Powerful Control Panel</li>
 <li type="square">Online Deployment<br />
+<li type="square"><a href="/support_service.php" target="_blank">Gold Support</a></li>
 </li>
 <a href="https://www.nepallink.net/services/javahostingshare.php">More details</a> &raquo;
 <a href="/order.php?plan=JAVA_SHARED_HOSTING"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
@@ -556,6 +557,7 @@ echo $adlink[1];
 <li type="square">Dedicated IPv4</li>
 <li type="square">SSL Certificate</li>
 <li type="square">MySQL Database</li>
+<li type="square"><a href="/support_service.php" target="_blank">Gold Support</a></li>
 <a href="/services/javahostingprivate.php">More details</a> &raquo;
  <a href="/order.php?plan=JAVA_PRIVATE_HOSTING"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
 </td>
@@ -579,6 +581,7 @@ echo $adlink[1];
 <li type="square">FREE SSL Certificate</li>
 <li type="square">Application Installer</li>
 <li type="square">Built-in Backup Manager</li>
+<li type="square"><a href="/support_service.php" target="_blank">Gold Support</a></li>
 
 <a href="/services/dotnetbasic.php">More details</a> &raquo;
  <a href="/order.php?plan=DON_NET_BASIC"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
@@ -604,6 +607,7 @@ echo $adlink[1];
 <li type="square">SSL Certificate</li>
 <li type="square">Application Installer</li>
 <li type="square">Built-in Backup Manager</li>
+<li type="square"><a href="/support_service.php" target="_blank">Gold Support</a></li>
 
 <a href="/services/dotnetpro.php">More details</a> &raquo;
  <a href="/order.php?plan=DON_NET_PROFESSIONAL"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
@@ -706,7 +710,7 @@ echo $adlink[1];
 <li type="square"><b><a href='30days.php'></a></b>80GB HDD  RAID-1</li>
 <li type="square">1 Static IP</li>
 <li type="square">Sentora Included</li>
-<li type="square"> <a href="/support_service.php" target="_blank">Premium Support</a></li>
+<li type="square"> <a href="/support_service.php" target="_blank">Bronze Support</a></li>
 <li type="square">SLA Included</li>
 <li type="square">500Mbps Network ports </li>
 <li type="square">USD 55/month<br />
@@ -731,7 +735,7 @@ echo $adlink[1];
 <li type="square"><b><a href='30days.php'></a></b>200GB HDD RAID-1</li>
 <li type="square">2 Static IPs</li>
 <li type="square">cPanel Included</li>
-<li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
+<li type="square"><a href="/support_service.php" target="_blank">Gold Support</a></li>
 <li type="square">SLA Included</li>
 <li type="square">500Mbps Network port</li>
 <li type="square">USD 80/month<br />
@@ -754,7 +758,7 @@ echo $adlink[1];
 <li type="square">1TB HDD RAID-1</li>
 <li type="square">3 Static IPs</li>
 <li type="square">cPanel Included</li>
-<li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
+<li type="square"><a href="/support_service.php" target="_blank">Platinum Support</a></li>
 
 <li type="square">SLA Included</li>
 <li type="square">1Gbps Network ports</li>
@@ -846,7 +850,7 @@ echo $adlink[1];
 <li type="square">500Mbps Bandwidth</li>
 <li type="square">10TB data transfer</li>
 <li type="square">Windows Server 2012</li>
-<li type="square"> <a href="/support_service.php" target="_blank">Premium Support</a></li>
+<li type="square"> <a href="/support_service.php" target="_blank">Bronze Support</a></li>
 <li type="square">USD 55/month<br />
 </li>
 <a href="/windows-cloud-server.php">More details</a>&raquo; <a href='order.php?plan=WIN_CLOUD_BRONZE'> 
@@ -872,7 +876,7 @@ echo $adlink[1];
 <li type="square">500Mbps Bandwidth</li>
 <li type="square">30TB Data transfer</li>
 <li type="square">Windows Server 2012</li>
-<li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
+<li type="square"><a href="/support_service.php" target="_blank">Gold Support</a></li>
 <li type="square">SLA Included</li>
 <li type="square">USD 80/month<br />
 </li>
@@ -897,7 +901,7 @@ echo $adlink[1];
 <li type="square">1Gbps Bandwidth</li>
 <li type="square">100TB Data transfer</li>
 <li type="square">Windows Server 2012/16</li>
-<li type="square"><a href="/support_service.php" target="_blank">Premium Support</a></li>
+<li type="square"><a href="/support_service.php" target="_blank">Platinum Support</a></li>
 
 <li type="square">SLA Included</li>
 <li type="square">USD 120/month <br />
