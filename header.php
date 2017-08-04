@@ -9,17 +9,17 @@
    <TD vAlign=center align="left" width="10%">&nbsp;</TD>
 
 <td width=25%>
-<!-- ClickDesk Live Chat Service for websites -->
-<script type='text/javascript'>
-var _glc =_glc || []; _glc.push('ag9zfmNsaWNrZGVza2NoYXRyEQsSB3dpZGdldHMY6K3vrwEM');
-var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' : 
-'http://my.clickdesk.com/clickdesk-ui/browser/');
-var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
-var glcspt = document.createElement('script'); glcspt.type = 'text/javascript'; 
-glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
-var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8998010;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
 </script>
-<!-- End of ClickDesk -->
+<!-- End of LiveChat code -->
 </td>
             <TD width="64%" align="right" vAlign=center><A class=mainmenu 
             href="https://www.nepallink.net/">Home</A>&nbsp; |&nbsp;<A class=mainmenu 

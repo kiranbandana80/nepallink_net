@@ -1,14 +1,14 @@
-<!-- ClickDesk Live Chat Service for websites -->
-<script type='text/javascript'>
-var _glc =_glc || []; _glc.push('ag9zfmNsaWNrZGVza2NoYXRyEQsSB3dpZGdldHMY6K3vrwEM');
-var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' :
-'http://my.clickdesk.com/clickdesk-ui/browser/');
-var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
-var glcspt = document.createElement('script'); glcspt.type = 'text/javascript';
-glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
-var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8998010;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
 </script>
-<!-- End of ClickDesk -->
+<!-- End of LiveChat code -->
 
 
 <table border="0" cellpadding="0" cellspacing="0" width="775">
@@ -19,8 +19,8 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
 <table border="0" cellpadding="4" cellspacing="0" width="100%" height="33">
 
  <TR>
-   <TD vAlign=center align="center" width="30%">
-&nbsp;</TD>
+   <TD vAlign=center align="center" width="30%">&nbsp;
+</TD>
             <TD width="64%" align="right" vAlign=center><B><A class=mainmenu 
             href="../index.php">Home</A></B>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;<B><A class=mainmenu 
            href="../aboutus.php" >About us</A></B> |&nbsp;&nbsp;&nbsp;<B><A class=mainmenu href="../support.php">Support</A></B> |&nbsp;&nbsp;&nbsp;<B><A class=mainmenu href="../services.php">Services</A></B>  |&nbsp;&nbsp;&nbsp;<b><a class=mainmenu href="../contactus.php">Contact us</a></b> </B> </TD>

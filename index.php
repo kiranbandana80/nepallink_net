@@ -36,17 +36,18 @@
 <link rel="Stylesheet" href="style.css" type="text/css" />
 <script language="JavaScript" type="text/javascript" src="/javascript/common.js"></script>
 
-<!-- ClickDesk Live Chat Service for websites -->
-<script type='text/javascript'>
-var _glc =_glc || []; _glc.push('ag9zfmNsaWNrZGVza2NoYXRyEQsSB3dpZGdldHMY6K3vrwEM');
-var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' : 
-'http://my.clickdesk.com/clickdesk-ui/browser/');
-var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
-var glcspt = document.createElement('script'); glcspt.type = 'text/javascript'; 
-glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
-var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8998010;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
 </script>
-<!-- End of ClickDesk -->
+<!-- End of LiveChat code -->
+
 
 <script type="text/javascript">
 function checkNPDomainOption() {
@@ -297,7 +298,7 @@ echo $adlink[1];
 <li type="square">500Mbps Bandwidth<br /></li>
 <li type="square"><a href='http://x3demob.cpx3demo.com:2082/login/?user=x3demob&pass=x3demob' target='_blank'>Powerful Control Panel</a><br /></li>
 <li type="square">Free SSL Certificate<br /></li>
-<li type="square">Free Transfer
+<li type="square">Free Domain (.COM/.INFO)
 <a href="/Nepal_Web_Hosting_Bronze">details</a> &raquo;
  <a href="/Nepal_Web_Hosting_Bronze_ORDER"><img src="images/order_red.gif" border="0" alt="Order Now"></a>
 </li>
