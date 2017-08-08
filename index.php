@@ -272,7 +272,7 @@ echo $adlink[1];
 <li type="square">Super Easy Sitebuilder </li>
 <li type="square">1-Click Install Apps </li>
 <li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Free Transfer <a href='services/special_offer.php'> See details</a></li>
+<li type="square">Free .INFO/.COM <a href='services/special_offer.php'> See details</a></li>
 <a href='order.php?plan=UNLIMITED_SSD'> 
 <img src="images/order_blue.gif" border="0"/></a>
 </td>
@@ -298,7 +298,7 @@ echo $adlink[1];
 <li type="square">500Mbps Bandwidth<br /></li>
 <li type="square"><a href='http://x3demob.cpx3demo.com:2082/login/?user=x3demob&pass=x3demob' target='_blank'>Powerful Control Panel</a><br /></li>
 <li type="square">Free SSL Certificate<br /></li>
-<li type="square">Free Domain (.COM/.INFO)
+<li type="square">Free Site Migration
 <a href="/Nepal_Web_Hosting_Bronze">details</a> &raquo;
  <a href="/Nepal_Web_Hosting_Bronze_ORDER"><img src="images/order_red.gif" border="0" alt="Order Now"></a>
 </li>
@@ -326,7 +326,7 @@ echo $adlink[1];
 <li type="square">1-Click Install Apps</li>
 <li type="square"><a href='http://x3demob.cpx3demo.com:2082/login/?user=x3demob&pass=x3demob' target='_blank'>Powerful Control Panel</a><br /></li>
 <li type="square">Free SSL Certificate<br /></li>
-<li type="square">Free Transfer
+<li type="square">Free Site Migration
 <a href="/Nepal_Web_Hosting_Gold">details</a> &raquo;</li>
  <a href="/Nepal_Web_Hosting_Gold_ORDER"><img src="images/order_blue.gif" border="0" alt="Order Now"></a>
 
@@ -359,7 +359,7 @@ echo $adlink[1];
 <li type="square">MySQL Slave server</li>
 <li type="square"><a href='http://x3demob.cpx3demo.com:2082/login/?user=x3demob&pass=x3demob' target='_blank'>Powerful Control Panel</a><br /></li>
 <li type="square">Free SSL Certificate<br /></li>
-<li type="square">Free Transfer
+<li type="square">Free Site Migration
 <a href="/Nepal_Web_Hosting_Plantnium">more</a> &raquo;</li>
  <a href="/Nepal_Web_Hosting_Plantnium_ORDER"><img src="images/order_green.gif" border="0" alt="Order Now"></a>
 
