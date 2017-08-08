@@ -272,8 +272,8 @@ echo $adlink[1];
 <li type="square">Super Easy Sitebuilder </li>
 <li type="square">1-Click Install Apps </li>
 <li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Free .INFO/.COM </li>
-<li><a href='services/special_offer.php'> See details</a></li>
+<li type="square">Free .INFO/.COM/.BIZ </li>
+<li><a href='services/special_offer.php'> See details</a> &raquo;</li>
 <a href='order.php?plan=UNLIMITED_SSD'> 
 <img src="images/order_blue.gif" border="0"/></a>
 </td>
