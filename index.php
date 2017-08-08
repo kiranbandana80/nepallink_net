@@ -92,7 +92,7 @@ language="javascript" src="splashpage.js"></script>
 
   
     <td width="710" align="right"  bgcolor="#E5E7E8" height="20">
-<b>Trusted Cloud Partner Since 2002</b> | <a href='services/Ruby_On_Rails_Hosting.php'>RoR Hosting </a>|  <a href='services/javahosting.php' title='Professional Java Hosting - Tomcat 5.5, JDK 1.5, Apache'> <b>Java Hosting</b></a> | <A href='services/dotnet.php'>ASP.NET Hosting</a> |<a href='reseller.php' title='Start your Web Hosting Business. Get a reseller account and make profit as much as you can. Nepallink offers you  powerful Web Hosting Control Panel.'> <b>Hosting Reseller</b></a> |
+<b>Nepal's Largest Managed Cloud</b> | <a href='services/Ruby_On_Rails_Hosting.php'>RoR Hosting </a>|  <a href='services/javahosting.php' title='Professional Java Hosting - Tomcat 5.5, JDK 1.5, Apache'> <b>Java Hosting</b></a> | <A href='services/dotnet.php'>ASP.NET Hosting</a> |<a href='reseller.php' title='Start your Web Hosting Business. Get a reseller account and make profit as much as you can. Nepallink offers you  powerful Web Hosting Control Panel.'> <b>Hosting Reseller</b></a> |
 
 	<a href='https://client.nepallink.net/' title='Start your Domain Business. Get a reseller account and make profit as much as you can. Nepallink offers you you powerful Domain Manager Free of cost.'>Domain Reseller</a> | <a href='/cloud-servers.php' title='VPS, a great alternate for dedicated servers. Dedicated resources, full control for resource intensive websites.'><b>VPS</b></a> 
 | <a href='https://client.nepallink.net'>Open Ticket</a></td>
