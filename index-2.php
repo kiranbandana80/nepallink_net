@@ -221,6 +221,12 @@ echo $adlink[1];
 </table>
 	
     <table border="0" cellpadding="0" cellspacing="0" width="775">
+
+ <tr>
+    <td width="22" align="left" valign="top">&nbsp;</td>
+    <td width="160" align="center" valign="center" colspan=8><h2>Best Selling Hosting</h2></td>
+</tr>
+
   <tr>
     <td width="14" align="left" valign="top" background="images/left.gif">&nbsp;</td>
     <td width="747" align="left" valign="top">
