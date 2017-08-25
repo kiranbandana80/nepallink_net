@@ -94,16 +94,17 @@ font:bold;
    Create multiple branches in a single repository &ndash; useful for separating staging and production code.<br>
    <br>
    Deploy manually for complete control or enable automatic deployment to save time.              </p>
-                    <p><strong>Try our other Hosting Technologies<br>
+                    <p><strong><hr/>
+                    Try our other Hosting Technologies<br>
                       <br>
-                    <a href="javahosting.php"><img src="../images/java-logo.gif" width="69" height="88" alt=""/></a> </strong>                    <br></p>
+              <a href="javahosting.php"><img src="../images/java-logo.gif" width="69" height="88" alt=""/></a> </strong>                    <br></p>
                     <p><a href="dotnet.php"><img src="../images/fdotneticon.jpg" width="88" height="33" alt=""/></a><br>
                       <br>
                     </p>
               <p><a href="special_offer.php"><img src="../images/fphpicon.jpg" width="85" height="43" alt=""/></a><br>
-              </p>
-                    <p><strong><br>
-                    </strong></p>
+                <strong><br>
+              </strong></p>
+                    <hr/>
                     <p><strong>Try Our 100% Managed Servers</strong></p>
                     <p><img src="../images/windows_logo.png" width="82" height="67" alt=""/></p>
               <p><a href='https://nepallink.net/windows-cloud-server.php'>Windows Managed Server</a></p>
@@ -114,15 +115,15 @@ font:bold;
 
 	</td>
     <td width="5%" align="left" valign="top" class="rightborder">&nbsp;</td>
-    <td width="60%" align="left" valign="top"><img src="../images/service/aboutus.jpg"><br>
+    <td width="60%" align="left" valign="top"><br>
       <table width="100%" height="0" border="0" cellpadding="0" cellspacing="0">
   <!--DWLayoutTable-->
   <tr>
     <td width="23" >&nbsp;</td>
-    <td width="393" align="left" valign="top" >      <div align="justify">
-      <h2> Professional Node.js Hosting</h2>
-      <p>Nodejs is the fastest growing development platform. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
-      <p>Our NodeJS hosting comes with MongoDB, MySQL and GIT Integration.</p>
+    <td width="393" align="left" valign="top" >      <div align="justify"><h2>Professional Node.js Hosting</h2>
+      <p>NodeJS makes web application fast and scalable. Now its even super fast to deploy your NodeJS in few click. Leave all automation hassle to NepalLink. Our DevOps team will take care from simple to most demanding NodeJS application operation at fraction of your operation budget.<br>
+        <br>
+        Our NodeJS hosting comes with MongoDB, MySQL and GIT Integration.</p>
       <h3>Node.js Bronze</h3>
       <table width="100%" border="0" cellspacing="1" cellpadding="4" id="table1">
         <tr>
@@ -343,7 +344,7 @@ font:bold;
     <td align="middle" height="13" bgcolor="#E6E6E6">Yes</td>
   </tr>
   <tr>
-    <td width="70%" bgcolor="#EDF4F8">MongoDB Database</td>
+    <td width="70%" bgcolor="#EDF4F8">MongoDB Cluster DB</td>
     <td align="middle" width="30%" height="13" bgcolor="#E6E6E6">Unlimited</td>
   </tr>
   <tr>
