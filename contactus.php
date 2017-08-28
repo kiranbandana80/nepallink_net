@@ -145,31 +145,6 @@ If you have any questions or comments, or if you would like more information on 
 <img src="images/contact.jpg" border="0" alt="We are just behind you! Knock us!!">
 <br /><br />
 
-<!-- Vertical Response  -->
-
-<form method="post" action="http://oi.vresp.com?fid=543fb67595" target="vr_optin_popup" onSubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" >
-
-  <div style="font-family: verdana; font-size: 11px; width: 160px; padding: 10px; border: 1px solid #000000; ">
-    <strong><span style="color: #333333;">Sign Up Today!</span></strong>
-    <p style="text-align: right; margin-top: 10px; margin-bottom: 10px;"><span style="color: #f00;">* </span><span style="color: #333333">required</span></p>
-    <label style="color: #333333;">Email Address:</label>    <span style="color: #f00">* </span>
-    <br/>
-    <input name="email_address" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
-    <br/>
-    <label style="color: #333333;">First Name:</label>
-    <br/>
-    <input name="first_name" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
-    <br/>
-    <label style="color: #333333;">Last Name:</label>
-    <br/>
-    <input name="last_name" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
-    <br/>
-    <input type="submit" value="Join Now" style="margin-top: 5px; border: 1px solid #999; padding: 3px;"/>
-  </div>
-</form>
-
-<!-- Vertical Response  -->
-
 
 </ul>
 
@@ -214,28 +189,35 @@ If you have any questions or comments, or if you would like more information on 
 
   <tr>
     <td width="48%">
-      <p><b>Phone</b>  +977-1-4260822<br>
-          <strong>Phone:</strong> +977-1-4267994<br>
-            <strong>Cell: </strong> +977-9841262275<br />
-            </p>
+      <p><br>
+        <br />
+        </p>
       </td>
   </tr>
   <tr>
-    <td width="48%"><b>Nepal Office Address</b><br />
-    Link Road, Khusibu<br />
-    Kathmandu - 17<br/>
-    Nepal</td>
+    <td bgcolor="#EEEEEE"><b>Contact us in Kathmandu, NP</b></td>
+  </tr>
+  <tr>
+    <td width="48%"><strong>Landline</strong>: +977-1-4260822<br>
+      <strong>Landline:</strong> +977-1-4267994<br>
+      <strong>Cell: </strong> +977-9841262275<br>
+      <br>
+      Link Road, Khusibu<br />
+Kathmandu - 17<br/>
+Nepal<br>
+Company Registartoin# 32653/061/062<br></td>
   </tr>
 
  <tr>
-    <td width="48%" bgcolor="#EEEEEE"><br><b>Contact us in Hyderabad</b></td>
+    <td width="48%" bgcolor="#EEEEEE"><b>Contact us in Hyderabad, IN</b></td>
   </tr>
   <tr>
     <td width="48%">
+<strong>Landline</strong> : 9140-65457272<br>
+<br>
 Plot no:102 hyline complex<br>
 Banjarahills Road no:12, <br>
-Hyderabad 500034  <br>
-Landline number 9140-65457272<br>
+Hyderabad 500034  <br><br>
       </td>
   </tr>
 

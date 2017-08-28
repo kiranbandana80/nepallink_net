@@ -29,6 +29,9 @@ $order_map = array (
 "WIN_CLOUD_BRONZE"=>"https://client.nepallink.net/cart.php?a=add&pid=70",
 "WIN_CLOUD_GOLD"=>"https://client.nepallink.net/cart.php?a=add&pid=71",
 "WIN_CLOUD_PLANTINUM"=>"https://client.nepallink.net/cart.php?a=add&pid=72",
+"NODE_BROZNE_HOSTING"=>"https://client.nepallink.net/cart.php?a=add&pid=204",
+"NODE_GOLD_HOSTING"=>"https://client.nepallink.net/cart.php?a=add&pid=206",
+"NODE_PLATINUM_HOSTING"=>"https://client.nepallink.net/cart.php?a=add&pid=207"
 );
 
 if (array_key_exists($product_id, $order_map)) {

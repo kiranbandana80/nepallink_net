@@ -41,7 +41,7 @@ font:bold;
 <table border="0" cellpadding="0" cellspacing="0" width="775">
   <tr>
     <td width="14" align="left" valign="top" background="../images/left.gif">&nbsp;</td>
-    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20"> Realtime and Scalable Application Platform - Nodejs and MongoDB  </td>
+    <td width="747" align="right" valign="middle" bgcolor="#E5E7E8" height="20"> Realtime and Scalable node.js Application Platform - Host Nodejs with Nginx and MongoDB  </td>
     <td width="14" align="left" valign="top" background="../images/right.gif">&nbsp;</td>
   </tr>
 </table>
@@ -76,7 +76,7 @@ font:bold;
 </p>
  <p>Nepallink offers one the easiest one click Node.js deployment platform at affordable price range. </p>
  <p><img src="../images/nginx.gif" width="75" height="60" alt=""/></p>
- <p>Nginx is best known for its speed and delivering superior performance even under massive traffics loads. NGINX has been designed and tuned for high performance under difficult conditions. We run nginx  as reverse proxy service for nodejs. Since both node.js and nginx is event-based, which means that it does not need to spawn a new thread or process for each request. This means that the number of concurrent requests has almost no effect on NGINX and node.js performance.</p>
+ <p>Nginx is best known for its speed and delivering superior performance even under massive traffics loads.We run nginx  as reverse proxy service for nodejs. Nginx will offload Node.js from serving static assets. This also adds a buffering reverse proxy layer which provides I/O security and protects Node.js against invalid HTTP requests, slow clients, etc. It will even allow you to use SSL without having to code explicit SSL support in your Node app. </p>
  <p><img src="../images/mongodb.gif" width="100" height="30" alt=""/></p>
  <p>MongoDB is schema less, document based database in which one collection holds different documents.We offer   scalable, high-performance mongodb cluster without additional cost. Unlike MySQL, MogoDb offers superior features for demanding web applicaiton -</p>
  <p>* Auto-sharding<br>
@@ -102,7 +102,8 @@ font:bold;
                       <br>
                     </p>
               <p><a href="special_offer.php"><img src="../images/fphpicon.jpg" width="85" height="43" alt=""/></a><br>
-                <strong><br>
+              </p>
+              <p><strong><a href="Ruby_On_Rails_Hosting.php"><img src="../images/ror.gif" width="64" height="80" alt=""/></a><br>
               </strong></p>
                     <hr/>
                     <p><strong>Try Our 100% Managed Servers</strong></p>
@@ -121,7 +122,7 @@ font:bold;
   <tr>
     <td width="23" >&nbsp;</td>
     <td width="393" align="left" valign="top" >      <div align="justify"><h2>Professional Node.js Hosting</h2>
-      <p>NodeJS makes web application fast and scalable. Now its even super fast to deploy your NodeJS in few click. Leave all automation hassle to NepalLink. Our DevOps team will take care from simple to most demanding NodeJS application operation at fraction of your operation budget.<br>
+      <p>Node.js application is  best known for its speed, scalability and delivering superior performance even under massive traffics loads. Now its even super easy to deploy your NodeJS in few click. Leave all automation hassle to NepalLink. Our DevOps team will take care from simple to most demanding NodeJS application operation at fraction of your operation budget.<br>
         <br>
         Our NodeJS hosting comes with MongoDB, MySQL and GIT Integration.</p>
       <h3>Node.js Bronze</h3>
@@ -175,8 +176,8 @@ font:bold;
           <td align="middle" height="13" bgcolor="#E6E6E6">2</td>
         </tr>
         <tr>
-          <td bgcolor="#EDF4F8">Main Domain</td>
-          <td align="middle" height="13" bgcolor="#E6E6E6">1</td>
+          <td bgcolor="#EDF4F8">Addon Domain</td>
+          <td align="middle" height="13" bgcolor="#E6E6E6">0</td>
         </tr>
         <tr>
           <td bgcolor="#EDF4F8">SSH Access</td>
@@ -266,8 +267,8 @@ font:bold;
           <td align="middle" height="13" bgcolor="#E6E6E6">4</td>
         </tr>
         <tr>
-          <td bgcolor="#EDF4F8">Main Domain</td>
-          <td align="middle" height="13" bgcolor="#E6E6E6">4</td>
+          <td bgcolor="#EDF4F8">Addon  Domain</td>
+          <td align="middle" height="13" bgcolor="#E6E6E6">2</td>
         </tr>
         <tr>
           <td bgcolor="#EDF4F8">SSH Access</td>
