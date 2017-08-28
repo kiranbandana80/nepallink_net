@@ -195,15 +195,7 @@ language="javascript" src="splashpage.js"></script>
 <div class="t11" align="justify">
 
 
-<?php
-//randomly display two banner from array
-$adlink = array("<a a href='ssl.php'><img src='images/ads/ssl-certificate.jpg' alt='Cheapest Digital SSL Certificates from Nepal' border=0></a>",
-"<a a href='services/special_offer.php'><img src='images/ads/dashain-offer-2011.gif' border=0 alt='Nepal Cheapest Reliable Domain Registration from Nepal' ></a>");
-
-
-//echo $adlink[rand(0,1)];
-echo $adlink[1];
-?>
+<a a href='https://www.nepallink.net/services/Nodejs_MongoDB_Hosting.php'><img src='images/nodejs-mongodb.gif' border=0 alt='NodeJS and MongoDB Managed Platform solutions.' ></a>
 
 </div> 
 	</td>
