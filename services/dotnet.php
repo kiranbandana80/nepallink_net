@@ -94,10 +94,12 @@ font:bold;
               </p>
               <p>Nepallink ASP.NET package is designed with speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. </p>
               <p>We offer two package </p>
-              <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetbasic.php'>ASP.NET Basic Package<a/> </p>
-              <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetpro.php'>ASP.NET Professional Package</a></p>
-			  <h3>ASP.NET Basic </h3>
-              <p>The ASP.NET Basic hosting package comes with essenteial .NET features required for small traffics web application. The package offers SSL Certificates, GIT integration, Latest IIS, .NET and SQL Server  and additional powerful features.</p>
+              <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetbasic.php'>ASP.NET Bronze<a/> </p>
+              <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetpro.php'>ASP.NET Gold </a></p>
+              <p>&#149;&nbsp; <a href='http://nepallink.net/services/dotnetplatinum.php'>ASP.NET Platinum </a></p>
+<hr/>
+			  <h3>ASP.NET Bronze </h3>
+              <p>The ASP.NET Bronze hosting package comes with essenteial .NET features required for small traffics web application. The package offers SSL Certificates, GIT integration, Latest IIS, .NET and SQL Server  and additional powerful features.</p>
               <p><strong>Browse By:   </strong></p>
               <p><a href="dotnetbasic.php#pricing">Pricing Options </a><br/>
                   <a href="dotnetbasic.php#general">General Features </a><br/>
@@ -105,10 +107,10 @@ font:bold;
                   <a href="dotnetbasic.php#asp">ASP.NET 4/Classic ASP 3.0 Features</a><br/>
                   <a href="dotnetbasic.php#db">Database Features </a>
              
-              <p><a href="dotnetbasic.php"><strong>View .NET Basic Package</strong></a>
-               
-              <h3>ASP.NET Professional&nbsp;</h3>
-              <p>The ASP.NET Professional hosting package extends and enhances the features provided in the Basic package with more size, bandwidth, subdomains, features, more mailboxes and more web applications.</p>
+              <p><a href="dotnetbasic.php"><strong>View .NET Bronze Package</strong></a>
+              <hr/> 
+              <h3>ASP.NET Gold&nbsp;</h3>
+              <p>The ASP.NET Gold hosting package extends and enhances the features provided in the Bronze package with more size, bandwidth, subdomains, features, more mailboxes and more web applications.</p>
               <p><strong>Browse By: </strong></p>
               <p><a href="dotnetpro.php#pricing1">Pricing Options </a><br/>
                 <a href="dotnetpro.php#general1">General Features </a><br/>
@@ -118,6 +120,19 @@ font:bold;
                 <a href="dotnetpro.php#db1">Database Features</a>
               <p>              
               <p><a href="dotnetpro.php"><strong>View .NET Professional Package</strong></a>
+   <hr/>
+              <h3>ASP.NET Platinum&nbsp;</h3>
+              <p>ASP.NET Platinum package is designed with larger disk space, larger memory allocation limit, optimized database servers, increase quota on database size etc.. Perfect for ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. Pro comes with GIT Deployment, Dedicated Application Pool and highspeed server resources.</p>
+              <p><strong>Browse By: </strong></p>
+              <p><a href="dotnetplatinum.php#pricing1">Pricing Options </a><br/>
+                <a href="dotnetplatinum.php#general1">General Features </a><br/>
+                <a href="dotnetplatinum.php#domain1">Domain Features </a><br/>
+                <a href="dotnetplatinum.php#asp1">ASP.NET 4/Classic ASP 3.0 Features </a><br/>
+                <a href="dotnetplatinum.php#email1">Email Features </a><br/>
+                <a href="dotnetplatinum.php#db1">Database Features</a>
+              <p>
+              <p><a href="dotnetplatinum.php"><strong>View .NET Platinum Package</strong></a>
+
               </div>
   </tr>
 </table>

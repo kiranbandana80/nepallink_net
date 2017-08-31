@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<TITLE>Nepal ASP.NET Professional Hosting Package</TITLE>
+<TITLE>ASP.NET Platinum Hosting Package</TITLE>
 <META http-equiv=Content-Language content=en-us>
 <META  name="description" content="NepalLink is the leading provider of Web hosting for small & medium businesses, our product offering include virtual, e-commerce, and dedicated web hosting as well as domain registration & web design.">
 <META name="keywords" content="Shared, Dedicated, Managed, Virtual, Business, Web, Hosting, Service, Reseller, Domain,  Internet, E-commerce, Windows, Unix, Linux, FreeBSD, Server, PHP, MySQL, ASP">
@@ -99,8 +99,8 @@ font:bold;
   <tr>
     <td width="36" >&nbsp;</td>
     <td width="360" align="left" valign="top" bordercolor="#FF0000"><br>
-      <h2>  ASP.NET Professional </h2>
-              <p>Nepallink ASP.NET Professional package is designed with larger disk space, larger memory allocation limit, optimized database servers, increase quota on database size etc.. Perfect for ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. Pro comes with GIT Deployment, Dedicated Application Pool and highspeed server resources.</p>
+      <h2>  ASP.NET Platinum </h2>
+              <p>Nepallink ASP.NET Platinum package is designed with larger disk space, larger memory allocation limit, optimized database servers, increase quota on database size etc.. Perfect for ecommerce, speed, reliability, and security in mind and perfect for businesses and/or developers looking to host cutting edge ecommerce web applications built on the ASP.NET platform at affordable rate. Pro comes with GIT Deployment, Dedicated Application Pool and highspeed server resources.</p>
               <p><strong>Browse By: </strong></p>
              <p><a href="#pricing">Pricing Options </a><br/>
                <a href="#general">Technical Features </a><br/>
@@ -118,7 +118,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">Yearly</td>
-                    <td class="mytd1">USD 80</td>
+                    <td class="mytd1">USD 120</td>
                   </tr>
                 </table>
                 <p><a id="general"><strong> Techincal Features </strong></a></p> 
@@ -133,7 +133,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td width="60%" class="mytd">Disk Space  </td>
-                    <td class="mytd1"><strong>50 GB</strong></td>
+                    <td class="mytd1"><strong>100 GB</strong></td>
                   </tr>
                   <tr>
                     <td class="mytd">RAID-1 Controller</td>
@@ -161,7 +161,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">Dedicated IP Address  </td>
-                    <td class="mytd1">No</td>
+                    <td class="mytd1">Yes</td>
                   </tr>
                   <tr>
                     <td class="mytd">SSL/HTTPS Support  </td>
@@ -177,7 +177,7 @@ font:bold;
                   </tr>
                   <tr>
                     <td class="mytd">FTP Accounts  </td>
-                    <td class="mytd1">10 </td>
+                    <td class="mytd1">Unlimited  </td>
                   </tr>
                   <tr>
                     <td class="mytd">Web Statistics  </td>
@@ -190,6 +190,10 @@ font:bold;
                   <tr>
                     <td class="mytd">Cloudflare ServerShield (Suport fast loading)</td>
                     <td class="mytd1">FREE</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Wordpress Toolkit</td>
+                    <td class="mytd1">Yes</td>
                   </tr>
                   <tr>
                     <td class="mytd">Easy Web-base File Manager</td>
@@ -504,7 +508,7 @@ font:bold;
 </table>
 
 <p align="center">
-<a href='http://nepallink.net/order.php?plan=DON_NET_PROFESSIONAL'>
+<a href='http://nepallink.net/order.php?plan=DON_NET_PLATINUM'>
 <img src='http://nepallink.net/images/order_green.gif' border='0'>
 </a>
 </p>
