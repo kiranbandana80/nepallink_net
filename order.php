@@ -5,7 +5,7 @@ $product_id = filter_var($_REQUEST["plan"], FILTER_SANITIZE_STRING);
 $order_map = array (
 //"FES010"   =>  "http://client.nepallink.net/order/?skip=1&pid=4",
 //"FES010"   =>  "http://client.nepallink.net/cart.php?a=add&pid=58",
-"FES010"   =>  "http://client.nepallink.net/cart.php?a=add&pid=121",
+"FES010"   =>  "https://client.nepallink.net/cart.php?a=add&pid=182",
 "bronze"    =>  "http://client.nepallink.net/cart.php?a=add&pid=1",
 "gold"       =>   "http://client.nepallink.net/cart.php?a=add&pid=5",
 "platinum" => "http://client.nepallink.net/cart.php?a=add&pid=15",
@@ -22,6 +22,7 @@ $order_map = array (
 "VPSFES010"=>"http://client.nepallink.net/cart.php?a=add&pid=53",
 "WIN_RESELLER_PLANTINUM"=>"http://client.nepallink.net/cart.php?a=add&pid=14",
 "DON_NET_BASIC"=>"http://client.nepallink.net/cart.php?a=add&pid=16",
+"DON_NET_PLATINUM"=>"http://client.nepallink.net/cart.php?a=add&pid=208",
 "JAVA_PRIVATE_HOSTING"=>"http://client.nepallink.net/cart.php?a=add&pid=21",
 "DON_NET_PROFESSIONAL"=>"http://client.nepallink.net/cart.php?a=add&pid=17",
 "UNLIMITED_SSD"=>"https://client.nepallink.net/cart.php?a=add&pid=182",
