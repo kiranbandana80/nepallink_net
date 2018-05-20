@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(count($_POST) >0 ){
+if(count($_POST['submit']) > 0 ){
 
 $name_from_req = $_POST["name_from_req"];
 $email_from = $_POST["email_from"];
@@ -9,21 +9,24 @@ $country_req =  $_POST["country_req"];
 $domainname = $_POST["domainname"];
 $to =  $_POST["to"];
 $question = $_POST["question"];
-$code = $_POST["securitycode"];
-
 $captchamsg="";
+//$code = $_POST["securitycode"];
 
+$code = $_POST["g-recaptcha-response"];
 
-
-if($_SESSION['security_code']!=$code) {
-$captchamsg="<font color='red'>Secuirty code incorrect</font>";
-} else {
-
-$headers = 'From: sales@nepallink.net' . "\r\n" .
- 'Reply-To: '.$email_from . "\r\n" .
+$url = "https://www.google.com/recaptcha/api/siteverify?secret=6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe&response=".$code;
+$ch = curl_init();
+    curl_setopt ($ch, CURLOPT_URL, $url);
+    curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
+    curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
+    $contents = curl_exec($ch);
+    $res= json_decode($contents,true);
+    if($res['success']==TRUE && $code != NULL){
+      $headers = 'From: sales@nepallink.net' . "\r\n" .
+      'Reply-To: '.$email_from . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-$autoresponder_message = <<<MSG
+      $autoresponder_message = <<<MSG
 
 A customer has submitted following feedback/comment/suggestion
 
@@ -44,8 +47,43 @@ mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$heade
 session_destroy();
 Header("Location: http://www.nepallink.net/thanks.php");
 die;
+    }else{
+      $captchamsg="<font color='red'>Secuirty code incorrect</font>";
+    }
 }
-}
+
+
+// if($_SESSION['security_code']!=$code) {
+// $captchamsg="<font color='red'>Secuirty code incorrect</font>";
+// } else {
+
+// $headers = 'From: sales@nepallink.net' . "\r\n" .
+//  'Reply-To: '.$email_from . "\r\n" .
+//     'X-Mailer: PHP/' . phpversion();
+
+// $autoresponder_message = <<<MSG
+
+// A customer has submitted following feedback/comment/suggestion
+
+// *************************************************
+// >
+// > Name : $name_from_req
+// > Email: $email_from
+// > Country: $country_req
+// > Domain Name: $domainname
+// > Contact to: $to
+// > Comments: $question
+// >
+// **************************************************
+// --
+// MSG;
+
+// mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
+// session_destroy();
+// Header("Location: http://www.nepallink.net/thanks.php");
+// die;
+// }
+//}
 ?>
 
 
@@ -58,7 +96,7 @@ die;
 <script src="http://www.nepallink.net/javascript/prototype.js" type="text/javascript"></script>
 <script src="http://www.nepallink.net/javascript/effects.js" type="text/javascript"></script>
 <script src="http://www.nepallink.net/javascript/validation.js" type="text/javascript"></script>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <meta name="description" content="Nepallink Contact Address. You can use our telephone, fax, email and VOIP to reach us." />
 <meta name="keywords" content="NepalLink - Support Online" />
@@ -288,9 +326,11 @@ Please enter your comments, suggestions & question below:<br />
       <textarea cols="40" rows="5" wrap="off" name="question" class="required"><?php echo isset($_POST['question']) ? $_POST['question'] : "";?></textarea><br />
 
 <br/>
-<img src='CaptchaSecurityImages.php' border=1><br/>
+<!-- <img src='CaptchaSecurityImages.php' border=1><br/>
 Enter Security Code:<br/>
 <input type=text size=10 name=securitycode class="required"><br/>
+<?php echo $captchamsg; ?><br/> -->
+<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" id="lrecaptcha"></div>  
 <?php echo $captchamsg; ?><br/>
       <p align="center">
         <input src="images/send.gif" name="submit" border="0" type="image">
