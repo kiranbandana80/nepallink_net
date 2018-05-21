@@ -7,14 +7,13 @@ $name_from_req = $_POST["name_from_req"];
 $email_from = $_POST["email_from"];
 $country_req =  $_POST["country_req"];
 $domainname = $_POST["domainname"];
-$to =  $_POST["to"];
+$to = $_POST["to"];
 $question = $_POST["question"];
 $captchamsg="";
-//$code = $_POST["securitycode"];
-
+//$code = $_POST["securitycode"]; 
 $code = $_POST["g-recaptcha-response"];
-
-$url = "https://www.google.com/recaptcha/api/siteverify?secret=6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe&response=".$code;
+$secretKey=getenv('SECRETKEY');
+$url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=".$code;
 $ch = curl_init();
     curl_setopt ($ch, CURLOPT_URL, $url);
     curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
@@ -50,6 +49,8 @@ die;
     }else{
       $captchamsg="<font color='red'>Secuirty code incorrect</font>";
     }
+}else{
+  echo "<h1>not inside if</h1>";
 }
 
 
@@ -330,10 +331,10 @@ Please enter your comments, suggestions & question below:<br />
 Enter Security Code:<br/>
 <input type=text size=10 name=securitycode class="required"><br/>
 <?php echo $captchamsg; ?><br/> -->
-<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" id="lrecaptcha"></div>  
+<div class="g-recaptcha" data-sitekey="<?= getenv('SITEKEY'); ?>" id="lrecaptcha"></div>  
 <?php echo $captchamsg; ?><br/>
       <p align="center">
-        <input src="images/send.gif" name="submit" border="0" type="image">
+        <input name="submit" border="0" type="submit" value="submit">
           </td>
   </tr>
 </table>
