@@ -49,8 +49,6 @@ die;
     }else{
       $captchamsg="<font color='red'>Secuirty code incorrect</font>";
     }
-}else{
-  echo "<h1>not inside if</h1>";
 }
 
 
