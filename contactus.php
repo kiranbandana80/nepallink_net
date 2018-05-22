@@ -1,54 +1,73 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 session_start();
 
 if(count($_POST['submit']) > 0 ){
 
-$name_from_req = $_POST["name_from_req"];
-$email_from = $_POST["email_from"];
-$country_req =  $_POST["country_req"];
-$domainname = $_POST["domainname"];
-$to = $_POST["to"];
-$question = $_POST["question"];
-$captchamsg="";
+  $name_from_req = $_POST["name_from_req"];
+  $email_from = $_POST["email_from"];
+  $country_req =  $_POST["country_req"];
+  $domainname = $_POST["domainname"];
+  $to = $_POST["to"];
+  $question = $_POST["question"];
+  $captchamsg="";
 //$code = $_POST["securitycode"]; 
-$code = $_POST["g-recaptcha-response"];
-$secretKey=getenv('SECRETKEY');
-$url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=".$code;
-$ch = curl_init();
-    curl_setopt ($ch, CURLOPT_URL, $url);
-    curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
-    curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-    $contents = curl_exec($ch);
-    $res= json_decode($contents,true);
-    if($res['success']==TRUE && $code != NULL){
-      $headers = 'From: sales@nepallink.net' . "\r\n" .
-      'Reply-To: '.$email_from . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+  $code = $_POST["g-recaptcha-response"];
+  $secretKey=getenv('SECRETKEY');
+  $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=".$code;
+  $ch = curl_init();
+  curl_setopt ($ch, CURLOPT_URL, $url);
+  curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
+  curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
+  $contents = curl_exec($ch);
+  $res= json_decode($contents,true);
+  if($res['success']==TRUE && $code != NULL){
+    require 'PHPMailer/src/Exception.php';
+    require 'PHPMailer/src/PHPMailer.php';
+    require 'PHPMailer/src/SMTP.php';
+    $mail = new PHPMailer(true); // Passing `true` enables exceptions
+    //Tell PHPMailer to use SMTP - requires a local mail server
+    //Faster and safer than using mail()
+    try{
+      //server settings
+    $mail->isSMTP();
+    $mail->Host        = "asmit.01cloud.com"; // Sets SMTP server
+    $mail->SMTPDebug   = 2; // 2 to enable SMTP debug information
+    $mail->SMTPAuth    = TRUE; // enable SMTP authentication
+    $mail->SMTPSecure  = "ssl"; //Secure conection
+    $mail->Port        = 465; // set the SMTP port
+    $mail->Username    = 'khadka@asmit.01cloud.com'; // SMTP account username
+    $mail->Password    = 'urmydestiny1129'; // SMTP account password
+    $mail->Priority    = 1; // Highest priority - Email priority (1 = High, 3 = Normal, 5 = low)
+    $mail->SMTPDebug = 1;
+    $mail->CharSet     = 'UTF-8';
+    $mail->Encoding    = '8bit';
 
-      $autoresponder_message = <<<MSG
+    //Receipients
+    $mail->setFrom($email_from, $name_from_req);
+    $mail->addAddress('samrat.shakya@nepallink.net', 'Samrat Shakya');     // Add a recipient
+    $mail->addAddress('sarose@nepallink.net');               // Name is optional
+    $mail->addReplyTo('samrat.shakya@nepallink.net', 'Information');
+    $mail->addCC('samrat.shakya@nepallink.net');
 
-A customer has submitted following feedback/comment/suggestion
+    //Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = 'Message from Contact Form of Nepallink';
+    $mail->Body    = $domainname;
+    $mail->Body= $question;
+    $mail->AltBody = $question;
 
-*************************************************
->
-> Name : $name_from_req
-> Email: $email_from
-> Country: $country_req
-> Domain Name: $domainname
-> Contact to: $to
-> Comments: $question
->
-**************************************************
---
-MSG;
-
-mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
-session_destroy();
-Header("Location: http://www.nepallink.net/thanks.php");
-die;
-    }else{
-      $captchamsg="<font color='red'>Secuirty code incorrect</font>";
+    $mail->send();
+    session_destroy();
+    Header("Location: http://www.nepallink.net/thanks.php");
+    } catch (Exception $e) {
+      echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
+  }else{
+    $captchamsg="<font color='red'>Secuirty code incorrect</font>";
+  }
 }
 
 
