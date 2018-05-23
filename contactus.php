@@ -6,12 +6,12 @@ session_start();
 
 if(count($_POST['submit']) > 0 ){
 
-  $name_from_req = $_POST["name_from_req"];
-  $email_from = $_POST["email_from"];
-  $country_req =  $_POST["country_req"];
-  $domainname = $_POST["domainname"];
-  $to = $_POST["to"];
-  $question = $_POST["question"];
+  $name_from_req =test_input($_POST["name_from_req"]);
+  $email_from =test_input($_POST["email_from"]);
+  $country_req =  test_input($_POST["country_req"]);
+  $domainname =test_input($_POST["domainname"]);
+  $to =test_input($_POST["to"]);
+  $question =test_input($_POST["question"]);
   $captchamsg="";
 //$code = $_POST["securitycode"]; 
   $code = $_POST["g-recaptcha-response"];
@@ -30,16 +30,18 @@ if(count($_POST['submit']) > 0 ){
     $mail = new PHPMailer(true); // Passing `true` enables exceptions
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
+   
+
     try{
       //server settings
     $mail->isSMTP();
-    $mail->Host        = "asmit.01cloud.com"; // Sets SMTP server
+    $mail->Host        = "samrat.01cloud.com"; // Sets SMTP server
     $mail->SMTPDebug   = 2; // 2 to enable SMTP debug information
     $mail->SMTPAuth    = TRUE; // enable SMTP authentication
     $mail->SMTPSecure  = "ssl"; //Secure conection
     $mail->Port        = 465; // set the SMTP port
-    $mail->Username    = 'khadka@asmit.01cloud.com'; // SMTP account username
-    $mail->Password    = 'urmydestiny1129'; // SMTP account password
+    $mail->Username    = 'samrat@samrat.01cloud.com'; // SMTP account username
+    $mail->Password    = 'samrat01cloud'; // SMTP account password
     $mail->Priority    = 1; // Highest priority - Email priority (1 = High, 3 = Normal, 5 = low)
     $mail->SMTPDebug = 1;
     $mail->CharSet     = 'UTF-8';
@@ -48,15 +50,16 @@ if(count($_POST['submit']) > 0 ){
     //Receipients
     $mail->setFrom($email_from, $name_from_req);
     $mail->addAddress('samrat.shakya@nepallink.net', 'Samrat Shakya');     // Add a recipient
-    $mail->addAddress('sarose@nepallink.net');               // Name is optional
+    //$mail->addAddress('sarose@nepallink.net');               // Name is optional
     $mail->addReplyTo('samrat.shakya@nepallink.net', 'Information');
     $mail->addCC('samrat.shakya@nepallink.net');
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Message from Contact Form of Nepallink';
-    $mail->Body    = $domainname;
-    $mail->Body= $question;
+    $mail->Body    =$domainname;
+    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('var1' => $question));
+    //$mail->addAttachment('images/nepallink.gif');
     $mail->AltBody = $question;
 
     $mail->send();
@@ -102,6 +105,13 @@ if(count($_POST['submit']) > 0 ){
 // die;
 // }
 //}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
 ?>
 
 
@@ -321,24 +331,22 @@ Please contact us via the following contact form.<br />
 									}
 								  ?>
     <p align="center">Your  Name<br />
-    <input type="text" id="name_from_req" name="name_from_req" size="20" value = "<?php echo isset($_POST['name_from_req']) ? $_POST['name_from_req'] : "";?>" class="required"><br />
+    <input type="text" id="name_from_req" name="name_from_req" size="20" value = "<?php echo isset($_POST['name_from_req']) ? $_POST['name_from_req'] : "";?>" class="required" required onkeypress="validate(event)"><br />
     Your E-mail<br />
-    <input type="text" name="email_from" size="20"value = "<?php echo isset($_POST['email_from']) ? $_POST['email_from'] : "";?>" class="required validate-email"><br />
+    <input type="email" name="email_from" size="20" value = "<?php echo isset($_POST['email_from']) ? $_POST['email_from'] : "";?>" class="required validate-email" required><br />
     Country<br />
-    <input type="text" name="country_req" size="20"value = "<?php echo isset($_POST['country_req']) ? $_POST['country_req'] : "";?>" class="required"><br />
+    <input type="text" name="country_req" size="20" value = "<?php echo isset($_POST['country_req']) ? $_POST['country_req'] : "";?>" class="required" onkeypress="validate(event)"><br />
     Your Domain Name<br />
-    <input type="text" name="domainname" size="20"value = "<?php echo isset($_POST['domainname']) ? $_POST['domainname'] : "";?>"><br />
+    <input type="text" name="domainname" size="20" value = "<?php echo isset($_POST['domainname']) ? $_POST['domainname'] : "";?>"><br />
     Select who you wish to contact<br />
     <font face="Tahoma" size="2">
-    <font style="color: rgb(127, 127, 127)" class="tah11"><select name="to">
-    <option value="Sales" selected="selected">Sales</option>
-    <option value="Support">Support</option>
-    <option value="Billing">Billing</option>
-    <option value="Webmaster">Webmaster</option>
-    <option value="Administrator">Administrator</option>
-    <option value="Hostmaster">Hostmaster</option>
-    <option value="Jobs">Jobs</option>
-    <option value="Abuse">Abuse</option>
+    <font style="color: rgb(127, 127, 127)" class="tah11">
+    <select name="to">
+      <option value="sales" selected="selected">Sales</option>
+      <option value="support">Support</option>
+      <option value="billing">Billing</option>
+      <option value="jobs">Jobs</option>
+      <option value="abuse">Abuse</option>
     </select></font></font><br />
 Please enter your comments, suggestions & question below:<br />
       <textarea cols="40" rows="5" wrap="off" name="question" class="required"><?php echo isset($_POST['question']) ? $_POST['question'] : "";?></textarea><br />
@@ -401,6 +409,20 @@ var valid = new Validation('contatcus',
 									} //end of if else
 	?>
 </table>
+<script type="text/javascript">
+   function validate(e) {
+        var regex = new RegExp("[a-zA-Z{}]");
+        var key = e.keyCode || e.which;
+        key = String.fromCharCode(key);
+        
+        if(!regex.test(key)) {
+            e.returnValue = false;
+            if(e.preventDefault) {
+                e.preventDefault();
+            }
+        }
+    }
+</script>
 
 <?php
 include_once("footer.php");
