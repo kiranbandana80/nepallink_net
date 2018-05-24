@@ -1,9 +1,22 @@
-<table width='600px' cellpadding='0' cellspacing='0'>
-<tr><td bgcolor='#eeeeee'><img src='logo.png' /></td></tr>
-<tr><td bgcolor='#ffffff'  bordercolor='#eeeeee'>
-<div style='border:1px solid #eeeeee;font-family:Segoe UI,Tahoma,Verdana,Arial,sans-serif;padding:20px 10px;'>
-<p style=''>This email is to remind you that you have an upcoming meeting at <?= $var1; ?> </p>
-<p>Thanks</p>
-</div>
-</td></tr>
-</table>
+ <html>
+    <head>
+        <title>Nepallink Contact Form From </title>
+    </head>
+    <body>
+        <h1>Nepallink Contact Form</h1>
+        <table cellspacing="0" style="border: 2px dashed #FB4314; width: 300px; height: 200px;">
+            <tr>
+                <th>Name:</th><td> name </td>
+            </tr>
+            <tr style="background-color: #e0e0e0;">
+                <th>Email:</th><td>email</td>
+            </tr>
+            <tr>
+                <th>Website:</th><td><a href="website">website</a></td>
+            </tr>
+            <tr>
+                <th>Message:</th><td>desc</td>
+            </tr>
+        </table>
+    </body>
+    </html>'

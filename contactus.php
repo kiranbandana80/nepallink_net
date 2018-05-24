@@ -58,9 +58,9 @@ if(count($_POST['submit']) > 0 ){
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Message from Contact Form of Nepallink';
     $mail->Body    =$domainname;
-    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('var1' => $question));
+    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'name'=>$name_from_req,'email'=>$email_from,'website'=>$domainname));
     //$mail->addAttachment('images/nepallink.gif');
-    $mail->AltBody = $question;
+    //$mail->AltBody = $question;
 
     $mail->send();
     session_destroy();
@@ -411,7 +411,7 @@ var valid = new Validation('contatcus',
 </table>
 <script type="text/javascript">
    function validate(e) {
-        var regex = new RegExp("[a-zA-Z{}]");
+        var regex = new RegExp("[a-zA-Z ]");
         var key = e.keyCode || e.which;
         key = String.fromCharCode(key);
         
