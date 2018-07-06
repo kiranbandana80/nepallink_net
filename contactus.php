@@ -17,13 +17,25 @@ if(count($_POST['submit']) > 0 ){
   $code = $_POST["g-recaptcha-response"];
   $secretKey=getenv('SECRETKEY');
   $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=".$code;
-  $ch = curl_init();
-  curl_setopt ($ch, CURLOPT_URL, $url);
-  curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
-  curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-  $contents = curl_exec($ch);
-  $res= json_decode($contents,true);
-  if($res['success']==TRUE && $code != NULL){
+  $curl = curl_init();
+  curl_setopt_array($curl, array(
+  CURLOPT_URL => $url,
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "cache-control: no-cache"
+  ),
+));
+
+$response = curl_exec($curl);
+$response=json_decode($response);
+$err = curl_error($curl);
+curl_close($curl);
+  if($response->success==TRUE && $code != NULL){
     require 'PHPMailer/src/Exception.php';
     require 'PHPMailer/src/PHPMailer.php';
     require 'PHPMailer/src/SMTP.php';
@@ -36,14 +48,13 @@ if(count($_POST['submit']) > 0 ){
       //server settings
     $mail->isSMTP();
     $mail->Host        = "samrat.01cloud.com"; // Sets SMTP server
-    $mail->SMTPDebug   = 2; // 2 to enable SMTP debug information
+    $mail->SMTPDebug   = 0; // 2 to enable SMTP debug information
     $mail->SMTPAuth    = TRUE; // enable SMTP authentication
     $mail->SMTPSecure  = "ssl"; //Secure conection
     $mail->Port        = 465; // set the SMTP port
-    $mail->Username    = 'samrat@samrat.01cloud.com'; // SMTP account username
-    $mail->Password    = 'samrat01cloud'; // SMTP account password
+    $mail->Username    = getenv('SMTPMAIL'); // SMTP account username
+    $mail->Password    = getenv('SMTPPASS'); // SMTP account password
     $mail->Priority    = 1; // Highest priority - Email priority (1 = High, 3 = Normal, 5 = low)
-    $mail->SMTPDebug = 1;
     $mail->CharSet     = 'UTF-8';
     $mail->Encoding    = '8bit';
 
@@ -58,7 +69,7 @@ if(count($_POST['submit']) > 0 ){
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Message from Contact Form of Nepallink';
     $mail->Body    =$domainname;
-    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'name'=>$name_from_req,'email'=>$email_from,'website'=>$domainname));
+    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'name'=>$name_from_req,'email'=>$email_from,'website'=>$domainname,'country'=>$country_req));
     //$mail->addAttachment('images/nepallink.gif');
     //$mail->AltBody = $question;
 
