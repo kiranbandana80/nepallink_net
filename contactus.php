@@ -1,50 +1,125 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 session_start();
 
-if(count($_POST) >0 ){
+if(count($_POST['submit']) > 0 ){
 
-$name_from_req = $_POST["name_from_req"];
-$email_from = $_POST["email_from"];
-$country_req =  $_POST["country_req"];
-$domainname = $_POST["domainname"];
-$to =  $_POST["to"];
-$question = $_POST["question"];
-$code = $_POST["securitycode"];
+  $name_from_req =test_input($_POST["name_from_req"]);
+  $email_from =test_input($_POST["email_from"]);
+  $country_req =  test_input($_POST["country_req"]);
+  $domainname =test_input($_POST["domainname"]);
+  $to =test_input($_POST["to"]);
+  $question =test_input($_POST["question"]);
+  $captchamsg="";
+//$code = $_POST["securitycode"]; 
+  $code = $_POST["g-recaptcha-response"];
+  $secretKey=getenv('SECRETKEY');
+  $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=".$code;
+  $curl = curl_init();
+  curl_setopt_array($curl, array(
+  CURLOPT_URL => $url,
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "cache-control: no-cache"
+  ),
+));
 
-$captchamsg="";
+$response = curl_exec($curl);
+$response=json_decode($response);
+$err = curl_error($curl);
+curl_close($curl);
+  if($response->success==TRUE && $code != NULL){
+    require 'PHPMailer/src/Exception.php';
+    require 'PHPMailer/src/PHPMailer.php';
+    require 'PHPMailer/src/SMTP.php';
+    $mail = new PHPMailer(true); // Passing `true` enables exceptions
+    //Tell PHPMailer to use SMTP - requires a local mail server
+    //Faster and safer than using mail()
+    try{
+      //server settings
+    $mail->isSMTP();
+    $mail->Host        = getenv("MYHOSTNAME"); // Sets SMTP server
+    $mail->SMTPDebug   = 0; // 2 to enable SMTP debug information
+    $mail->SMTPAuth    = TRUE; // enable SMTP authentication
+    $mail->SMTPSecure  = "ssl"; //Secure conection
+    $mail->Port        = 465; // set the SMTP port
+    $mail->Username    = getenv('SMTPMAIL'); // SMTP account username
+    $mail->Password    = getenv('SMTPPASS'); // SMTP account password
+    $mail->Priority    = 1; // Highest priority - Email priority (1 = High, 3 = Normal, 5 = low)
+    $mail->CharSet     = 'UTF-8';
+    $mail->Encoding    = '8bit';
 
+    //Receipients
+    $mail->setFrom($email_from, $name_from_req);
+    $mail->addAddress($to, 'Nepallink');     // Add a recipient
+    //$mail->addAddress('sarose@nepallink.net');               // Name is optional
+    $mail->addReplyTo($to, 'Information');
+    $mail->addCC($to);
 
+    //Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = 'Message from Contact Form of Nepallink';
+    $mail->Body    =$domainname;
+    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'clientname'=>$name_from_req,'clientemail'=>$email_from,'clientwebsite'=>$domainname,'clientcountry'=>$country_req));
+    //$mail->addAttachment('images/nepallink.gif');
+    //$mail->AltBody = $question;
 
-if($_SESSION['security_code']!=$code) {
-$captchamsg="<font color='red'>Secuirty code incorrect</font>";
-} else {
-
-$headers = 'From: sales@nepallink.net' . "\r\n" .
- 'Reply-To: '.$email_from . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-$autoresponder_message = <<<MSG
-
-A customer has submitted following feedback/comment/suggestion
-
-*************************************************
->
-> Name : $name_from_req
-> Email: $email_from
-> Country: $country_req
-> Domain Name: $domainname
-> Contact to: $to
-> Comments: $question
->
-**************************************************
---
-MSG;
-
-mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
-session_destroy();
-Header("Location: http://www.nepallink.net/thanks.php");
-die;
+    $mail->send();
+    session_destroy();
+    Header("Location: http://www.nepallink.net/thanks.php");
+    } catch (Exception $e) {
+      echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+    }
+  }else{
+    $captchamsg="<font color='red'>Secuirty code incorrect</font>";
+  }
 }
+
+
+// if($_SESSION['security_code']!=$code) {
+// $captchamsg="<font color='red'>Secuirty code incorrect</font>";
+// } else {
+
+// $headers = 'From: sales@nepallink.net' . "\r\n" .
+//  'Reply-To: '.$email_from . "\r\n" .
+//     'X-Mailer: PHP/' . phpversion();
+
+// $autoresponder_message = <<<MSG
+
+// A customer has submitted following feedback/comment/suggestion
+
+// *************************************************
+// >
+// > Name : $name_from_req
+// > Email: $email_from
+// > Country: $country_req
+// > Domain Name: $domainname
+// > Contact to: $to
+// > Comments: $question
+// >
+// **************************************************
+// --
+// MSG;
+
+// mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
+// session_destroy();
+// Header("Location: http://www.nepallink.net/thanks.php");
+// die;
+// }
+//}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
 }
 ?>
 
@@ -58,7 +133,7 @@ die;
 <script src="http://www.nepallink.net/javascript/prototype.js" type="text/javascript"></script>
 <script src="http://www.nepallink.net/javascript/effects.js" type="text/javascript"></script>
 <script src="http://www.nepallink.net/javascript/validation.js" type="text/javascript"></script>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <meta name="description" content="Nepallink Contact Address. You can use our telephone, fax, email and VOIP to reach us." />
 <meta name="keywords" content="NepalLink - Support Online" />
@@ -247,35 +322,35 @@ Please contact us via the following contact form.<br />
 									}
 								  ?>
     <p align="center">Your  Name<br />
-    <input type="text" id="name_from_req" name="name_from_req" size="20" value = "<?php echo isset($_POST['name_from_req']) ? $_POST['name_from_req'] : "";?>" class="required"><br />
+    <input type="text" id="name_from_req" name="name_from_req" size="20" value = "<?php echo isset($_POST['name_from_req']) ? $_POST['name_from_req'] : "";?>" class="required" required onkeypress="validate(event)"><br />
     Your E-mail<br />
-    <input type="text" name="email_from" size="20"value = "<?php echo isset($_POST['email_from']) ? $_POST['email_from'] : "";?>" class="required validate-email"><br />
+    <input type="email" name="email_from" size="20" value = "<?php echo isset($_POST['email_from']) ? $_POST['email_from'] : "";?>" class="required validate-email" required><br />
     Country<br />
-    <input type="text" name="country_req" size="20"value = "<?php echo isset($_POST['country_req']) ? $_POST['country_req'] : "";?>" class="required"><br />
+    <input type="text" name="country_req" size="20" value = "<?php echo isset($_POST['country_req']) ? $_POST['country_req'] : "";?>" class="required" onkeypress="validate(event)"><br />
     Your Domain Name<br />
-    <input type="text" name="domainname" size="20"value = "<?php echo isset($_POST['domainname']) ? $_POST['domainname'] : "";?>"><br />
+    <input type="text" name="domainname" size="20" value = "<?php echo isset($_POST['domainname']) ? $_POST['domainname'] : "";?>"><br />
     Select who you wish to contact<br />
     <font face="Tahoma" size="2">
-    <font style="color: rgb(127, 127, 127)" class="tah11"><select name="to">
-    <option value="Sales" selected="selected">Sales</option>
-    <option value="Support">Support</option>
-    <option value="Billing">Billing</option>
-    <option value="Webmaster">Webmaster</option>
-    <option value="Administrator">Administrator</option>
-    <option value="Hostmaster">Hostmaster</option>
-    <option value="Jobs">Jobs</option>
-    <option value="Abuse">Abuse</option>
+    <font style="color: rgb(127, 127, 127)" class="tah11">
+    <select name="to" required>
+      <option value="sales@nepallink.net" selected="selected">Sales</option>
+      <option value="support@nepallink.net">Support</option>
+      <option value="billing@nepallink.net">Billing</option>
+      <option value="jobs@nepallink.net">Jobs</option>
+      <option value="abuse@nepallink.net">Abuse</option>
     </select></font></font><br />
 Please enter your comments, suggestions & question below:<br />
       <textarea cols="40" rows="5" wrap="off" name="question" class="required"><?php echo isset($_POST['question']) ? $_POST['question'] : "";?></textarea><br />
 
 <br/>
-<img src='CaptchaSecurityImages.php' border=1><br/>
+<!-- <img src='CaptchaSecurityImages.php' border=1><br/>
 Enter Security Code:<br/>
 <input type=text size=10 name=securitycode class="required"><br/>
+<?php echo $captchamsg; ?><br/> -->
+<div class="g-recaptcha" data-sitekey="<?= getenv('SITEKEY'); ?>" id="lrecaptcha"></div>  
 <?php echo $captchamsg; ?><br/>
       <p align="center">
-        <input src="images/send.gif" name="submit" border="0" type="image">
+        <input name="submit" border="0" type="submit" value="submit">
           </td>
   </tr>
 </table>
@@ -325,6 +400,20 @@ var valid = new Validation('contatcus',
 									} //end of if else
 	?>
 </table>
+<script type="text/javascript">
+   function validate(e) {
+        var regex = new RegExp("[a-zA-Z ]");
+        var key = e.keyCode || e.which;
+        key = String.fromCharCode(key);
+        
+        if(!regex.test(key)) {
+            e.returnValue = false;
+            if(e.preventDefault) {
+                e.preventDefault();
+            }
+        }
+    }
+</script>
 
 <?php
 include_once("footer.php");
