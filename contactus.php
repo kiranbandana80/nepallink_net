@@ -42,12 +42,10 @@ curl_close($curl);
     $mail = new PHPMailer(true); // Passing `true` enables exceptions
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
-   
-
     try{
       //server settings
     $mail->isSMTP();
-    $mail->Host        = "samrat.01cloud.com"; // Sets SMTP server
+    $mail->Host        = getenv("MYHOSTNAME"); // Sets SMTP server
     $mail->SMTPDebug   = 0; // 2 to enable SMTP debug information
     $mail->SMTPAuth    = TRUE; // enable SMTP authentication
     $mail->SMTPSecure  = "ssl"; //Secure conection
@@ -60,16 +58,16 @@ curl_close($curl);
 
     //Receipients
     $mail->setFrom($email_from, $name_from_req);
-    $mail->addAddress('samrat.shakya@nepallink.net', 'Samrat Shakya');     // Add a recipient
+    $mail->addAddress($to, 'Nepallink');     // Add a recipient
     //$mail->addAddress('sarose@nepallink.net');               // Name is optional
-    $mail->addReplyTo('samrat.shakya@nepallink.net', 'Information');
-    $mail->addCC('samrat.shakya@nepallink.net');
+    $mail->addReplyTo($to, 'Information');
+    $mail->addCC($to);
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Message from Contact Form of Nepallink';
     $mail->Body    =$domainname;
-    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'name'=>$name_from_req,'email'=>$email_from,'website'=>$domainname,'country'=>$country_req));
+    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'clientname'=>$name_from_req,'clientemail'=>$email_from,'clientwebsite'=>$domainname,'clientcountry'=>$country_req));
     //$mail->addAttachment('images/nepallink.gif');
     //$mail->AltBody = $question;
 
@@ -352,12 +350,12 @@ Please contact us via the following contact form.<br />
     Select who you wish to contact<br />
     <font face="Tahoma" size="2">
     <font style="color: rgb(127, 127, 127)" class="tah11">
-    <select name="to">
-      <option value="sales" selected="selected">Sales</option>
-      <option value="support">Support</option>
-      <option value="billing">Billing</option>
-      <option value="jobs">Jobs</option>
-      <option value="abuse">Abuse</option>
+    <select name="to" required>
+      <option value="sales@nepallink.net" selected="selected">Sales</option>
+      <option value="support@nepallink.net">Support</option>
+      <option value="billing@nepallink.net">Billing</option>
+      <option value="jobs@nepallink.net">Jobs</option>
+      <option value="abuse@nepallink.net">Abuse</option>
     </select></font></font><br />
 Please enter your comments, suggestions & question below:<br />
       <textarea cols="40" rows="5" wrap="off" name="question" class="required"><?php echo isset($_POST['question']) ? $_POST['question'] : "";?></textarea><br />

@@ -295,15 +295,15 @@ a {
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        <a href="website" class="btn-primary">Visit website</a>
+                                        <a href="clientwebsite" class="btn-primary">Visit clientwebsite</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        Yours, name
-                                        email
+                                        Yours, clientname
+                                        clientemail
                                         <br />
-                                        From, country
+                                        From,clientcountry
                                     </td>
                                 </tr>
                             </table>
