@@ -1,0 +1,7 @@
+FROM alpine:latest
+LABEL maintainer="ManishK_ <manish.khadka@nepallink.net>
+
+RUN apk update
+RUN apk add php7.4
+
+#WORKDIR
