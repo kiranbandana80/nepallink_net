@@ -2,6 +2,53 @@ FROM alpine:latest
 LABEL maintainer="ManishK_ <manish.khadka@nepallink.net>
 
 RUN apk update
-RUN apk add php7.4
+RUN apk add build-base wget pkg-config --no-cache
 
-#WORKDIR
+#Downloading PHP7.4 beta version 2
+RUN wget -c -O php7.4.tar.gz "https://downloads.php.net/~derick/php-7.4.0beta2.tar.gz" && \
+    tar -zxvf php7.4.tar.gz && \
+    rm -rvf php7.4.tar.gz && \
+    cd php7.4.0beat2
+
+#Installing PHP7.4 and necessary packages
+RUN apk add sqlite sqlite-dev sqlite-libs openssl openssl-dev openssl-dbg libxml2 libxml2-dev && \
+    libxml2-dbg libcurl curl-dev libpng libpng-dev libpng-static libpng-doc libpng-utils && \
+    libjpeg-turbo libjpeg-turbo-utils libjpeg-turbo-doc libjpeg lib-turbo-dev freetype freetype && \
+    freetype-dev freetype-doc freetype-static
+RUN ./configure --prefix=/usr/local/php \
+    --with-config-file-path=/usr/local/php/etc \
+    --with-config-file-scan-dir=/usr/local/php/etc/php.d \
+    --with-fpm-user=www \
+    --with-fpm-group=www \
+    --with-mysqli \
+    --with-pdo-mysql \
+    --with-openssl \
+    --enable-gd \
+    --with-iconv \
+    --with-zlib \
+    --with-gettext \
+    --with-curl \
+    --with-jpeg \
+    --with-freetype \
+    --enable-fpm \
+    --enable-xml \
+    --enable-inline-optimization \
+    --enable-mbregex \
+    --enable-mbstring \
+    --enable-mysqlnd \
+    --enable-sockets \
+    --with-zip \
+    --enable-soap \
+    --enable-bcmath \
+    --enable-exif \
+    --enable-pcntl \
+    --disable-cgi \
+    --disable-phpdbg \
+    && \
+    make -j4 > /dev/null && make install;
+    
+
+WORKDIR /etc/php7/php-fpm.d/
+COPY ./DockerConfig/php/ .
+
+
