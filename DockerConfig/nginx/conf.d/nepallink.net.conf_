@@ -1,0 +1,8 @@
+server {
+  listen [::]:80;
+  listen      80;
+  server_name nepallink.net www.nepallink.net;
+
+  # Redirect all non-https requests
+  rewrite ^ https://$host$request_uri? permanent;
+}
