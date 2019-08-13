@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  #######################################
+  #Nginx Image			        #
+  #######################################
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile-nginx
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - ./nginx_log:./var/log/nginx/
+    links:
+      - php
+    depends_on:
+      - php
+    command: "nginx -g 'daemon off;'"
+
+  ########################################
+  #PHP-FPM Image			 #
+  ########################################
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile-php
+    image: php
+    container_name: php
+    volumes:
+      - ./php_log:/usr/local/php/var/log/
+    ports: 
+      - "9000:9000"
+    command: "php-fpm -F"

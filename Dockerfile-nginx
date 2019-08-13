@@ -1,0 +1,14 @@
+FROM alpine:latest
+LABEL maintainer="ManishK_ <manish.khadka@nepallink.net>"
+
+RUN apk update && \
+    apk add nginx --no-cache
+
+WORKDIR /etc/nginx/
+COPY ./DockerConfig/nginx .
+RUN rm /etc/nginx/conf.d/default.conf
+
+WORKDIR /home/nepallink/public_html
+COPY . .
+
+EXPOSE 80
