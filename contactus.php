@@ -1,129 +1,6 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
 session_start();
-
-if(count($_POST['submit']) > 0 ){
-
-  $name_from_req =test_input($_POST["name_from_req"]);
-  $email_from =test_input($_POST["email_from"]);
-  $country_req =  test_input($_POST["country_req"]);
-  $domainname =test_input($_POST["domainname"]);
-  $to =test_input($_POST["to"]);
-  $question =test_input($_POST["question"]);
-  $captchamsg="";
-//$code = $_POST["securitycode"]; 
-  $code = $_POST["g-recaptcha-response"];
-  $secretKey=getenv('SECRETKEY');
-  $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=".$code;
-  $curl = curl_init();
-  curl_setopt_array($curl, array(
-  CURLOPT_URL => $url,
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => "",
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 30,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => "GET",
-  CURLOPT_HTTPHEADER => array(
-    "cache-control: no-cache"
-  ),
-));
-
-$response = curl_exec($curl);
-$response=json_decode($response);
-$err = curl_error($curl);
-curl_close($curl);
-  if($response->success==TRUE && $code != NULL){
-    require 'PHPMailer/src/Exception.php';
-    require 'PHPMailer/src/PHPMailer.php';
-    require 'PHPMailer/src/SMTP.php';
-    $mail = new PHPMailer(true); // Passing `true` enables exceptions
-    //Tell PHPMailer to use SMTP - requires a local mail server
-    //Faster and safer than using mail()
-    try{
-      //server settings
-    $mail->isSMTP();
-    $mail->Host        = getenv("MYHOSTNAME"); // Sets SMTP server
-    $mail->SMTPDebug   = 0; // 2 to enable SMTP debug information
-    $mail->SMTPAuth    = TRUE; // enable SMTP authentication
-    $mail->SMTPSecure  = "ssl"; //Secure conection
-    $mail->Port        = 465; // set the SMTP port
-    $mail->Username    = getenv('SMTPMAIL'); // SMTP account username
-    $mail->Password    = getenv('SMTPPASS'); // SMTP account password
-    $mail->Priority    = 1; // Highest priority - Email priority (1 = High, 3 = Normal, 5 = low)
-    $mail->CharSet     = 'UTF-8';
-    $mail->Encoding    = '8bit';
-
-    //Receipients
-    $mail->setFrom($email_from, $name_from_req);
-    $mail->addAddress($to, 'Nepallink');     // Add a recipient
-    //$mail->addAddress('sarose@nepallink.net');               // Name is optional
-    $mail->addReplyTo($to, 'Information');
-    $mail->addCC($to);
-
-    //Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Message from Contact Form of Nepallink';
-    $mail->Body    =$domainname;
-    $mail->Body= strtr(file_get_contents('emailTemplate.php'), array('desc' => $question,'clientname'=>$name_from_req,'clientemail'=>$email_from,'clientwebsite'=>$domainname,'clientcountry'=>$country_req));
-    //$mail->addAttachment('images/nepallink.gif');
-    //$mail->AltBody = $question;
-
-    $mail->send();
-    session_destroy();
-    Header("Location: http://www.nepallink.net/thanks.php");
-    } catch (Exception $e) {
-      echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
-    }
-  }else{
-    $captchamsg="<font color='red'>Secuirty code incorrect</font>";
-  }
-}
-
-
-// if($_SESSION['security_code']!=$code) {
-// $captchamsg="<font color='red'>Secuirty code incorrect</font>";
-// } else {
-
-// $headers = 'From: sales@nepallink.net' . "\r\n" .
-//  'Reply-To: '.$email_from . "\r\n" .
-//     'X-Mailer: PHP/' . phpversion();
-
-// $autoresponder_message = <<<MSG
-
-// A customer has submitted following feedback/comment/suggestion
-
-// *************************************************
-// >
-// > Name : $name_from_req
-// > Email: $email_from
-// > Country: $country_req
-// > Domain Name: $domainname
-// > Contact to: $to
-// > Comments: $question
-// >
-// **************************************************
-// --
-// MSG;
-
-// mail('sales@nepallink.net', 'Inquiry From Client', $autoresponder_message,$headers);
-// session_destroy();
-// Header("Location: http://www.nepallink.net/thanks.php");
-// die;
-// }
-//}
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
 ?>
-
-
 <html>
 <head>
 <meta http-equiv="Content-Language" content="en-us" />
@@ -142,33 +19,6 @@ function test_input($data) {
 <meta name="distribution" content="global" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="Stylesheet" href="style.css" type="text/css" />
-<script language="JavaScript" type="text/JavaScript">
-<!--
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_validateForm() { //v4.0
-  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
-  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
-    if (val) { nm=val.name; if ((val=val.value)!="") {
-      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
-      } else if (test!='R') { num = parseFloat(val);
-        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
-        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
-          min=test.substring(8,p); max=test.substring(p+1);
-          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
-  } if (errors) alert('The following error(s) occurred:\n'+errors);
-  document.MM_returnValue = (errors == '');
-}
-//-->
-</script>
 </head>
 <body>
 <center>
@@ -286,73 +136,6 @@ Company Registartoin# 32653/061/062<br></td>
 </table>
 
 
-<br /><br />
-
-<a name="form">
-Please contact us via the following contact form.<br />
-</a>
-<form name="contatcus" id="contatcus" method="post" action="">
-<input type="hidden" name="subject" value="Feedback" >
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td width="100%" bgcolor="#EEEEEE">
-	<?php 
-								 if(!isset($x)){
-	
-	
-	
-								  if(isset($msg)){ 
-									echo "
-									<tr>
-										<td colspan=\"3\" ><h3><font color=\"#800000\">$msg</font></h3></td>
-									</tr>";
-									}
-								  ?>
-    <p align="center">Your  Name<br />
-    <input type="text" id="name_from_req" name="name_from_req" size="20" value = "<?php echo isset($_POST['name_from_req']) ? $_POST['name_from_req'] : "";?>" class="required" required onkeypress="validate(event)"><br />
-    Your E-mail<br />
-    <input type="email" name="email_from" size="20" value = "<?php echo isset($_POST['email_from']) ? $_POST['email_from'] : "";?>" class="required validate-email" required><br />
-    Country<br />
-    <input type="text" name="country_req" size="20" value = "<?php echo isset($_POST['country_req']) ? $_POST['country_req'] : "";?>" class="required" onkeypress="validate(event)"><br />
-    Your Domain Name<br />
-    <input type="text" name="domainname" size="20" value = "<?php echo isset($_POST['domainname']) ? $_POST['domainname'] : "";?>"><br />
-    Select who you wish to contact<br />
-    <font face="Tahoma" size="2">
-    <font style="color: rgb(127, 127, 127)" class="tah11">
-    <select name="to" required>
-      <option value="sales@nepallink.net" selected="selected">Sales</option>
-      <option value="support@nepallink.net">Support</option>
-      <option value="billing@nepallink.net">Billing</option>
-      <option value="jobs@nepallink.net">Jobs</option>
-      <option value="abuse@nepallink.net">Abuse</option>
-    </select></font></font><br />
-Please enter your comments, suggestions & question below:<br />
-      <textarea cols="40" rows="5" wrap="off" name="question" class="required"><?php echo isset($_POST['question']) ? $_POST['question'] : "";?></textarea><br />
-
-<br/>
-<!-- <img src='CaptchaSecurityImages.php' border=1><br/>
-Enter Security Code:<br/>
-<input type=text size=10 name=securitycode class="required"><br/>
-<?php echo $captchamsg; ?><br/> -->
-<div class="g-recaptcha" data-sitekey="<?= getenv('SITEKEY'); ?>" id="lrecaptcha"></div>  
-<?php echo $captchamsg; ?><br/>
-      <p align="center">
-        <input name="submit" border="0" type="submit" value="submit">
-          </td>
-  </tr>
-</table>
-</form>
-
-<script type="text/javascript">
-				function formCallback(result, form) {
-					window.status = "valiation callback for form '" + form.id + "': result = " + result;
-				}
-var valid = new Validation('contatcus', 
-		{immediate : true, onFormValidate : formCallback});
-</script>
-
-
-
 </div>
 </td>
     <td width="10%" align="left" valign="top">&nbsp;</td>
@@ -372,35 +155,7 @@ var valid = new Validation('contatcus',
 </td>
     <td width="14" align="left" valign="top" background="images/right.gif">&nbsp;</td>
   </tr>
-   <?php
-	}else
-	{
-	echo "
-									<tr>
-										<td colspan=\"3\" ><h3><font color=\"#800000\">$msg</font></h3></td>
-									</tr>";
-									
-									$retry ="Visit Again Contact Page  "."<a href=contact.php> Contact </a>";
-									echo"<tr>
-										<td colspan=\"3\" ><h3><font color=\"#800000\">$retry</font></h3></td>
-									</tr>";
-									} //end of if else
-	?>
 </table>
-<script type="text/javascript">
-   function validate(e) {
-        var regex = new RegExp("[a-zA-Z ]");
-        var key = e.keyCode || e.which;
-        key = String.fromCharCode(key);
-        
-        if(!regex.test(key)) {
-            e.returnValue = false;
-            if(e.preventDefault) {
-                e.preventDefault();
-            }
-        }
-    }
-</script>
 
 <?php
 include_once("footer.php");
