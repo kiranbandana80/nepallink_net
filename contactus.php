@@ -283,19 +283,6 @@ Nepal<br>
 Company Registartoin# 32653/061/062<br></td>
   </tr>
 
- <tr>
-    <td width="48%" bgcolor="#EEEEEE"><b>Contact us in Hyderabad, IN</b></td>
-  </tr>
-  <tr>
-    <td width="48%">
-<strong>Landline</strong> : 9140-65457272<br>
-<br>
-Plot no:102 hyline complex<br>
-Banjarahills Road no:12, <br>
-Hyderabad 500034  <br><br>
-      </td>
-  </tr>
-
 </table>
 
 
