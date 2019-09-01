@@ -1,53 +1,5 @@
 <?php
 session_start();
-
-if(count($_POST) >0 ){
-
-$name_from_req = $_POST["name_from_req"];
-$email_from = $_POST["email_from"];
-$country_req =  $_POST["country_req"];
-$domianname = $_POST["domianname"];
-$to =  $_POST["to"];
-$question = $_POST["question"];
-$code = $_POST["securitycode"];
-
-$captchamsg="";
-
-
-
-if($_SESSION['security_code']!=$code) {
-$captchamsg="<font color='red'>Secuirty code incorrect</font>";
-} else {
-
-$headers = 'From: noreply@nepallink.net' . "\r\n" .
- 'Reply-To: '.$email_from . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-$autoresponder_message = <<<MSG
-
-A customer has submitted following feedback/comment/suggestion
-
-*************************************************
->
-> Name : $name_from_req
-> Email: $email_from
-> Country: $country_req
-> Domain Name: $domianname
-> Contact to: $to
-> Comments: $question
->
-**************************************************
---
-MSG;
-
-mail('sales@nepallink.net', 'Payment Inquiry From Client', $autoresponder_message,$headers);
-session_destroy();
-Header("Location: http://www.nepallink.net/thanks.php");
-die;
-}
-
-}
-
 ?>
 <HTML>
 <HEAD>
@@ -185,64 +137,7 @@ Paypal id: payments@nepallink.net<br/>
     <td width="10%" align="left" valign="top">&nbsp;</td>
   </tr>
 </table>
-
-<br /><br />
-
-<a name="form">Please feel free to submit here regarding any billing inquiry. <br />
-</a>
-<form name="contatcus" id="contatcus" method="post" action="">
-<input type="hidden" name="subject" value="Payment inquiry." >
-<table border="0" cellpadding="0" cellspacing="0" width="98%">
-  <tr>
-    <td width="100%" bgcolor="#EEEEEE">
-
-    <p align="center">Your  Name<br />
-    <input type="text" id="name_from_req" name="name_from_req" size="20" value = "<?php echo isset($_POST['name_from_req']) ? $_POST['name_from_req'] : "";?>" class="required"><br />
-    Your E-mail<br />
-    <input type="text" name="email_from" size="20"value = "<?php echo isset($_POST['email_from']) ? $_POST['email_from'] : "";?>" class="required validate-email"><br />
-    Country<br />
-    <input type="text" name="country_req" size="20"value = "<?php echo isset($_POST['country_req']) ? $_POST['country_req'] : "";?>" class="required"><br />
-    Your Domain Name<br />
-    <input type="text" name="domainname" size="20"value = "<?php echo isset($_POST['domainname']) ? $_POST['domainname'] : "";?>"><br />
-    Select who you wish to contact<br />
-    <font face="Tahoma" size="2">
-    <font style="color: rgb(127, 127, 127)" class="tah11"><select name="to">
-    <option value="Sales" >Sales</option>
-    <option value="Support">Support</option>
-    <option value="Billing" selected="selected">Billing</option>
-    <option value="Webmaster">Webmaster</option>
-    <option value="Administrator">Administrator</option>
-    <option value="Hostmaster">Hostmaster</option>
-    <option value="Jobs">Jobs</option>
-    <option value="Abuse">Abuse</option>
-    </select></font></font><br />
-Please enter your comments, suggestions & question below:<br />
-      <textarea cols="40" rows="5" wrap="off" name="question" class="required"><?php echo isset($_POST['question']) ? $_POST['question'] : "";?></textarea>
-<br />
-
-<br/>
-<img src='CaptchaSecurityImages.php' border=1><br/>
-Enter Security Code:<br/>
-<input type=text size=10 name=securitycode class="required"><br/>
-<?php echo $captchamsg; ?><br/>
-      <p align="center">
-        <input src="images/send.gif" name="submit" border="0" type="image">
-          </td>
-  </tr>
-</table>
-</form>
-
-<script type="text/javascript">
-				function formCallback(result, form) {
-					window.status = "valiation callback for form '" + form.id + "': result = " + result;
-				}
-var valid = new Validation('contatcus', 
-		{immediate : true, onFormValidate : formCallback});
-</script>
-
-
-
-<br /><br /></td>
+</td>
   </tr>
 </table>
 
