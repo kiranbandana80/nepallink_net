@@ -123,9 +123,9 @@
     </tr>
     <tr>
       <td width="173" bgcolor="#EDF4F8">Domain Limit</td>
-      <td width="119"> <div align="center">Unlimited</div></td>
-      <td width="105"><div align="center">Unlimited</div></td>
-      <td width="105"><div align="center">Unlimited</div></td>
+      <td width="119"> <div align="center">Up to 30 cPanel account</div></td>
+      <td width="105"><div align="center">Up to 40 cPanel account</div></td>
+      <td width="105"><div align="center">Up to 60 cPanel account</div></td>
       <td width="112"><div align="center">Unlimited</div></td>
     </tr>
     <tr>
