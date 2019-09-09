@@ -157,14 +157,17 @@
       <td bgcolor="#ffffff"><p align="center"><strong>USD 350 </strong></td>
     </tr>
 
-
 <tr>
+  <td bgcolor="#EDF4F8"></td>
+  <td colspan="4"><p style="text-align: center;">After exceeding the allocated number of account, you will be charged Rs.17.00 for each account per month.</p></td>
+</tr>
+<!-- <tr>
       <td bgcolor="#EDF4F8">&nbsp;</td>
       <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
       <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
       <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
       <td bgcolor="#ffffff"><div align="center"><strong><a href="https://cpanel.com/demo/" target="_blank">Online Demo</a> </strong></div></td>
-    </tr>
+    </tr> -->
 
 
 
