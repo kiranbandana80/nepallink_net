@@ -403,7 +403,7 @@ language="javascript" src="splashpage.js"></script>
 <li type="square">300 GB storage space</li>
 <li type="square">Unlimited data transfer</li>
 <li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Unlimited cPanel </li>
+<li type="square">30 cPanel account </li>
 <li type="square">150 USD/yr<br />
 </li>
 <a href="linux-reseller.php">More details</a> &raquo;
@@ -424,7 +424,7 @@ language="javascript" src="splashpage.js"></script>
 <li type="square">600 GB storage space</li>
 <li type="square">Unlimited data transfer</li>
 <li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Unlimited cPanel</li>
+<li type="square">40 cPanel account</li>
 <li type="square">200 USD/yr<br />
 </li>
 <a href="linux-reseller.php">More details</a> &raquo;
@@ -444,7 +444,7 @@ language="javascript" src="splashpage.js"></script>
 <li type="square">1000 GB storage space</li>
 <li type="square">Unlimited data transfer</li>
 <li type="square"><b><a href='30days.php'>100-day Money Back</a></b></li>
-<li type="square">Unlimited cPanel <br />
+<li type="square">60 cPanel account <br />
 </li>
 <li type="square">250USD/yr<br />
 </li>
