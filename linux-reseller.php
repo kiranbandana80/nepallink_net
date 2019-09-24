@@ -126,7 +126,7 @@
       <td width="119"> <div align="center">30</div></td>
       <td width="105"><div align="center">40</div></td>
       <td width="105"><div align="center">60</div></td>
-      <td width="112"><div align="center">Unlimited</div></td>
+      <td width="112"><div align="center">80</div></td>
     </tr>
     <tr>
       <td width="173" bgcolor="#EDF4F8">Reseller CP (WHM)</td>
@@ -159,7 +159,7 @@
 
 <tr>
   <td bgcolor="#EDF4F8"></td>
-  <td colspan="4"><p style="text-align: center;">After exceeding the allocated number of account, you will be charged Rs.17.00 for each account per month.</p></td>
+  <td colspan="4"><p style="text-align: center;">After exceeding the allocated number of account, you will be charged $0.17 for each account per month.</p></td>
 </tr>
 <!-- <tr>
       <td bgcolor="#EDF4F8">&nbsp;</td>
