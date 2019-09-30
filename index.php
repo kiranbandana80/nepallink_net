@@ -78,6 +78,52 @@ pageTracker._trackPageview();
 <script 
 language="javascript" src="splashpage.js"></script>
 -->
+<style>
+
+
+.btn-close {
+    color: #aaaaaa;
+    font-size: 20px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.btn-close:hover {
+    color: red;
+}
+.modal:target:before {
+    display: none;
+}
+.modal:before {
+    content:"";
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.modal .modal-dialog {
+    background: #fefefe;
+    border: #333333 solid 1px;
+    border-radius: 5px;
+    margin-left: -200px;
+    position: fixed;
+    left: 45%;
+    z-index: 11;
+    width: auto;
+    top: 5%;
+}
+.modal:target .modal-dialog {
+    top: -100%;
+}
+.modal-body {
+    padding: 20px;
+}
+
+</style>
 
 
 </head>
@@ -1059,6 +1105,16 @@ language="javascript" src="splashpage.js"></script>
   <tr>
    
   </tr>
-</table>              
+</table>
+
+<div class="modal" id="dashain" aria-hidden="true">
+  <div class="modal-dialog">
+    <a href="#dashain" class="btn-close" aria-hidden="true">×</a>
+   <div class="modal-body">
+    <img src="images/popup.jpg" width="460px" alt="Dashain, Tihar, Chhath greeting from Nepallink family">
+   </div>
+ </div>
+</div>
+
 </body>
 </html>
