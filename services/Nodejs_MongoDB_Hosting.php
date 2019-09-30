@@ -169,6 +169,10 @@ font:bold;
           <td width="70%" bgcolor="#EDF4F8">MySQL Database</td>
           <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 4</td>
         </tr>
+        <tr>
+          <td width="70%" bgcolor="#EDF4F8">PostgreSQL Database</td>
+          <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 4</td>
+        </tr>
         
 
         <tr>
@@ -263,6 +267,10 @@ font:bold;
           <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 8</td>
         </tr>
         <tr>
+          <td width="70%" bgcolor="#EDF4F8">PostgreSQL Database</td>
+          <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 8</td>
+        </tr>
+        <tr>
           <td bgcolor="#EDF4F8">Subdomain</td>
           <td align="middle" height="13" bgcolor="#E6E6E6">4</td>
         </tr>
@@ -350,6 +358,10 @@ font:bold;
   </tr>
   <tr>
     <td width="70%" bgcolor="#EDF4F8">MySQL Database</td>
+    <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> Unlimited</td>
+  </tr>
+  <tr>
+    <td width="70%" bgcolor="#EDF4F8">PostgreSQL Database</td>
     <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> Unlimited</td>
   </tr>
   <tr>
