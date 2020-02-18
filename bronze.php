@@ -123,6 +123,38 @@ For just USD 27/- per year, you have own a fully loaded web site. The plan suppo
                                             </tr>
                                             <tr> 
                                               <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+												CPU</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+												100%</td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+                        Pysical Memory</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+												1024 MB </td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+												Entry Processes/EP</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+												20 </td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+                        I/O Usage</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+                        2 Mb/s</td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
                                                  
                                                 <span class="ff">&nbsp; Monthly 
 												Transfer Rate</span></td>
@@ -284,7 +316,7 @@ For just USD 27/- per year, you have own a fully loaded web site. The plan suppo
                                                 &nbsp; 
 												Order Online <span class="ff"> 
                                                 
-												»</span></td>
+												ï¿½</span></td>
                                               <td valign="center" align="middle" width="30%" height="17" bgcolor="#FFFFFF"> 
                                                 <b>
 												<a href="order.php?plan=bronze">Order Now!</a></b></td>

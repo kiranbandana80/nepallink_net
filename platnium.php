@@ -122,6 +122,38 @@ The Platinum hosting plan best fits for medium to high traffics websites. Design
                                                 
 												40 GB</td>
                                             </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+												CPU</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+												100%</td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+                        Pysical Memory</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+												4096 MB</td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+                        Entry Processes/EP</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+												40</td>
+                                            </tr>
+                                            <tr> 
+                                              <td width="70%" bgcolor="#EDF4F8"> 
+                                                &nbsp; 
+                        I/O Usage</td>
+                                              <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                
+                        8 Mb/s</td>
+                                            </tr>
 
 
                                               <tr> 
@@ -364,7 +396,7 @@ The Platinum hosting plan best fits for medium to high traffics websites. Design
                                                 &nbsp; 
 												Order Online <span class="ff"> 
                                                 
-												»</span></td>
+												ï¿½</span></td>
                                               <td valign="center" align="middle" width="30%" height="17" bgcolor="#FFFFFF"> 
                                                 <b>
 												<a href="order.php?plan=platinum">Order Now!</a></b></td>
