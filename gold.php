@@ -99,7 +99,7 @@ Want support? get it <a href="support.php"><b>here</b></a>.
     <td width="80%" align="left" valign="top">
       <div align="left"><b>Gold Plan includes</b><br>
           <br>
-        For just USD 40/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes  PHP5, MySQL, cPanel, Python Perl etc.. <br> 
+        For just USD 40/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes  PHP7, MySQL, cPanel, Python Perl etc.. <br> 
         <br>
         
         
@@ -328,7 +328,7 @@ Want support? get it <a href="support.php"><b>here</b></a>.
            &nbsp; 
            Order Online <span class="ff"> 
              
-             »</span></td>
+             ï¿½</span></td>
                         <td valign="center" align="middle" width="30%" height="17" bgcolor="#FFFFFF"> 
                           <b>
                           <a href="order.php?plan=gold">Order Now!</a></b></td>

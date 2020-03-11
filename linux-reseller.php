@@ -334,7 +334,7 @@
       <td width="112"><div align="center"><img src="images/tick.gif" name="graphics52" width="16" height="16" border="0" align="bottom" id="graphics52" /> </div></td>
     </tr>
     <tr>
-      <td width="173" bgcolor="#EDF4F8">PHP5 / MySQL </td>
+      <td width="173" bgcolor="#EDF4F8">PHP7 / MySQL </td>
       <td width="119"><div align="center"><img src="images/tick.gif" name="graphics53" width="16" height="16" border="0" align="bottom" id="graphics53" /> </div></td>
       <td width="105"><div align="center"><img src="images/tick.gif" name="graphics54" width="16" height="16" border="0" align="bottom" id="graphics54" /> </div></td>
       <td width="105"><div align="center"><img src="images/tick.gif" name="graphics55" width="16" height="16" border="0" align="bottom" id="graphics55" /> </div></td>
