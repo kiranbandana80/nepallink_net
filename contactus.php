@@ -127,10 +127,14 @@ If you have any questions or comments, or if you would like more information on 
       <strong>Landline:</strong> +977-1-4267994<br>
       <strong>Cell: </strong> +977-9841262275<br>
       <br>
-      Link Road, Khusibu<br />
-Kathmandu - 17<br/>
+      Prasiddhi Tower<br />
+Pulchwok, Lalitpur<br/>
 Nepal<br>
-Company Registartoin# 32653/061/062<br></td>
+<br>
+<strong>Company Registartoin#</strong> 32653/061/062<br>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7066.570971519576!2d85.3174!3d27.67757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f28fede2c9edcbe!2sPrasiddhi%20Tower!5e0!3m2!1sen!2svi!4v1583917265535!5m2!1sen!2svi" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</td>
   </tr>
 
 </table>
