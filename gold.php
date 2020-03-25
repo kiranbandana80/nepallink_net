@@ -123,6 +123,43 @@ Want support? get it <a href="support.php"><b>here</b></a>.
                           20 GB</td>
                                             </tr>
 
+                                            <tr> 
+         <td width="70%" bgcolor="#EDF4F8"> 
+           &nbsp; 
+           CPU</td>
+                        <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                      
+                          100%</td>
+                                            </tr>
+
+                                            <tr> 
+         <td width="70%" bgcolor="#EDF4F8"> 
+           &nbsp; 
+           Pysical Memory </td>
+                        <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                      
+                          2048 MB</td>
+                                            </tr>
+
+                                                   <tr> 
+         <td width="70%" bgcolor="#EDF4F8"> 
+           &nbsp; 
+           Entry Processes/EP</td>
+                        <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                      
+                          25</td>
+                                            </tr>
+                                            <tr> 
+         <td width="70%" bgcolor="#EDF4F8"> 
+           &nbsp; 
+           I/O Usage</td>
+                        <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
+                                                      
+                        4 Mb/s</td>
+                                            </tr>
+                                          
+                                            
+
   <tr> 
          <td width="70%" bgcolor="#EDF4F8"> 
            &nbsp; 
@@ -328,7 +365,7 @@ Want support? get it <a href="support.php"><b>here</b></a>.
            &nbsp; 
            Order Online <span class="ff"> 
              
-             »</span></td>
+             ï¿½</span></td>
                         <td valign="center" align="middle" width="30%" height="17" bgcolor="#FFFFFF"> 
                           <b>
                           <a href="order.php?plan=gold">Order Now!</a></b></td>

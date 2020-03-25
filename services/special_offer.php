@@ -168,6 +168,22 @@ font:bold;
                     <td class="mytd1">Unlimited</strong> </td>
                   </tr>
                   <tr>
+                    <td class="mytd">CPU</td>
+                    <td class="mytd1">100%</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Pysical Memory  </td>
+                    <td class="mytd1">512 MB</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">Entry Processes/EP  </td>
+                    <td class="mytd1">20</td>
+                  </tr>
+                  <tr>
+                    <td class="mytd">I/O Usage </td>
+                    <td class="mytd1">1 Mb/s</td>
+                  </tr>
+                  <tr>
                     <td class="mytd">High Availability Bandwidth  </td>
                     <td class="mytd1">Unlimited</td>
                   </tr>
@@ -187,6 +203,8 @@ font:bold;
                     <td class="mytd">Operating System  </td>
                     <td class="mytd1">Redhat Linux  </td>
                   </tr>
+
+
                   <tr>
                     <td class="mytd">Dedicated IP Address  </td>
                     <td class="mytd1">No  </td>
@@ -207,10 +225,10 @@ font:bold;
                     <td class="mytd">Python</td>
                     <td class="mytd1">Yes</td>
                   </tr>
-                  <tr>
+                  <!-- <tr>
                     <td class="mytd"><strong>Ruby on Rails </strong></td>
                     <td class="style2">Yes</td>
-                  </tr>
+                  </tr> -->
                   <tr>
                     <td class="mytd">Frequent &amp; Real-time Backup  </td>
                     <td class="mytd1">Yes  </td>
