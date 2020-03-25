@@ -253,7 +253,7 @@ For just USD 27/- per year, you have own a fully loaded web site. The plan suppo
                                             <tr> 
                                               <td width="70%" bgcolor="#EDF4F8"> 
                                                 &nbsp; 
-												PHP5</td>
+												PHP7</td>
                                               <td align="middle" width="30%" height="13" bgcolor="#E6E6E6"> 
                                                 
 												Yes</td>

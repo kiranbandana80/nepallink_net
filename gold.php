@@ -99,7 +99,7 @@ Want support? get it <a href="support.php"><b>here</b></a>.
     <td width="80%" align="left" valign="top">
       <div align="left"><b>Gold Plan includes</b><br>
           <br>
-        For just USD 40/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes  PHP5, MySQL, cPanel, Python Perl etc.. <br> 
+        For just USD 40/- per year, you have own a fully loaded web site. The plan support for modern Linux based technologies includes  PHP7, MySQL, cPanel, Python Perl etc.. <br> 
         <br>
         
         
