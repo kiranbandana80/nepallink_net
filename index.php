@@ -1197,14 +1197,14 @@ language="javascript" src="splashpage.js"></script>
   </tr>
 </table>       
 
-<div class="modal" id="covid" aria-hidden="true">
+<!-- <div class="modal" id="covid" aria-hidden="true">
   <div class="modal-dialog">
     <a href="#covid" class="btn-close" aria-hidden="true">×</a>
    <div class="modal-body">
     <img src="images/covid.png" width="460px" alt="stay home stay safe">
    </div>
  </div>
-</div>   
+</div>    -->
     
 </body>
 </html>
