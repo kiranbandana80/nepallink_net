@@ -123,8 +123,8 @@ If you have any questions or comments, or if you would like more information on 
     <td bgcolor="#EEEEEE"><b>Contact us in Kathmandu, NP</b></td>
   </tr>
   <tr>
-    <td width="48%"><strong>Landline</strong>: +977-1-4260822<br>
-      <strong>Landline:</strong> +977-1-4267994<br>
+    <td width="48%"><strong>Landline</strong>: +977-1-5525877<br>
+      <strong>Landline:</strong> +977-1-5525899<br>
       <strong>Cell: </strong> +977-9841262275<br>
       <br>
       Prasiddhi Tower<br />
