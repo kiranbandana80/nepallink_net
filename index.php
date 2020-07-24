@@ -1201,7 +1201,7 @@ language="javascript" src="splashpage.js"></script>
   <div class="modal-dialog">
     <a href="#covid" class="btn-close" aria-hidden="true">×</a>
    <div class="modal-body">
-    <img src="images/covid.png" width="460px" alt="stay home stay safe">
+    <img src="images/moved.jpg" width="460px" alt="We've moved">
    </div>
  </div>
 </div>   
