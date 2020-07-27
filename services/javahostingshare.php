@@ -222,7 +222,7 @@ font:bold;
                     <td class="mytd1">Yes </td>
                     </tr>
                   </table>
-                  <p> <a id="email"><strong>Email Features </strong> </a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
+                  <!-- <p> <a id="email"><strong>Email Features </strong> </a></p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
                     <tr>
                      <td class="mytr" width="60%">POP3 accounts  </td>
                      <td class="mytr"><strong>Unlimited  </td>
@@ -255,7 +255,7 @@ font:bold;
                        <td class="mytd">Web Mail </td>
                      <td class="mytd1">Yes </td>
                     </tr>
-                  </table>
+                  </table> -->
                   <p><a id="db"> <strong> Database Features </strong></a> </p> <table cellspacing="2" cellpadding="0" border="0" width="98%">
                     <tr>
                       <td class="mytr" width="60%">PHPMyAdmin  </td>
